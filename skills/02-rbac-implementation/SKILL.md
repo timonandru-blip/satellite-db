@@ -1,1 +1,263 @@
-LS0tDQpuYW1lOiByYmFjLWltcGxlbWVudGF0aW9uDQpkZXNjcmlwdGlvbjog0KDQtdCw0LvQuNC30LDRhtC40Y8g0YHQuNGB0YLQtdC80Ysg0L/RgNCw0LIg0LTQvtGB0YLRg9C/0LAg0YEg0YLRgNC10LzRjyDRgNC+0LvRj9C80LggKEFkbWluLCBTdXBlcnZpc29yLCBPcGVyYXRvcikNCnZlcnNpb246IDEuMA0KdGFnczogW3NlY3VyaXR5LCByYmFjLCBqYXZhLCBzcHJpbmcsIGF1dGhvcml6YXRpb25dDQp0cmlnZ2VyczoNCiAgLSDQv9GA0LDQstCwINC00L7RgdGC0YPQv9CwDQogIC0g0YDQvtC70Lgg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkNCiAgLSDRgNCw0LfQs9GA0LDQvdC40YfQtdC90LjQtSDQtNC+0YHRgtGD0L/QsA0KICAtIHBlcm1pc3Npb24NCi0tLQ0KDQojIFJCQUMgSW1wbGVtZW50YXRpb24gU2tpbGwNCg0KIyMg0J3QsNC30L3QsNGH0LXQvdC40LUNCtCg0LXQsNC70LjQt9Cw0YbQuNGPINGA0LDQt9Cz0YDQsNC90LjRh9C10L3QuNGPINC/0YDQsNCyINC00L7RgdGC0YPQv9CwINC00LvRjyDRgtGA0ZHRhSDRgNC+0LvQtdC5INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5INGBINGD0YfRkdGC0L7QvCANCtCx0LjQt9C90LXRgS3RgtGA0LXQsdC+0LLQsNC90LjRjzog0L7Qv9C10YDQsNGC0L7RgNGLINC90LUg0LzQvtCz0YPRgiDQvdCw0L/RgNGP0LzRg9GOINC40LfQvNC10L3Rj9GC0Ywv0YPQtNCw0LvRj9GC0Ywg0LfQsNC/0LjRgdC4Lg0KDQojIyDQmtC+0LPQtNCwINC/0YDQuNC80LXQvdGP0YLRjA0KLSDQodC+0LfQtNCw0L3QuNC1INC90L7QstC+0Lkg0YDQvtC70Lgg0LjQu9C4INC40LfQvNC10L3QtdC90LjQtSDQv9GA0LDQsg0KLSDQl9Cw0YnQuNGC0LAgZW5kcG9pbnQn0LAg0LDQvdC90L7RgtCw0YbQuNC10Lkg0L/RgNCw0LINCi0g0KDQtdCw0LvQuNC30LDRhtC40Y8g0L/RgNC+0LLQtdGA0LrQuCDQtNC+0YHRgtGD0L/QsCDQsiDRgdC10YDQstC40YHQtQ0KLSDQndCw0YHRgtGA0L7QudC60LAgVUkt0Y3Qu9C10LzQtdC90YLQvtCyINCyINC30LDQstC40YHQuNC80L7RgdGC0Lgg0L7RgiDRgNC+0LvQuA0KDQojIyDQnNCw0YLRgNC40YbQsCDQv9GA0LDQsg0KDQp8INCU0LXQudGB0YLQstC40LUgfCBBRE1JTiB8IFNVUEVSVklTT1IgfCBPUEVSQVRPUiB8DQp8LS0tLS0tLS0tLXw6LS0tLS06fDotLS0tLS0tLS0tOnw6LS0tLS0tLS06fA0KfCDQn9GA0L7RgdC80L7RgtGAINC30LDQv9C40YHQtdC5IHwg0LTQsCB8INC00LAgfCDQtNCwIHwNCnwg0KHQvtC30LTQsNC90LjQtSDQt9Cw0L/QuNGB0LXQuSB8INC00LAgfCDQtNCwIHwg0LTQsCB8DQp8INCg0LXQtNCw0LrRgtC40YDQvtCy0LDQvdC40LUg0LfQsNC/0LjRgdC10LkgfCDQtNCwIHwg0LTQsCB8INGH0LXRgNC10Lcg0YHQvtCz0LvQsNGB0L7QstCw0L3QuNC1IHwNCnwg0KPQtNCw0LvQtdC90LjQtSDQt9Cw0L/QuNGB0LXQuSB8INC00LAgfCDQtNCwIHwg0YfQtdGA0LXQtyDRgdC+0LPQu9Cw0YHQvtCy0LDQvdC40LUgfA0KfCDQktC+0YHRgdGC0LDQvdC+0LLQu9C10L3QuNC1INGD0LTQsNC70ZHQvdC90YvRhSB8INC00LAgfCDQtNCwIHwg0L3QtdGCIHwNCnwg0KHQvtCz0LvQsNGB0L7QstCw0L3QuNC1INC40LfQvNC10L3QtdC90LjQuSB8INC00LAgfCDQtNCwIHwg0L3QtdGCIHwNCnwg0KPQv9GA0LDQstC70LXQvdC40LUg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0LzQuCB8INC00LAgfCDQvdC10YIgfCDQvdC10YIgfA0KfCDQn9GA0L7RgdC80L7RgtGAIGF1ZGl0X2xvZyB8INC00LAgfCDQtNCwIHwg0L3QtdGCIHwNCnwg0J/RgNC+0YHQvNC+0YLRgCDRgdCy0L7QuNGFIHBlbmRpbmdfY2hhbmdlcyB8INC00LAgfCDQtNCwIHwg0LTQsCB8DQoNCiMjINCa0LvRjtGH0LXQstGL0LUg0LHQuNC30L3QtdGBLdC/0YDQsNCy0LjQu9CwDQoNCiMjIyDQn9GA0LDQstC40LvQviAxOiDQntC/0LXRgNCw0YLQvtGAINCd0JUg0LzQvtC20LXRgiDQvdCw0L/RgNGP0LzRg9GOINC40LfQvNC10L3Rj9GC0Ywv0YPQtNCw0LvRj9GC0YwNCtCS0YHQtSDQuNC30LzQtdC90LXQvdC40Y8g0L7RgiDQvtC/0LXRgNCw0YLQvtGA0LAg0L/RgNC+0YXQvtC00Y/RgiDRh9C10YDQtdC3IGBwZW5kaW5nX2NoYW5nZXNgOg0KDQpgYGANCtCe0L/QtdGA0LDRgtC+0YAg4oaSIHJlcXVlc3RDaGFuZ2UoKSDihpIgcGVuZGluZ19jaGFuZ2VzIChQRU5ESU5HKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKGkw0K0J3QsNGH0LDQu9GM0L3QuNC6INGB0LzQtdC90Ysg4oaSIHJldmlld0NoYW5nZSgpIOKGkiDQv9GA0LjQvNC10L3QuNGC0YwgLyDQvtGC0LrQu9C+0L3QuNGC0YwNCmBgYA0KDQojIyMg0J/RgNCw0LLQuNC70L4gMjog0J3QsNGH0LDQu9GM0L3QuNC6INGB0LzQtdC90Ysg4oCUINC/0L7Qu9C90YvQtSDQv9GA0LDQstCwINC90LAg0LTQsNC90L3Ri9C1DQrQndC+INCd0JUg0LzQvtC20LXRgiDRg9C/0YDQsNCy0LvRj9GC0Ywg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0LzQuCAo0Y3RgtC+INGC0L7Qu9GM0LrQviBBRE1JTikuDQoNCiMjIyDQn9GA0LDQstC40LvQviAzOiDQkNC00LzQuNC9IOKAlCDQv9C+0LvQvdGL0LUg0L/RgNCw0LLQsA0K0JLQutC70Y7Rh9Cw0Y8g0YPQv9GA0LDQstC70LXQvdC40LUg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0LzQuCDQuCDQv9GA0L7RgdC80L7RgtGAIGF1ZGl0X2xvZy4NCg0KIyMg0KHRhdC10LzQsCDRgtCw0LHQu9C40YbRiyB1c2Vycw0KDQpgYGBzcWwNCkNSRUFURSBUQUJMRSB1c2VycyAoDQogICAgaWQgSU5URUdFUiBQUklNQVJZIEtFWSBBVVRPSU5DUkVNRU5ULA0KICAgIHVzZXJuYW1lIFZBUkNIQVIoNTApIFVOSVFVRSBOT1QgTlVMTCwNCiAgICBwYXNzd29yZF9oYXNoIFZBUkNIQVIoMjU1KSBOT1QgTlVMTCwNCiAgICBmdWxsX25hbWUgVkFSQ0hBUigxMDApIE5PVCBOVUxMLA0KICAgIHJvbGUgVkFSQ0hBUigyMCkgTk9UIE5VTEwgDQogICAgICAgIENIRUNLIChyb2xlIElOICgnQURNSU4nLCAnU0hJRlRfU1VQRVJWSVNPUicsICdPUEVSQVRPUicpKSwNCiAgICBlbWFpbCBWQVJDSEFSKDEwMCksDQogICAgaXNfYWN0aXZlIEJPT0xFQU4gREVGQVVMVCAxLA0KICAgIGNyZWF0ZWRfYXQgVElNRVNUQU1QIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAsDQogICAgbGFzdF9sb2dpbiBUSU1FU1RBTVANCik7DQoNCkNSRUFURSBJTkRFWCBpZHhfdXNlcnNfdXNlcm5hbWUgT04gdXNlcnModXNlcm5hbWUpOw0KQ1JFQVRFIElOREVYIGlkeF91c2Vyc19yb2xlIE9OIHVzZXJzKHJvbGUpOw0KYGBgDQoNCiMjIEphdmEt0YDQtdCw0LvQuNC30LDRhtC40Y8NCg0KIyMjIDEuIEVudW0g0YDQvtC70LXQuQ0KDQpgYGBqYXZhDQpwdWJsaWMgZW51bSBVc2VyUm9sZSB7DQogICAgQURNSU4sDQogICAgU0hJRlRfU1VQRVJWSVNPUiwNCiAgICBPUEVSQVRPUjsNCiAgICANCiAgICBwdWJsaWMgYm9vbGVhbiBjYW5FZGl0RGlyZWN0bHkoKSB7DQogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOIHx8IHRoaXMgPT0gU0hJRlRfU1VQRVJWSVNPUjsNCiAgICB9DQogICAgDQogICAgcHVibGljIGJvb2xlYW4gY2FuTWFuYWdlVXNlcnMoKSB7DQogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOOw0KICAgIH0NCiAgICANCiAgICBwdWJsaWMgYm9vbGVhbiBjYW5WaWV3QXVkaXRMb2coKSB7DQogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOIHx8IHRoaXMgPT0gU0hJRlRfU1VQRVJWSVNPUjsNCiAgICB9DQogICAgDQogICAgcHVibGljIGJvb2xlYW4gY2FuQXBwcm92ZUNoYW5nZXMoKSB7DQogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOIHx8IHRoaXMgPT0gU0hJRlRfU1VQRVJWSVNPUjsNCiAgICB9DQp9DQpgYGANCg0KIyMjIDIuIEVudW0g0L/RgNCw0LIgKNC00LXRgtCw0LvQuNC30LDRhtC40Y8pDQoNCmBgYGphdmENCnB1YmxpYyBlbnVtIFBlcm1pc3Npb24gew0KICAgIFZJRVdfUkVDT1JEUywNCiAgICBDUkVBVEVfUkVDT1JEUywNCiAgICBFRElUX1JFQ09SRFNfRElSRUNULA0KICAgIERFTEVURV9SRUNPUkRTX0RJUkVDVCwNCiAgICBSRVNUT1JFX1JFQ09SRFMsDQogICAgUkVRVUVTVF9DSEFOR0VTLA0KICAgIEFQUFJPVkVfQ0hBTkdFUywNCiAgICBNQU5BR0VfVVNFUlMsDQogICAgVklFV19BVURJVF9MT0csDQogICAgVklFV19PV05fUEVORElORw0KfQ0KYGBgDQoNCiMjIyAzLiDQl9Cw0YnQuNGC0LAgZW5kcG9pbnQn0L7Qsg0KDQpgYGBqYXZhDQpAUmVzdENvbnRyb2xsZXINCkBSZXF1ZXN0TWFwcGluZygiL2FwaS9yYWRpby1lbWlzc2lvbnMiKQ0KcHVibGljIGNsYXNzIFJhZGlvRW1pc3Npb25Db250cm9sbGVyIHsNCiAgICANCiAgICAvLyDQodC+0LfQtNCw0L3QuNC1IOKAlCDQstGB0LUg0YDQvtC70LgNCiAgICBAUG9zdE1hcHBpbmcNCiAgICBAUHJlQXV0aG9yaXplKCJoYXNBbnlSb2xlKCdBRE1JTicsICdTSElGVF9TVVBFUlZJU09SJywgJ09QRVJBVE9SJykiKQ0KICAgIHB1YmxpYyBSYWRpb0VtaXNzaW9uRHRvIGNyZWF0ZShAUmVxdWVzdEJvZHkgQ3JlYXRlRHRvIGR0bykgeyAuLi4gfQ0KICAgIA0KICAgIC8vINCf0YDRj9C80L7QtSDRgNC10LTQsNC60YLQuNGA0L7QstCw0L3QuNC1IOKAlCDRgtC+0LvRjNC60L4gQWRtaW4g0LggU3VwZXJ2aXNvcg0KICAgIEBQdXRNYXBwaW5nKCIve2lkfSIpDQogICAgQFByZUF1dGhvcml6ZSgiaGFzQW55Um9sZSgnQURNSU4nLCAnU0hJRlRfU1VQRVJWSVNPUicpIikNCiAgICBwdWJsaWMgUmFkaW9FbWlzc2lvbkR0byB1cGRhdGUoQFBhdGhWYXJpYWJsZSBMb25nIGlkLCBAUmVxdWVzdEJvZHkgVXBkYXRlRHRvIGR0bykgeyAuLi4gfQ0KICAgIA0KICAgIC8vINCX0LDQv9GA0L7RgSDQvdCwINC40LfQvNC10L3QtdC90LjQtSDigJQg0LTQu9GPINC+0L/QtdGA0LDRgtC+0YDQsA0KICAgIEBQb3N0TWFwcGluZygiL3tpZH0vcmVxdWVzdC1jaGFuZ2UiKQ0KICAgIEBQcmVBdXRob3JpemUoImhhc1JvbGUoJ09QRVJBVE9SJykiKQ0KICAgIHB1YmxpYyBQZW5kaW5nQ2hhbmdlRHRvIHJlcXVlc3RDaGFuZ2UoQFBhdGhWYXJpYWJsZSBMb25nIGlkLCBAUmVxdWVzdEJvZHkgQ2hhbmdlUmVxdWVzdER0byBkdG8pIHsgLi4uIH0NCiAgICANCiAgICAvLyDQodC+0LPQu9Cw0YHQvtCy0LDQvdC40LUg4oCUINGC0L7Qu9GM0LrQviBBZG1pbiDQuCBTdXBlcnZpc29yDQogICAgQFBvc3RNYXBwaW5nKCIvcGVuZGluZy97Y2hhbmdlSWR9L3JldmlldyIpDQogICAgQFByZUF1dGhvcml6ZSgiaGFzQW55Um9sZSgnQURNSU4nLCAnU0hJRlRfU1VQRVJWSVNPUicpIikNCiAgICBwdWJsaWMgdm9pZCByZXZpZXcoQFBhdGhWYXJpYWJsZSBMb25nIGNoYW5nZUlkLCBAUmVxdWVzdEJvZHkgUmV2aWV3RHRvIGR0bykgeyAuLi4gfQ0KICAgIA0KICAgIC8vINCj0L/RgNCw0LLQu9C10L3QuNC1INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRj9C80Lgg4oCUINGC0L7Qu9GM0LrQviBBZG1pbg0KICAgIEBQb3N0TWFwcGluZygiL3VzZXJzIikNCiAgICBAUHJlQXV0aG9yaXplKCJoYXNSb2xlKCdBRE1JTicpIikNCiAgICBwdWJsaWMgVXNlckR0byBjcmVhdGVVc2VyKEBSZXF1ZXN0Qm9keSBDcmVhdGVVc2VyRHRvIGR0bykgeyAuLi4gfQ0KfQ0KYGBgDQoNCiMjIyA0LiDQodC10YDQstC40YHQvdCw0Y8g0L/RgNC+0LLQtdGA0LrQsA0KDQpgYGBqYXZhDQpAU2VydmljZQ0KcHVibGljIGNsYXNzIFBlcm1pc3Npb25TZXJ2aWNlIHsNCiAgICANCiAgICBwdWJsaWMgdm9pZCBjaGVja0NhbkVkaXREaXJlY3RseShMb25nIHVzZXJJZCkgew0KICAgICAgICBVc2VyIHVzZXIgPSBnZXRVc2VyKHVzZXJJZCk7DQogICAgICAgIGlmICghdXNlci5nZXRSb2xlKCkuY2FuRWRpdERpcmVjdGx5KCkpIHsNCiAgICAgICAgICAgIHRocm93IG5ldyBBY2Nlc3NEZW5pZWRFeGNlcHRpb24oDQogICAgICAgICAgICAgICAgItCg0L7Qu9GMICIgKyB1c2VyLmdldFJvbGUoKSArICIg0L3QtSDQvNC+0LbQtdGCINGA0LXQtNCw0LrRgtC40YDQvtCy0LDRgtGMINC90LDQv9GA0Y/QvNGD0Y4uICIgKw0KICAgICAgICAgICAgICAgICLQodC+0LfQtNCw0LnRgtC1INC30LDQv9GA0L7RgSDQvdCwINGB0L7Qs9C70LDRgdC+0LLQsNC90LjQtS4iDQogICAgICAgICAgICApOw0KICAgICAgICB9DQogICAgfQ0KICAgIA0KICAgIHB1YmxpYyB2b2lkIHJvdXRlRWRpdFJlcXVlc3QoTG9uZyB1c2VySWQsIExvbmcgcmVjb3JkSWQsIE1hcDxTdHJpbmcsIE9iamVjdD4gY2hhbmdlcykgew0KICAgICAgICBVc2VyIHVzZXIgPSBnZXRVc2VyKHVzZXJJZCk7DQogICAgICAgIGlmICh1c2VyLmdldFJvbGUoKS5jYW5FZGl0RGlyZWN0bHkoKSkgew0KICAgICAgICAgICAgLy8g0J/RgNGP0LzQvtC1INGA0LXQtNCw0LrRgtC40YDQvtCy0LDQvdC40LUNCiAgICAgICAgICAgIGVtaXNzaW9uU2VydmljZS51cGRhdGUocmVjb3JkSWQsIGNoYW5nZXMsIHVzZXJJZCk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAvLyDQl9Cw0L/RgNC+0YEg0L3QsCDRgdC+0LPQu9Cw0YHQvtCy0LDQvdC40LUNCiAgICAgICAgICAgIGFwcHJvdmFsU2VydmljZS5yZXF1ZXN0Q2hhbmdlKHVzZXJJZCwgInJhZGlvX2VtaXNzaW9ucyIsIHJlY29yZElkLCAiVVBEQVRFIiwgY2hhbmdlcyk7DQogICAgICAgIH0NCiAgICB9DQp9DQpgYGANCg0KIyMjIDUuINCT0LvQvtCx0LDQu9GM0L3Ri9C5INC+0LHRgNCw0LHQvtGC0YfQuNC6INC40YHQutC70Y7Rh9C10L3QuNC5DQoNCmBgYGphdmENCkBSZXN0Q29udHJvbGxlckFkdmljZQ0KcHVibGljIGNsYXNzIFNlY3VyaXR5RXhjZXB0aW9uSGFuZGxlciB7DQogICAgDQogICAgQEV4Y2VwdGlvbkhhbmRsZXIoQWNjZXNzRGVuaWVkRXhjZXB0aW9uLmNsYXNzKQ0KICAgIEBSZXNwb25zZVN0YXR1cyhIdHRwU3RhdHVzLkZPUkJJRERFTikNCiAgICBwdWJsaWMgRXJyb3JSZXNwb25zZSBoYW5kbGVBY2Nlc3NEZW5pZWQoQWNjZXNzRGVuaWVkRXhjZXB0aW9uIGV4KSB7DQogICAgICAgIHJldHVybiBuZXcgRXJyb3JSZXNwb25zZSgiQUNDRVNTX0RFTklFRCIsIGV4LmdldE1lc3NhZ2UoKSk7DQogICAgfQ0KfQ0KYGBgDQoNCiMjIFVJLdCw0LTQsNC/0YLQsNGG0LjRjyAoSmF2YUZYKQ0KDQpgYGBqYXZhDQpwdWJsaWMgY2xhc3MgVUlQZXJtaXNzaW9ucyB7DQogICAgDQogICAgcHVibGljIHN0YXRpYyB2b2lkIGFwcGx5Um9sZUJhc2VkVmlzaWJpbGl0eShVc2VyUm9sZSByb2xlLCBOb2RlLi4uIGVkaXRDb250cm9scykgew0KICAgICAgICBib29sZWFuIGNhbkVkaXREaXJlY3RseSA9IHJvbGUuY2FuRWRpdERpcmVjdGx5KCk7DQogICAgICAgIGZvciAoTm9kZSBub2RlIDogZWRpdENvbnRyb2xzKSB7DQogICAgICAgICAgICBub2RlLnNldFZpc2libGUoY2FuRWRpdERpcmVjdGx5KTsNCiAgICAgICAgICAgIG5vZGUuc2V0TWFuYWdlZChjYW5FZGl0RGlyZWN0bHkpOw0KICAgICAgICB9DQogICAgfQ0KICAgIA0KICAgIC8vINCU0LvRjyDQvtC/0LXRgNCw0YLQvtGA0LAg4oCUINC60L3QvtC/0LrQsCAi0KDQtdC00LDQutGC0LjRgNC+0LLQsNGC0YwiINGB0YLQsNC90L7QstC40YLRgdGPICLQl9Cw0L/RgNC+0YHQuNGC0Ywg0LjQt9C80LXQvdC10L3QuNC1Ig0KICAgIHB1YmxpYyBzdGF0aWMgQnV0dG9uIGNyZWF0ZUVkaXRCdXR0b24oVXNlclJvbGUgcm9sZSwgUnVubmFibGUgb25EaXJlY3RFZGl0LCBSdW5uYWJsZSBvblJlcXVlc3RDaGFuZ2UpIHsNCiAgICAgICAgQnV0dG9uIGJ0biA9IG5ldyBCdXR0b24oKTsNCiAgICAgICAgaWYgKHJvbGUuY2FuRWRpdERpcmVjdGx5KCkpIHsNCiAgICAgICAgICAgIGJ0bi5zZXRUZXh0KCLQoNC10LTQsNC60YLQuNGA0L7QstCw0YLRjCIpOw0KICAgICAgICAgICAgYnRuLnNldE9uQWN0aW9uKGUgLT4gb25EaXJlY3RFZGl0LnJ1bigpKTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGJ0bi5zZXRUZXh0KCLQl9Cw0L/RgNC+0YHQuNGC0Ywg0LjQt9C80LXQvdC10L3QuNC1Iik7DQogICAgICAgICAgICBidG4uc2V0T25BY3Rpb24oZSAtPiBvblJlcXVlc3RDaGFuZ2UucnVuKCkpOw0KICAgICAgICB9DQogICAgICAgIHJldHVybiBidG47DQogICAgfQ0KfQ0KYGBgDQoNCiMjINCn0LXQui3Qu9C40YHRgiDRgNC10LDQu9C40LfQsNGG0LjQuA0KLSBbIF0g0JLRgdC1IGVuZHBvaW50J9GLINC30LDRidC40YnQtdC90YsgYEBQcmVBdXRob3JpemVgPw0KLSBbIF0g0J7Qv9C10YDQsNGC0L7RgCDRhNC40LfQuNGH0LXRgdC60Lgg0L3QtSDQvNC+0LbQtdGCINCy0YvQt9Cy0LDRgtGMINC/0YDRj9C80L7QuSBlZGl0L2RlbGV0ZT8NCi0gWyBdINCV0YHRgtGMINC10LTQuNC90LDRjyBgUGVybWlzc2lvblNlcnZpY2VgINC00LvRjyDQv9GA0L7QstC10YDQvtC6Pw0KLSBbIF0gVUkg0LDQtNCw0L/RgtC40YDRg9C10YLRgdGPINC/0L7QtCDRgNC+0LvRjCDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8/DQotIFsgXSDQktGB0LUg0L7RgtC60LDQt9GLINCyINC00L7RgdGC0YPQv9C1INC70L7Qs9C40YDRg9GO0YLRgdGPINCyIGF1ZGl0X2xvZz8NCi0gWyBdINCV0YHRgtGMINC/0L7QvdGP0YLQvdGL0LUg0YHQvtC+0LHRidC10L3QuNGPINC+0LEg0L7RiNC40LHQutCw0YUg0LTQu9GPINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjz8NCi0gWyBdINCd0LDQv9C40YHQsNC90YsgdW5pdC3RgtC10YHRgtGLINC00LvRjyDQutCw0LbQtNC+0Lkg0YDQvtC70Lg/DQoNCiMjINCi0LXRgdGCLdC60LXQudGB0YsNCg0KYGBgamF2YQ0KQFRlc3QNCnZvaWQgb3BlcmF0b3JTaG91bGROb3RFZGl0RGlyZWN0bHkoKSB7DQogICAgLy8gR2l2ZW46INC+0L/QtdGA0LDRgtC+0YANCiAgICAvLyBXaGVuOiDQv9GL0YLQsNC10YLRgdGPINCy0YvQt9Cy0LDRgtGMIFBVVCAvYXBpL3JhZGlvLWVtaXNzaW9ucy97aWR9DQogICAgLy8gVGhlbjog0L/QvtC70YPRh9Cw0LXRgiA0MDMgRm9yYmlkZGVuDQp9DQoNCkBUZXN0DQp2b2lkIG9wZXJhdG9yU2hvdWxkQ3JlYXRlUGVuZGluZ0NoYW5nZSgpIHsNCiAgICAvLyBHaXZlbjog0L7Qv9C10YDQsNGC0L7RgA0KICAgIC8vIFdoZW46INC30LDQv9GA0LDRiNC40LLQsNC10YIg0LjQt9C80LXQvdC10L3QuNC1INC30LDQv9C40YHQuA0KICAgIC8vIFRoZW46INGB0L7Qt9C00LDRkdGC0YHRjyDQt9Cw0L/QuNGB0Ywg0LIgcGVuZGluZ19jaGFuZ2VzINGB0L4g0YHRgtCw0YLRg9GB0L7QvCBQRU5ESU5HDQp9DQoNCkBUZXN0DQp2b2lkIHN1cGVydmlzb3JTaG91bGRBcHByb3ZlUGVuZGluZ0NoYW5nZSgpIHsNCiAgICAvLyBHaXZlbjogcGVuZGluZyBjaGFuZ2Ug0L7RgiDQvtC/0LXRgNCw0YLQvtGA0LANCiAgICAvLyBXaGVuOiBzdXBlcnZpc29yINC+0LTQvtCx0YDRj9C10YINCiAgICAvLyBUaGVuOiDQuNC30LzQtdC90LXQvdC40LUg0L/RgNC40LzQtdC90LXQvdC+LCDRgdGC0LDRgtGD0YEgPSBBUFBST1ZFRA0KfQ0KYGBgDQoNCiMjINCh0LLRj9C30LDQvdC90YvQtSBza2lsbHMNCi0gWzA0LWFwcHJvdmFsLXdvcmtmbG93XSguLi8wNC1hcHByb3ZhbC13b3JrZmxvdy9TS0lMTC5tZCkNCi0gWzAzLWF1ZGl0LXRyYWlsXSguLi8wMy1hdWRpdC10cmFpbC9TS0lMTC5tZCkNCi0gWzEwLWphdmFmeC11aV0oLi4vMTAtamF2YWZ4LXVpL1NLSUxMLm1kKQ==
+---
+name: rbac-implementation
+description: Реализация системы прав доступа с тремя ролями (Admin, Supervisor, Operator)
+version: 1.0
+tags: [security, rbac, java, spring, authorization]
+triggers:
+  - права доступа
+  - роли пользователей
+  - разграничение доступа
+  - permission
+---
+
+# RBAC Implementation Skill
+
+## Назначение
+Реализация разграничения прав доступа для трёх ролей пользователей с учётом 
+бизнес-требования: операторы не могут напрямую изменять/удалять записи.
+
+## Когда применять
+- Создание новой роли или изменение прав
+- Защита endpoint'а аннотацией прав
+- Реализация проверки доступа в сервисе
+- Настройка UI-элементов в зависимости от роли
+
+## Матрица прав
+
+| Действие | ADMIN | SUPERVISOR | OPERATOR |
+|----------|:-----:|:----------:|:--------:|
+| Просмотр записей | да | да | да |
+| Создание записей | да | да | да |
+| Редактирование записей | да | да | через согласование |
+| Удаление записей | да | да | через согласование |
+| Восстановление удалённых | да | да | нет |
+| Согласование изменений | да | да | нет |
+| Управление пользователями | да | нет | нет |
+| Просмотр audit_log | да | да | нет |
+| Просмотр своих pending_changes | да | да | да |
+
+## Ключевые бизнес-правила
+
+### Правило 1: Оператор НЕ может напрямую изменять/удалять
+Все изменения от оператора проходят через `pending_changes`:
+
+```
+Оператор → requestChange() → pending_changes (PENDING)
+                                  ↓
+Начальник смены → reviewChange() → применить / отклонить
+```
+
+### Правило 2: Начальник смены — полные права на данные
+Но НЕ может управлять пользователями (это только ADMIN).
+
+### Правило 3: Админ — полные права
+Включая управление пользователями и просмотр audit_log.
+
+## Схема таблицы users
+
+```sql
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    full_name VARCHAR(100) NOT NULL,
+    role VARCHAR(20) NOT NULL 
+        CHECK (role IN ('ADMIN', 'SHIFT_SUPERVISOR', 'OPERATOR')),
+    email VARCHAR(100),
+    is_active BOOLEAN DEFAULT 1,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_login TIMESTAMP
+);
+
+CREATE INDEX idx_users_username ON users(username);
+CREATE INDEX idx_users_role ON users(role);
+```
+
+## Java-реализация
+
+### 1. Enum ролей
+
+```java
+public enum UserRole {
+    ADMIN,
+    SHIFT_SUPERVISOR,
+    OPERATOR;
+    
+    public boolean canEditDirectly() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+    
+    public boolean canManageUsers() {
+        return this == ADMIN;
+    }
+    
+    public boolean canViewAuditLog() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+    
+    public boolean canApproveChanges() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+}
+```
+
+### 2. Enum прав (детализация)
+
+```java
+public enum Permission {
+    VIEW_RECORDS,
+    CREATE_RECORDS,
+    EDIT_RECORDS_DIRECT,
+    DELETE_RECORDS_DIRECT,
+    RESTORE_RECORDS,
+    REQUEST_CHANGES,
+    APPROVE_CHANGES,
+    MANAGE_USERS,
+    VIEW_AUDIT_LOG,
+    VIEW_OWN_PENDING
+}
+```
+
+### 3. Защита endpoint'ов
+
+```java
+@RestController
+@RequestMapping("/api/radio-emissions")
+public class RadioEmissionController {
+    
+    // Создание — все роли
+    @PostMapping
+    @PreAuthorize("hasAnyRole('ADMIN', 'SHIFT_SUPERVISOR', 'OPERATOR')")
+    public RadioEmissionDto create(@RequestBody CreateDto dto) { ... }
+    
+    // Прямое редактирование — только Admin и Supervisor
+    @PutMapping("/{id}")
+    @PreAuthorize("hasAnyRole('ADMIN', 'SHIFT_SUPERVISOR')")
+    public RadioEmissionDto update(@PathVariable Long id, @RequestBody UpdateDto dto) { ... }
+    
+    // Запрос на изменение — для оператора
+    @PostMapping("/{id}/request-change")
+    @PreAuthorize("hasRole('OPERATOR')")
+    public PendingChangeDto requestChange(@PathVariable Long id, @RequestBody ChangeRequestDto dto) { ... }
+    
+    // Согласование — только Admin и Supervisor
+    @PostMapping("/pending/{changeId}/review")
+    @PreAuthorize("hasAnyRole('ADMIN', 'SHIFT_SUPERVISOR')")
+    public void review(@PathVariable Long changeId, @RequestBody ReviewDto dto) { ... }
+    
+    // Управление пользователями — только Admin
+    @PostMapping("/users")
+    @PreAuthorize("hasRole('ADMIN')")
+    public UserDto createUser(@RequestBody CreateUserDto dto) { ... }
+}
+```
+
+### 4. Сервисная проверка
+
+```java
+@Service
+public class PermissionService {
+    
+    public void checkCanEditDirectly(Long userId) {
+        User user = getUser(userId);
+        if (!user.getRole().canEditDirectly()) {
+            throw new AccessDeniedException(
+                "Роль " + user.getRole() + " не может редактировать напрямую. " +
+                "Создайте запрос на согласование."
+            );
+        }
+    }
+    
+    public void routeEditRequest(Long userId, Long recordId, Map<String, Object> changes) {
+        User user = getUser(userId);
+        if (user.getRole().canEditDirectly()) {
+            // Прямое редактирование
+            emissionService.update(recordId, changes, userId);
+        } else {
+            // Запрос на согласование
+            approvalService.requestChange(userId, "radio_emissions", recordId, "UPDATE", changes);
+        }
+    }
+}
+```
+
+### 5. Глобальный обработчик исключений
+
+```java
+@RestControllerAdvice
+public class SecurityExceptionHandler {
+    
+    @ExceptionHandler(AccessDeniedException.class)
+    @ResponseStatus(HttpStatus.FORBIDDEN)
+    public ErrorResponse handleAccessDenied(AccessDeniedException ex) {
+        return new ErrorResponse("ACCESS_DENIED", ex.getMessage());
+    }
+}
+```
+
+## UI-адаптация (JavaFX)
+
+```java
+public class UIPermissions {
+    
+    public static void applyRoleBasedVisibility(UserRole role, Node... editControls) {
+        boolean canEditDirectly = role.canEditDirectly();
+        for (Node node : editControls) {
+            node.setVisible(canEditDirectly);
+            node.setManaged(canEditDirectly);
+        }
+    }
+    
+    // Для оператора — кнопка "Редактировать" становится "Запросить изменение"
+    public static Button createEditButton(UserRole role, Runnable onDirectEdit, Runnable onRequestChange) {
+        Button btn = new Button();
+        if (role.canEditDirectly()) {
+            btn.setText("Редактировать");
+            btn.setOnAction(e -> onDirectEdit.run());
+        } else {
+            btn.setText("Запросить изменение");
+            btn.setOnAction(e -> onRequestChange.run());
+        }
+        return btn;
+    }
+}
+```
+
+## Чек-лист реализации
+- [ ] Все endpoint'ы защищены `@PreAuthorize`?
+- [ ] Оператор физически не может вызвать прямой edit/delete?
+- [ ] Есть единая `PermissionService` для проверок?
+- [ ] UI адаптируется под роль пользователя?
+- [ ] Все отказы в доступе логируются в audit_log?
+- [ ] Есть понятные сообщения об ошибках для пользователя?
+- [ ] Написаны unit-тесты для каждой роли?
+
+## Тест-кейсы
+
+```java
+@Test
+void operatorShouldNotEditDirectly() {
+    // Given: оператор
+    // When: пытается вызвать PUT /api/radio-emissions/{id}
+    // Then: получает 403 Forbidden
+}
+
+@Test
+void operatorShouldCreatePendingChange() {
+    // Given: оператор
+    // When: запрашивает изменение записи
+    // Then: создаётся запись в pending_changes со статусом PENDING
+}
+
+@Test
+void supervisorShouldApprovePendingChange() {
+    // Given: pending change от оператора
+    // When: supervisor одобряет
+    // Then: изменение применено, статус = APPROVED
+}
+```
+
+## Связанные skills
+- [04-approval-workflow](../04-approval-workflow/SKILL.md)
+- [03-audit-trail](../03-audit-trail/SKILL.md)
+- [10-javafx-ui](../10-javafx-ui/SKILL.md)

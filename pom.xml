@@ -201,15 +201,6 @@
                     </excludes>
                 </configuration>
             </plugin>
-                    <!-- JavaFX: mvn javafx:run запускает десктопный лаунчер -->
-            <plugin>
-                <groupId>org.openjfx</groupId>
-                <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.8</version>
-                <configuration>
-                    <mainClass>com.satdb.ui.JavaFxLauncher</mainClass>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>

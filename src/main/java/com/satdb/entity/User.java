@@ -1,1 +1,114 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuQ29sdW1uOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnRpdHk7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkVudW1UeXBlOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnVtZXJhdGVkOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5HZW5lcmF0ZWRWYWx1ZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuR2VuZXJhdGlvblR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLklkOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5JbmRleDsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuVGFibGU7CgppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWU7CgovKioKICog0J/QvtC70YzQt9C+0LLQsNGC0LXQu9GMINGB0LjRgdGC0LXQvNGLICjRgtCw0LHQu9C40YbQsCB1c2VycyDQuNC3IHNraWxscy8wMi1yYmFjLWltcGxlbWVudGF0aW9uL1NLSUxMLm1kKS4KICovCkBFbnRpdHkKQFRhYmxlKG5hbWUgPSAidXNlcnMiLCBpbmRleGVzID0gewogICAgICAgIEBJbmRleChuYW1lID0gImlkeF91c2Vyc191c2VybmFtZSIsIGNvbHVtbkxpc3QgPSAidXNlcm5hbWUiLCB1bmlxdWUgPSB0cnVlKSwKICAgICAgICBASW5kZXgobmFtZSA9ICJpZHhfdXNlcnNfcm9sZSIsIGNvbHVtbkxpc3QgPSAicm9sZSIpCn0pCnB1YmxpYyBjbGFzcyBVc2VyIGV4dGVuZHMgQXVkaXRhYmxlRW50aXR5IHsKCiAgICBASWQKICAgIEBHZW5lcmF0ZWRWYWx1ZShzdHJhdGVneSA9IEdlbmVyYXRpb25UeXBlLklERU5USVRZKQogICAgcHJpdmF0ZSBMb25nIGlkOwoKICAgIEBDb2x1bW4obmFtZSA9ICJ1c2VybmFtZSIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDUwLCB1bmlxdWUgPSB0cnVlKQogICAgcHJpdmF0ZSBTdHJpbmcgdXNlcm5hbWU7CgogICAgQENvbHVtbihuYW1lID0gInBhc3N3b3JkX2hhc2giLCBudWxsYWJsZSA9IGZhbHNlLCBsZW5ndGggPSAyNTUpCiAgICBwcml2YXRlIFN0cmluZyBwYXNzd29yZEhhc2g7CgogICAgQENvbHVtbihuYW1lID0gImZ1bGxfbmFtZSIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDEwMCkKICAgIHByaXZhdGUgU3RyaW5nIGZ1bGxOYW1lOwoKICAgIEBFbnVtZXJhdGVkKEVudW1UeXBlLlNUUklORykKICAgIEBDb2x1bW4obmFtZSA9ICJyb2xlIiwgbnVsbGFibGUgPSBmYWxzZSwgbGVuZ3RoID0gMjApCiAgICBwcml2YXRlIFVzZXJSb2xlIHJvbGU7CgogICAgQENvbHVtbihuYW1lID0gImVtYWlsIiwgbGVuZ3RoID0gMTAwKQogICAgcHJpdmF0ZSBTdHJpbmcgZW1haWw7CgogICAgQENvbHVtbihuYW1lID0gImlzX2FjdGl2ZSIsIG51bGxhYmxlID0gZmFsc2UpCiAgICBwcml2YXRlIGJvb2xlYW4gYWN0aXZlID0gdHJ1ZTsKCiAgICBAQ29sdW1uKG5hbWUgPSAibGFzdF9sb2dpbiIpCiAgICBwcml2YXRlIExvY2FsRGF0ZVRpbWUgbGFzdExvZ2luOwoKICAgIHB1YmxpYyBMb25nIGdldElkKCkgewogICAgICAgIHJldHVybiBpZDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRJZChMb25nIGlkKSB7CiAgICAgICAgdGhpcy5pZCA9IGlkOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VXNlcm5hbWUoKSB7CiAgICAgICAgcmV0dXJuIHVzZXJuYW1lOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFVzZXJuYW1lKFN0cmluZyB1c2VybmFtZSkgewogICAgICAgIHRoaXMudXNlcm5hbWUgPSB1c2VybmFtZTsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldFBhc3N3b3JkSGFzaCgpIHsKICAgICAgICByZXR1cm4gcGFzc3dvcmRIYXNoOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFBhc3N3b3JkSGFzaChTdHJpbmcgcGFzc3dvcmRIYXNoKSB7CiAgICAgICAgdGhpcy5wYXNzd29yZEhhc2ggPSBwYXNzd29yZEhhc2g7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRGdWxsTmFtZSgpIHsKICAgICAgICByZXR1cm4gZnVsbE5hbWU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0RnVsbE5hbWUoU3RyaW5nIGZ1bGxOYW1lKSB7CiAgICAgICAgdGhpcy5mdWxsTmFtZSA9IGZ1bGxOYW1lOwogICAgfQoKICAgIHB1YmxpYyBVc2VyUm9sZSBnZXRSb2xlKCkgewogICAgICAgIHJldHVybiByb2xlOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFJvbGUoVXNlclJvbGUgcm9sZSkgewogICAgICAgIHRoaXMucm9sZSA9IHJvbGU7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRFbWFpbCgpIHsKICAgICAgICByZXR1cm4gZW1haWw7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0RW1haWwoU3RyaW5nIGVtYWlsKSB7CiAgICAgICAgdGhpcy5lbWFpbCA9IGVtYWlsOwogICAgfQoKICAgIHB1YmxpYyBib29sZWFuIGlzQWN0aXZlKCkgewogICAgICAgIHJldHVybiBhY3RpdmU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QWN0aXZlKGJvb2xlYW4gYWN0aXZlKSB7CiAgICAgICAgdGhpcy5hY3RpdmUgPSBhY3RpdmU7CiAgICB9CgogICAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0TGFzdExvZ2luKCkgewogICAgICAgIHJldHVybiBsYXN0TG9naW47CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0TGFzdExvZ2luKExvY2FsRGF0ZVRpbWUgbGFzdExvZ2luKSB7CiAgICAgICAgdGhpcy5sYXN0TG9naW4gPSBsYXN0TG9naW47CiAgICB9Cn0K
+package com.satdb.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Index;
+import jakarta.persistence.Table;
+
+import java.time.LocalDateTime;
+
+/**
+ * Пользователь системы (таблица users из skills/02-rbac-implementation/SKILL.md).
+ */
+@Entity
+@Table(name = "users", indexes = {
+        @Index(name = "idx_users_username", columnList = "username", unique = true),
+        @Index(name = "idx_users_role", columnList = "role")
+})
+public class User extends AuditableEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "username", nullable = false, length = 50, unique = true)
+    private String username;
+
+    @Column(name = "password_hash", nullable = false, length = 255)
+    private String passwordHash;
+
+    @Column(name = "full_name", nullable = false, length = 100)
+    private String fullName;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "role", nullable = false, length = 20)
+    private UserRole role;
+
+    @Column(name = "email", length = 100)
+    private String email;
+
+    @Column(name = "is_active", nullable = false)
+    private boolean active = true;
+
+    @Column(name = "last_login")
+    private LocalDateTime lastLogin;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPasswordHash() {
+        return passwordHash;
+    }
+
+    public void setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public UserRole getRole() {
+        return role;
+    }
+
+    public void setRole(UserRole role) {
+        this.role = role;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public LocalDateTime getLastLogin() {
+        return lastLogin;
+    }
+
+    public void setLastLogin(LocalDateTime lastLogin) {
+        this.lastLogin = lastLogin;
+    }
+}

@@ -1,1 +1,162 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuQ2FzY2FkZVR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkNvbHVtbjsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRW50aXR5OwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnVtVHlwZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRW51bWVyYXRlZDsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRmV0Y2hUeXBlOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5Gb3JlaWduS2V5OwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5HZW5lcmF0ZWRWYWx1ZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuR2VuZXJhdGlvblR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLklkOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5JbmRleDsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuSm9pbkNvbHVtbjsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuTWFueVRvT25lOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5PbmVUb01hbnk7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLlRhYmxlOwoKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCi8qKgogKiDQmtC+0LzQvNC10L3RgtCw0YDQuNC5ICjRgtCw0LHQu9C40YbQsCBjb21tZW50cyDQuNC3IHNraWxscy8wMS1kYXRhYmFzZS1kZXNpZ24vU0tJTEwubWQpLgogKiDQn9C+0LvQuNC80L7RgNGE0L3QsNGPINGB0LLRj9C30Yw6IHRhYmxlX25hbWUgKyByZWNvcmRfaWQg0YPQutCw0LfRi9Cy0LDRjtGCINC90LAg0LvRjtCx0YPRjiDQt9Cw0L/QuNGB0YwKICogKHNhdGVsbGl0ZV9zeXN0ZW1zIC8gcmFkaW9fZW1pc3Npb25zINC4INC00YAuKS4g0J/QvtC00LTQtdGA0LbQsNC90Ysg0LLQu9C+0LbQtdC90L3Ri9C1CiAqINC60L7QvNC80LXQvdGC0LDRgNC40Lgg0YfQtdGA0LXQtyBzZWxmLdGB0LLRj9C30YwgcGFyZW50X2NvbW1lbnRfaWQgKDE6TiDQuiDRgdCw0LzQvtC5INGB0LXQsdC1KS4KICovCkBFbnRpdHkKQFRhYmxlKG5hbWUgPSAiY29tbWVudHMiLCBpbmRleGVzID0gewogICAgICAgIEBJbmRleChuYW1lID0gImlkeF9jb21tZW50c19yZWNvcmQiLCBjb2x1bW5MaXN0ID0gInRhYmxlX25hbWUscmVjb3JkX2lkIiksCiAgICAgICAgQEluZGV4KG5hbWUgPSAiaWR4X2NvbW1lbnRzX3R5cGUiLCBjb2x1bW5MaXN0ID0gImNvbW1lbnRfdHlwZSIpLAogICAgICAgIEBJbmRleChuYW1lID0gImlkeF9jb21tZW50c19hdXRob3IiLCBjb2x1bW5MaXN0ID0gImNyZWF0ZWRfYnkiKSwKICAgICAgICBASW5kZXgobmFtZSA9ICJpZHhfY29tbWVudHNfZGF0ZSIsIGNvbHVtbkxpc3QgPSAiY3JlYXRlZF9hdCIpCn0pCnB1YmxpYyBjbGFzcyBDb21tZW50IGV4dGVuZHMgQXVkaXRhYmxlRW50aXR5IHsKCiAgICAvKiog0KLQuNC/INC60L7QvNC80LXQvdGC0LDRgNC40Y8g0YHQvtCz0LvQsNGB0L3QviBDSEVDSyAoY29tbWVudF90eXBlIElOICgnVEVDSE5JQ0FMJywnSU5GT1JNQVRJT05BTCcpKS4gKi8KICAgIHB1YmxpYyBlbnVtIENvbW1lbnRUeXBlIHsKICAgICAgICBURUNITklDQUwsIElORk9STUFUSU9OQUwKICAgIH0KCiAgICBASWQKICAgIEBHZW5lcmF0ZWRWYWx1ZShzdHJhdGVneSA9IEdlbmVyYXRpb25UeXBlLklERU5USVRZKQogICAgcHJpdmF0ZSBMb25nIGlkOwoKICAgIC8qKiDQmNC80Y8g0YLQsNCx0LvQuNGG0Ysg0YbQtdC70LXQstC+0Lkg0LfQsNC/0LjRgdC4ICjQv9C+0LvQuNC80L7RgNGE0L3QsNGPINGB0YHRi9C70LrQsCkuICovCiAgICBAQ29sdW1uKG5hbWUgPSAidGFibGVfbmFtZSIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDUwKQogICAgcHJpdmF0ZSBTdHJpbmcgdGFibGVOYW1lOwoKICAgIC8qKiBJRCDRhtC10LvQtdCy0L7QuSDQt9Cw0L/QuNGB0LguICovCiAgICBAQ29sdW1uKG5hbWUgPSAicmVjb3JkX2lkIiwgbnVsbGFibGUgPSBmYWxzZSkKICAgIHByaXZhdGUgTG9uZyByZWNvcmRJZDsKCiAgICBARW51bWVyYXRlZChFbnVtVHlwZS5TVFJJTkcpCiAgICBAQ29sdW1uKG5hbWUgPSAiY29tbWVudF90eXBlIiwgbnVsbGFibGUgPSBmYWxzZSwgbGVuZ3RoID0gMjApCiAgICBwcml2YXRlIENvbW1lbnRUeXBlIGNvbW1lbnRUeXBlOwoKICAgIEBDb2x1bW4obmFtZSA9ICJ0aXRsZSIsIGxlbmd0aCA9IDIwMCkKICAgIHByaXZhdGUgU3RyaW5nIHRpdGxlOwoKICAgIEBDb2x1bW4obmFtZSA9ICJjb250ZW50IiwgbnVsbGFibGUgPSBmYWxzZSwgY29sdW1uRGVmaW5pdGlvbiA9ICJURVhUIikKICAgIHByaXZhdGUgU3RyaW5nIGNvbnRlbnQ7CgogICAgLyoqIGNyZWF0ZWRfYnkg4oCUINCw0LLRgtC+0YAg0LrQvtC80LzQtdC90YLQsNGA0LjRjywg0L7QsdGP0LfQsNGC0LXQu9GM0L3QvtC1IChOT1QgTlVMTCDQsiDRgdGF0LXQvNC1KS4gKi8KICAgIEBNYW55VG9PbmUoZmV0Y2ggPSBGZXRjaFR5cGUuTEFaWSwgb3B0aW9uYWwgPSBmYWxzZSkKICAgIEBKb2luQ29sdW1uKG5hbWUgPSAiY3JlYXRlZF9ieSIsIG51bGxhYmxlID0gZmFsc2UsCiAgICAgICAgICAgIGZvcmVpZ25LZXkgPSBARm9yZWlnbktleShuYW1lID0gImZrX2NvbW1lbnRzX2F1dGhvciIpKQogICAgcHJpdmF0ZSBVc2VyIGNyZWF0ZWRCeTsKCiAgICAvKiog0KDQvtC00LjRgtC10LvRjNGB0LrQuNC5INC60L7QvNC80LXQvdGC0LDRgNC40LkgKNGB0LDQvNC+0YHQstGP0LfRjCDQtNC70Y8g0YLRgNC10LTQvtCyKS4gKi8KICAgIEBNYW55VG9PbmUoZmV0Y2ggPSBGZXRjaFR5cGUuTEFaWSkKICAgIEBKb2luQ29sdW1uKG5hbWUgPSAicGFyZW50X2NvbW1lbnRfaWQiLAogICAgICAgICAgICBmb3JlaWduS2V5ID0gQEZvcmVpZ25LZXkobmFtZSA9ICJma19jb21tZW50c19wYXJlbnQiKSkKICAgIHByaXZhdGUgQ29tbWVudCBwYXJlbnRDb21tZW50OwoKICAgIC8qKiDQlNC+0YfQtdGA0L3QuNC1INC60L7QvNC80LXQvdGC0LDRgNC40LggKDE6TiBwYXJlbnQgLT4gcmVwbGllcykuICovCiAgICBAT25lVG9NYW55KG1hcHBlZEJ5ID0gInBhcmVudENvbW1lbnQiLCBjYXNjYWRlID0gQ2FzY2FkZVR5cGUuQUxMLCBvcnBoYW5SZW1vdmFsID0gdHJ1ZSwgZmV0Y2ggPSBGZXRjaFR5cGUuTEFaWSkKICAgIHByaXZhdGUgTGlzdDxDb21tZW50PiBjaGlsZENvbW1lbnRzID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgcHVibGljIExvbmcgZ2V0SWQoKSB7CiAgICAgICAgcmV0dXJuIGlkOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldElkKExvbmcgaWQpIHsKICAgICAgICB0aGlzLmlkID0gaWQ7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRUYWJsZU5hbWUoKSB7CiAgICAgICAgcmV0dXJuIHRhYmxlTmFtZTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRUYWJsZU5hbWUoU3RyaW5nIHRhYmxlTmFtZSkgewogICAgICAgIHRoaXMudGFibGVOYW1lID0gdGFibGVOYW1lOwogICAgfQoKICAgIHB1YmxpYyBMb25nIGdldFJlY29yZElkKCkgewogICAgICAgIHJldHVybiByZWNvcmRJZDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRSZWNvcmRJZChMb25nIHJlY29yZElkKSB7CiAgICAgICAgdGhpcy5yZWNvcmRJZCA9IHJlY29yZElkOwogICAgfQoKICAgIHB1YmxpYyBDb21tZW50VHlwZSBnZXRDb21tZW50VHlwZSgpIHsKICAgICAgICByZXR1cm4gY29tbWVudFR5cGU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0Q29tbWVudFR5cGUoQ29tbWVudFR5cGUgY29tbWVudFR5cGUpIHsKICAgICAgICB0aGlzLmNvbW1lbnRUeXBlID0gY29tbWVudFR5cGU7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRUaXRsZSgpIHsKICAgICAgICByZXR1cm4gdGl0bGU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0VGl0bGUoU3RyaW5nIHRpdGxlKSB7CiAgICAgICAgdGhpcy50aXRsZSA9IHRpdGxlOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0Q29udGVudCgpIHsKICAgICAgICByZXR1cm4gY29udGVudDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDb250ZW50KFN0cmluZyBjb250ZW50KSB7CiAgICAgICAgdGhpcy5jb250ZW50ID0gY29udGVudDsKICAgIH0KCiAgICBwdWJsaWMgVXNlciBnZXRDcmVhdGVkQnkoKSB7CiAgICAgICAgcmV0dXJuIGNyZWF0ZWRCeTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDcmVhdGVkQnkoVXNlciBjcmVhdGVkQnkpIHsKICAgICAgICB0aGlzLmNyZWF0ZWRCeSA9IGNyZWF0ZWRCeTsKICAgIH0KCiAgICBwdWJsaWMgQ29tbWVudCBnZXRQYXJlbnRDb21tZW50KCkgewogICAgICAgIHJldHVybiBwYXJlbnRDb21tZW50OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFBhcmVudENvbW1lbnQoQ29tbWVudCBwYXJlbnRDb21tZW50KSB7CiAgICAgICAgdGhpcy5wYXJlbnRDb21tZW50ID0gcGFyZW50Q29tbWVudDsKICAgIH0KCiAgICBwdWJsaWMgTGlzdDxDb21tZW50PiBnZXRDaGlsZENvbW1lbnRzKCkgewogICAgICAgIHJldHVybiBjaGlsZENvbW1lbnRzOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldENoaWxkQ29tbWVudHMoTGlzdDxDb21tZW50PiBjaGlsZENvbW1lbnRzKSB7CiAgICAgICAgdGhpcy5jaGlsZENvbW1lbnRzID0gY2hpbGRDb21tZW50czsKICAgIH0KCiAgICAvKiog0JLRgdC/0L7QvNC+0LPQsNGC0LXQu9GM0L3Ri9C5INC80LXRgtC+0LQg0LTQu9GPINC/0L7QtNC00LXRgNC20LDQvdC40Y8g0LTQstGD0YHRgtC+0YDQvtC90L3QtdC5INGB0LLRj9C30Lgg0YLRgNC10LTQsC4gKi8KICAgIHB1YmxpYyB2b2lkIGFkZENoaWxkQ29tbWVudChDb21tZW50IHJlcGx5KSB7CiAgICAgICAgY2hpbGRDb21tZW50cy5hZGQocmVwbHkpOwogICAgICAgIHJlcGx5LnNldFBhcmVudENvbW1lbnQodGhpcyk7CiAgICB9CgogICAgcHVibGljIHZvaWQgcmVtb3ZlQ2hpbGRDb21tZW50KENvbW1lbnQgcmVwbHkpIHsKICAgICAgICBjaGlsZENvbW1lbnRzLnJlbW92ZShyZXBseSk7CiAgICAgICAgcmVwbHkuc2V0UGFyZW50Q29tbWVudChudWxsKTsKICAgIH0KfQo=
+package com.satdb.entity;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.ForeignKey;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Index;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Комментарий (таблица comments из skills/01-database-design/SKILL.md).
+ * Полиморфная связь: table_name + record_id указывают на любую запись
+ * (satellite_systems / radio_emissions и др.). Поддержаны вложенные
+ * комментарии через self-связь parent_comment_id (1:N к самой себе).
+ */
+@Entity
+@Table(name = "comments", indexes = {
+        @Index(name = "idx_comments_record", columnList = "table_name,record_id"),
+        @Index(name = "idx_comments_type", columnList = "comment_type"),
+        @Index(name = "idx_comments_author", columnList = "created_by"),
+        @Index(name = "idx_comments_date", columnList = "created_at")
+})
+public class Comment extends AuditableEntity {
+
+    /** Тип комментария согласно CHECK (comment_type IN ('TECHNICAL','INFORMATIONAL')). */
+    public enum CommentType {
+        TECHNICAL, INFORMATIONAL
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    /** Имя таблицы целевой записи (полиморфная ссылка). */
+    @Column(name = "table_name", nullable = false, length = 50)
+    private String tableName;
+
+    /** ID целевой записи. */
+    @Column(name = "record_id", nullable = false)
+    private Long recordId;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "comment_type", nullable = false, length = 20)
+    private CommentType commentType;
+
+    @Column(name = "title", length = 200)
+    private String title;
+
+    @Column(name = "content", nullable = false, columnDefinition = "TEXT")
+    private String content;
+
+    /** created_by — автор комментария, обязательное (NOT NULL в схеме). */
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "created_by", nullable = false,
+            foreignKey = @ForeignKey(name = "fk_comments_author"))
+    private User createdBy;
+
+    /** Родительский комментарий (самосвязь для тредов). */
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "parent_comment_id",
+            foreignKey = @ForeignKey(name = "fk_comments_parent"))
+    private Comment parentComment;
+
+    /** Дочерние комментарии (1:N parent -> replies). */
+    @OneToMany(mappedBy = "parentComment", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<Comment> childComments = new ArrayList<>();
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTableName() {
+        return tableName;
+    }
+
+    public void setTableName(String tableName) {
+        this.tableName = tableName;
+    }
+
+    public Long getRecordId() {
+        return recordId;
+    }
+
+    public void setRecordId(Long recordId) {
+        this.recordId = recordId;
+    }
+
+    public CommentType getCommentType() {
+        return commentType;
+    }
+
+    public void setCommentType(CommentType commentType) {
+        this.commentType = commentType;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public Comment getParentComment() {
+        return parentComment;
+    }
+
+    public void setParentComment(Comment parentComment) {
+        this.parentComment = parentComment;
+    }
+
+    public List<Comment> getChildComments() {
+        return childComments;
+    }
+
+    public void setChildComments(List<Comment> childComments) {
+        this.childComments = childComments;
+    }
+
+    /** Вспомогательный метод для поддержания двусторонней связи треда. */
+    public void addChildComment(Comment reply) {
+        childComments.add(reply);
+        reply.setParentComment(this);
+    }
+
+    public void removeChildComment(Comment reply) {
+        childComments.remove(reply);
+        reply.setParentComment(null);
+    }
+}

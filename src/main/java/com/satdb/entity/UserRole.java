@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKLyoqCiAqINCg0L7Qu9C4IFJCQUMg0YHQvtCz0LvQsNGB0L3QviBza2lsbHMvMDItcmJhYy1pbXBsZW1lbnRhdGlvbi9TS0lMTC5tZC4KICog0KXRgNCw0L3QuNGC0YHRjyDQutCw0Log0YHRgtGA0L7QutCwIChWQVJDSEFSKSDigJQg0YHQvtCy0LzQtdGB0YLQuNC80L4g0YEgQ0hFQ0socm9sZSBJTiAoLi4uKSkg0LIgU1FMaXRlLgogKi8KcHVibGljIGVudW0gVXNlclJvbGUgewogICAgQURNSU4sCiAgICBTSElGVF9TVVBFUlZJU09SLAogICAgT1BFUkFUT1I7CgogICAgcHVibGljIGJvb2xlYW4gY2FuRWRpdERpcmVjdGx5KCkgewogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOIHx8IHRoaXMgPT0gU0hJRlRfU1VQRVJWSVNPUjsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBjYW5NYW5hZ2VVc2VycygpIHsKICAgICAgICByZXR1cm4gdGhpcyA9PSBBRE1JTjsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBjYW5WaWV3QXVkaXRMb2coKSB7CiAgICAgICAgcmV0dXJuIHRoaXMgPT0gQURNSU4gfHwgdGhpcyA9PSBTSElGVF9TVVBFUlZJU09SOwogICAgfQoKICAgIHB1YmxpYyBib29sZWFuIGNhbkFwcHJvdmVDaGFuZ2VzKCkgewogICAgICAgIHJldHVybiB0aGlzID09IEFETUlOIHx8IHRoaXMgPT0gU0hJRlRfU1VQRVJWSVNPUjsKICAgIH0KfQo=
+package com.satdb.entity;
+
+/**
+ * Роли RBAC согласно skills/02-rbac-implementation/SKILL.md.
+ * Хранится как строка (VARCHAR) — совместимо с CHECK(role IN (...)) в SQLite.
+ */
+public enum UserRole {
+    ADMIN,
+    SHIFT_SUPERVISOR,
+    OPERATOR;
+
+    public boolean canEditDirectly() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+
+    public boolean canManageUsers() {
+        return this == ADMIN;
+    }
+
+    public boolean canViewAuditLog() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+
+    public boolean canApproveChanges() {
+        return this == ADMIN || this == SHIFT_SUPERVISOR;
+    }
+}

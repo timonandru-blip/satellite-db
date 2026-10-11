@@ -1,1 +1,253 @@
-LS0tDQpuYW1lOiBzcWxpdGUtb3B0aW1pemF0aW9uDQpkZXNjcmlwdGlvbjog0J7Qv9GC0LjQvNC40LfQsNGG0LjRjyBTUUxpdGUg0LTQu9GPINCx0YvRgdGC0YDQvtCz0L4g0L/QvtC40YHQutCwINC4INGE0LjQu9GM0YLRgNCw0YbQuNC4DQp2ZXJzaW9uOiAxLjANCnRhZ3M6IFtzcWxpdGUsIHBlcmZvcm1hbmNlLCBvcHRpbWl6YXRpb24sIGZ0czUsIHByYWdtYV0NCnRyaWdnZXJzOg0KICAtINC80LXQtNC70LXQvdC90L4g0YDQsNCx0L7RgtCw0LXRgg0KICAtINC+0L/RgtC40LzQuNC30LDRhtC40Y8g0JHQlA0KICAtINCx0YvRgdGC0YDRi9C5INC/0L7QuNGB0LoNCiAgLSDQuNC90LTQtdC60YENCiAgLSBwcmFnbWENCi0tLQ0KDQojIFNRTGl0ZSBPcHRpbWl6YXRpb24gU2tpbGwNCg0KIyMg0J3QsNC30L3QsNGH0LXQvdC40LUNCtCd0LDRgdGC0YDQvtC50LrQsCBTUUxpdGUg0LTQu9GPINC80LDQutGB0LjQvNCw0LvRjNC90L7QuSDQv9GA0L7QuNC30LLQvtC00LjRgtC10LvRjNC90L7RgdGC0Lgg0L/RgNC4INC/0L7QuNGB0LrQtSDQuCDRhNC40LvRjNGC0YDQsNGG0LjQuCANCtC/0LDRgNCw0LzQtdGC0YDQvtCyINGA0LDQtNC40L7QuNC30LvRg9GH0LXQvdC40LkgKNC60LvRjtGH0LXQstC+0LUg0YLRgNC10LHQvtCy0LDQvdC40LUg0L/RgNC+0LXQutGC0LApLg0KDQojIyDQmtC+0LPQtNCwINC/0YDQuNC80LXQvdGP0YLRjA0KLSDQn9C+0LjRgdC6L9GE0LjQu9GM0YLRgNCw0YbQuNGPINGA0LDQsdC+0YLQsNGO0YIg0LzQtdC00LvQtdC90L3Qvg0KLSDQndCw0YHRgtGA0L7QudC60LAg0L3QvtCy0L7QuSDQkdCUDQotINCe0L/RgtC40LzQuNC30LDRhtC40Y8g0YHRg9GJ0LXRgdGC0LLRg9GO0YnQtdC5INCR0JQNCi0g0JLQvdC10LTRgNC10L3QuNC1INC/0L7Qu9C90L7RgtC10LrRgdGC0L7QstC+0LPQviDQv9C+0LjRgdC60LANCg0KIyMg0J7QsdGP0LfQsNGC0LXQu9GM0L3Ri9C1IFBSQUdNQSDQvdCw0YHRgtGA0L7QudC60LgNCg0KYGBgamF2YQ0KQENvbXBvbmVudA0KcHVibGljIGNsYXNzIFNRTGl0ZU9wdGltaXplciB7DQogICAgDQogICAgQEF1dG93aXJlZA0KICAgIHByaXZhdGUgRGF0YVNvdXJjZSBkYXRhU291cmNlOw0KICAgIA0KICAgIEBQb3N0Q29uc3RydWN0DQogICAgcHVibGljIHZvaWQgb3B0aW1pemUoKSB7DQogICAgICAgIHRyeSAoQ29ubmVjdGlvbiBjb25uID0gZGF0YVNvdXJjZS5nZXRDb25uZWN0aW9uKCk7DQogICAgICAgICAgICAgU3RhdGVtZW50IHN0bXQgPSBjb25uLmNyZWF0ZVN0YXRlbWVudCgpKSB7DQogICAgICAgICAgICANCiAgICAgICAgICAgIC8vIDEuIFdBTCBtb2RlIOKAlCDQv9Cw0YDQsNC70LvQtdC70YzQvdC+0LUg0YfRgtC10L3QuNC1L9C30LDQv9C40YHRjCAo0JrQoNCY0KLQmNCn0J3QniDQtNC70Y8gMyDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSkNCiAgICAgICAgICAgIHN0bXQuZXhlY3V0ZSgiUFJBR01BIGpvdXJuYWxfbW9kZT1XQUwiKTsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgLy8gMi4g0KPQstC10LvQuNGH0LXQvdC90YvQuSDQutGN0Ygg0YHRgtGA0LDQvdC40YYgKNC/0L4g0YPQvNC+0LvRh9Cw0L3QuNGOIDIwMDAsINGB0YLQsNCy0LjQvCAxMDAwMCkNCiAgICAgICAgICAgIHN0bXQuZXhlY3V0ZSgiUFJBR01BIGNhY2hlX3NpemU9MTAwMDAiKTsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgLy8gMy4g0JHQsNC70LDQvdGBINGB0LrQvtGA0L7RgdGC0Lgg0Lgg0L3QsNC00ZHQttC90L7RgdGC0LgNCiAgICAgICAgICAgIHN0bXQuZXhlY3V0ZSgiUFJBR01BIHN5bmNocm9ub3VzPU5PUk1BTCIpOw0KICAgICAgICAgICAgDQogICAgICAgICAgICAvLyA0LiBNZW1vcnktbWFwcGVkIEkvTyDQtNC70Y8g0LHQvtC70YzRiNC40YUg0YTQsNC50LvQvtCyDQogICAgICAgICAgICBzdG10LmV4ZWN1dGUoIlBSQUdNQSBtbWFwX3NpemU9MjY4NDM1NDU2Iik7ICAvLyAyNTYgTUINCiAgICAgICAgICAgIA0KICAgICAgICAgICAgLy8gNS4g0JLRgNC10LzQtdC90L3Ri9C1INC00LDQvdC90YvQtSDQsiBSQU0NCiAgICAgICAgICAgIHN0bXQuZXhlY3V0ZSgiUFJBR01BIHRlbXBfc3RvcmU9TUVNT1JZIik7DQogICAgICAgICAgICANCiAgICAgICAgICAgIC8vIDYuINCe0LHRj9C30LDRgtC10LvRjNC90LDRjyDQv9GA0L7QstC10YDQutCwIEZLDQogICAgICAgICAgICBzdG10LmV4ZWN1dGUoIlBSQUdNQSBmb3JlaWduX2tleXM9T04iKTsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgLy8gNy4g0J7Qv9GC0LjQvNC40LfQsNGG0LjRjyBidXN5IHRpbWVvdXQgKDMwINGB0LXQuikNCiAgICAgICAgICAgIHN0bXQuZXhlY3V0ZSgiUFJBR01BIGJ1c3lfdGltZW91dD0zMDAwMCIpOw0KICAgICAgICAgICAgDQogICAgICAgIH0gY2F0Y2ggKFNRTEV4Y2VwdGlvbiBlKSB7DQogICAgICAgICAgICBsb2cuZXJyb3IoIlNRTGl0ZSBvcHRpbWl6YXRpb24gZmFpbGVkIiwgZSk7DQogICAgICAgIH0NCiAgICB9DQp9DQpgYGANCg0KIyMg0JjQvdC00LXQutGB0Ysg4oCUINGB0YLRgNCw0YLQtdCz0LjRjw0KDQojIyMg0J/RgNCw0LLQuNC70L4gMTog0JjQvdC00LXQutGB0LjRgNC+0LLQsNGC0Ywg0LLRgdGRLCDRh9GC0L4g0LIgV0hFUkUvSk9JTi9PUkRFUiBCWQ0KDQpgYGBzcWwNCi0tINCe0LHRj9C30LDRgtC10LvRjNC90YvQtSDQuNC90LTQtdC60YHRiw0KQ1JFQVRFIElOREVYIGlkeF9lbWlzc2lvbnNfZnJlcXVlbmN5IE9OIHJhZGlvX2VtaXNzaW9ucyhmcmVxdWVuY3lfbWh6KTsNCkNSRUFURSBJTkRFWCBpZHhfZW1pc3Npb25zX3NhdGVsbGl0ZSBPTiByYWRpb19lbWlzc2lvbnMoc2F0ZWxsaXRlX3N5c3RlbV9pZCk7DQpDUkVBVEUgSU5ERVggaWR4X2VtaXNzaW9uc19kYXRlIE9OIHJhZGlvX2VtaXNzaW9ucyhtZWFzdXJlbWVudF9kYXRlKTsNCkNSRUFURSBJTkRFWCBpZHhfZW1pc3Npb25zX2NsYXNzaWZpY2F0aW9uIE9OIHJhZGlvX2VtaXNzaW9ucyhjbGFzc2lmaWNhdGlvbik7DQpDUkVBVEUgSU5ERVggaWR4X2VtaXNzaW9uc19kZWxldGVkIE9OIHJhZGlvX2VtaXNzaW9ucyhpc19kZWxldGVkKTsNCmBgYA0KDQojIyMg0J/RgNCw0LLQuNC70L4gMjog0JrQvtC80L/QvtC30LjRgtC90YvQtSDQuNC90LTQtdC60YHRiyDQtNC70Y8g0YLQuNC/0LjRh9C90YvRhSDQt9Cw0L/RgNC+0YHQvtCyDQoNCmBgYHNxbA0KLS0g0KfQsNGB0YLRi9C5INC30LDQv9GA0L7RgTogItC/0L7QutCw0LbQuCDQstGB0LUg0LjQt9C70YPRh9C10L3QuNGPINGB0L/Rg9GC0L3QuNC60LAgWCwg0L7RgtGB0L7RgNGC0LjRgNC+0LLQsNC90L3Ri9C1INC/0L4g0YfQsNGB0YLQvtGC0LUiDQpDUkVBVEUgSU5ERVggaWR4X2VtaXNzaW9uc19zYXRfZnJlcSBPTiByYWRpb19lbWlzc2lvbnMoc2F0ZWxsaXRlX3N5c3RlbV9pZCwgZnJlcXVlbmN5X21oeik7DQoNCi0tINCn0LDRgdGC0YvQuSDQt9Cw0L/RgNC+0YE6ICLQv9C+0LjRgdC6INC/0L4g0LTQuNCw0L/QsNC30L7QvdGDINGH0LDRgdGC0L7RgiDQt9CwINC/0LXRgNC40L7QtCINCkNSRUFURSBJTkRFWCBpZHhfZW1pc3Npb25zX2ZyZXFfZGF0ZSBPTiByYWRpb19lbWlzc2lvbnMoZnJlcXVlbmN5X21oeiwgbWVhc3VyZW1lbnRfZGF0ZSk7DQpgYGANCg0KIyMjINCf0YDQsNCy0LjQu9C+IDM6INCn0LDRgdGC0LjRh9C90YvQtSDQuNC90LTQtdC60YHRiw0KDQpgYGBzcWwNCi0tINCY0L3QtNC10LrRgSDRgtC+0LvRjNC60L4g0LTQu9GPINCw0LrRgtC40LLQvdGL0YUg0LfQsNC/0LjRgdC10LkgKNGN0LrQvtC90L7QvNC40Y8g0LzQtdGB0YLQsCkNCkNSRUFURSBJTkRFWCBpZHhfZW1pc3Npb25zX2FjdGl2ZSBPTiByYWRpb19lbWlzc2lvbnMoZnJlcXVlbmN5X21oeikgDQpXSEVSRSBpc19kZWxldGVkID0gMDsNCmBgYA0KDQojIyBGdWxsLVRleHQgU2VhcmNoIChGVFM1KQ0KDQojIyMg0KHQvtC30LTQsNC90LjQtSDQstC40YDRgtGD0LDQu9GM0L3QvtC5INGC0LDQsdC70LjRhtGLDQoNCmBgYHNxbA0KQ1JFQVRFIFZJUlRVQUwgVEFCTEUgcmFkaW9fZW1pc3Npb25zX2Z0cyBVU0lORyBmdHM1KA0KICAgIGVtaXNzaW9uX25hbWUsDQogICAgZW1pc3Npb25fY29kZSwNCiAgICBub3RlcywNCiAgICB0ZWNobmljYWxfcGFyYW1ldGVycywNCiAgICBjb250ZW50PSdyYWRpb19lbWlzc2lvbnMnLA0KICAgIGNvbnRlbnRfcm93aWQ9J2lkJywNCiAgICB0b2tlbml6ZT0ndW5pY29kZTYxJyAgLS0g0J/QvtC00LTQtdGA0LbQutCwIFVuaWNvZGUNCik7DQpgYGANCg0KIyMjINCi0YDQuNCz0LPQtdGA0Ysg0YHQuNC90YXRgNC+0L3QuNC30LDRhtC40LgNCg0KYGBgc3FsDQotLSBJTlNFUlQNCkNSRUFURSBUUklHR0VSIGVtaXNzaW9uc19mdHNfaW5zZXJ0IEFGVEVSIElOU0VSVCBPTiByYWRpb19lbWlzc2lvbnMgQkVHSU4NCiAgICBJTlNFUlQgSU5UTyByYWRpb19lbWlzc2lvbnNfZnRzKHJvd2lkLCBlbWlzc2lvbl9uYW1lLCBlbWlzc2lvbl9jb2RlLCBub3RlcywgdGVjaG5pY2FsX3BhcmFtZXRlcnMpDQogICAgVkFMVUVTIChuZXcuaWQsIG5ldy5lbWlzc2lvbl9uYW1lLCBuZXcuZW1pc3Npb25fY29kZSwgbmV3Lm5vdGVzLCBuZXcudGVjaG5pY2FsX3BhcmFtZXRlcnMpOw0KRU5EOw0KDQotLSBERUxFVEUNCkNSRUFURSBUUklHR0VSIGVtaXNzaW9uc19mdHNfZGVsZXRlIEFGVEVSIERFTEVURSBPTiByYWRpb19lbWlzc2lvbnMgQkVHSU4NCiAgICBJTlNFUlQgSU5UTyByYWRpb19lbWlzc2lvbnNfZnRzKHJhZGlvX2VtaXNzaW9uc19mdHMsIHJvd2lkLCBlbWlzc2lvbl9uYW1lLCBlbWlzc2lvbl9jb2RlLCBub3RlcywgdGVjaG5pY2FsX3BhcmFtZXRlcnMpDQogICAgVkFMVUVTICgnZGVsZXRlJywgb2xkLmlkLCBvbGQuZW1pc3Npb25fbmFtZSwgb2xkLmVtaXNzaW9uX2NvZGUsIG9sZC5ub3Rlcywgb2xkLnRlY2huaWNhbF9wYXJhbWV0ZXJzKTsNCkVORDsNCg0KLS0gVVBEQVRFDQpDUkVBVEUgVFJJR0dFUiBlbWlzc2lvbnNfZnRzX3VwZGF0ZSBBRlRFUiBVUERBVEUgT04gcmFkaW9fZW1pc3Npb25zIEJFR0lODQogICAgSU5TRVJUIElOVE8gcmFkaW9fZW1pc3Npb25zX2Z0cyhyYWRpb19lbWlzc2lvbnNfZnRzLCByb3dpZCwgZW1pc3Npb25fbmFtZSwgZW1pc3Npb25fY29kZSwgbm90ZXMsIHRlY2huaWNhbF9wYXJhbWV0ZXJzKQ0KICAgIFZBTFVFUyAoJ2RlbGV0ZScsIG9sZC5pZCwgb2xkLmVtaXNzaW9uX25hbWUsIG9sZC5lbWlzc2lvbl9jb2RlLCBvbGQubm90ZXMsIG9sZC50ZWNobmljYWxfcGFyYW1ldGVycyk7DQogICAgSU5TRVJUIElOVE8gcmFkaW9fZW1pc3Npb25zX2Z0cyhyb3dpZCwgZW1pc3Npb25fbmFtZSwgZW1pc3Npb25fY29kZSwgbm90ZXMsIHRlY2huaWNhbF9wYXJhbWV0ZXJzKQ0KICAgIFZBTFVFUyAobmV3LmlkLCBuZXcuZW1pc3Npb25fbmFtZSwgbmV3LmVtaXNzaW9uX2NvZGUsIG5ldy5ub3RlcywgbmV3LnRlY2huaWNhbF9wYXJhbWV0ZXJzKTsNCkVORDsNCmBgYA0KDQojIyMg0JjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40LUg0LIgSmF2YQ0KDQpgYGBqYXZhDQpAUXVlcnkodmFsdWUgPSAiIiINCiAgICBTRUxFQ1Qgci4qIEZST00gcmFkaW9fZW1pc3Npb25zIHINCiAgICBKT0lOIHJhZGlvX2VtaXNzaW9uc19mdHMgZnRzIE9OIHIuaWQgPSBmdHMucm93aWQNCiAgICBXSEVSRSByYWRpb19lbWlzc2lvbnNfZnRzIE1BVENIIDpzZWFyY2hUZXJtDQogICAgQU5EIHIuaXNfZGVsZXRlZCA9IDANCiAgICBPUkRFUiBCWSByYW5rDQogICAgIiIiLCBuYXRpdmVRdWVyeSA9IHRydWUpDQpMaXN0PFJhZGlvRW1pc3Npb24+IGZ1bGxUZXh0U2VhcmNoKEBQYXJhbSgic2VhcmNoVGVybSIpIFN0cmluZyBzZWFyY2hUZXJtKTsNCmBgYA0KDQrQn9GA0LjQvNC10YDRiyDQt9Cw0L/RgNC+0YHQvtCyOg0KLSBgItGH0LDRgdGC0L7RgtCwIDEwMDAiYCDigJQg0L/QvtC40YHQuiDQv9C+INCy0YHQtdC8INC/0L7Qu9GP0LwNCi0gYCJlbWlzc2lvbl9uYW1lOkdQUyJgIOKAlCDQv9C+0LjRgdC6INGC0L7Qu9GM0LrQviDQsiDQvdCw0LfQstCw0L3QuNC4DQotIGAi0LrQvtC0IEFORCDRgdC40LPQvdCw0LsiYCDigJQg0LHRg9C70LXQsiDQv9C+0LjRgdC6DQoNCiMjINCe0L/RgtC40LzQuNC30LDRhtC40Y8g0LfQsNC/0YDQvtGB0L7Qsg0KDQojIyMg0J/Qu9C+0YXQvjogU0VMRUNUICoNCg0KYGBgamF2YQ0KLy8g0JfQsNCz0YDRg9C20LDQtdGCINCy0YHQtSDQv9C+0LvRjywg0LLQutC70Y7Rh9Cw0Y8g0LHQvtC70YzRiNC40LUgSlNPTg0KQFF1ZXJ5KCJTRUxFQ1QgciBGUk9NIFJhZGlvRW1pc3Npb24gciBXSEVSRSByLmZyZXF1ZW5jeU1oeiBCRVRXRUVOIDpmcm9tIEFORCA6dG8iKQ0KTGlzdDxSYWRpb0VtaXNzaW9uPiBmaW5kQnlGcmVxdWVuY3lSYW5nZShCaWdEZWNpbWFsIGZyb20sIEJpZ0RlY2ltYWwgdG8pOw0KYGBgDQoNCiMjIyDQpdC+0YDQvtGI0L46INGC0L7Qu9GM0LrQviDQvdGD0LbQvdGL0LUg0L/QvtC70Y8NCg0KYGBgamF2YQ0KQFF1ZXJ5KCJTRUxFQ1Qgci5pZCwgci5lbWlzc2lvbk5hbWUsIHIuZnJlcXVlbmN5TWh6LCByLm1lYXN1cmVtZW50RGF0ZSAiICsNCiAgICAgICAiRlJPTSBSYWRpb0VtaXNzaW9uIHIgIiArDQogICAgICAgIldIRVJFIHIuZnJlcXVlbmN5TWh6IEJFVFdFRU4gOmZyb20gQU5EIDp0byAiICsNCiAgICAgICAiQU5EIHIuaXNEZWxldGVkID0gZmFsc2UgIiArDQogICAgICAgIk9SREVSIEJZIHIuZnJlcXVlbmN5TWh6IikNCkxpc3Q8T2JqZWN0W10+IGZpbmRCYXNpY0J5RnJlcXVlbmN5UmFuZ2UoQmlnRGVjaW1hbCBmcm9tLCBCaWdEZWNpbWFsIHRvKTsNCmBgYA0KDQojIyMg0J/QsNCz0LjQvdCw0YbQuNGPINC+0LHRj9C30LDRgtC10LvRjNC90LANCg0KYGBgamF2YQ0KQFF1ZXJ5KCJTRUxFQ1QgciBGUk9NIFJhZGlvRW1pc3Npb24gciBXSEVSRSByLmlzRGVsZXRlZCA9IGZhbHNlIikNClBhZ2U8UmFkaW9FbWlzc2lvbj4gZmluZEFsbEFjdGl2ZShQYWdlYWJsZSBwYWdlYWJsZSk7DQoNCi8vINCY0YHQv9C+0LvRjNC30L7QstCw0L3QuNC1Og0KUGFnZTxSYWRpb0VtaXNzaW9uPiBwYWdlID0gcmVwb3NpdG9yeS5maW5kQWxsQWN0aXZlKFBhZ2VSZXF1ZXN0Lm9mKDAsIDUwKSk7DQpgYGANCg0KIyMgQ29ubmVjdGlvbiBQb29sIChIaWthcmlDUCkNCg0KYGBgcHJvcGVydGllcw0KIyBhcHBsaWNhdGlvbi5wcm9wZXJ0aWVzDQpzcHJpbmcuZGF0YXNvdXJjZS5oaWthcmkubWF4aW11bS1wb29sLXNpemU9NQ0Kc3ByaW5nLmRhdGFzb3VyY2UuaGlrYXJpLm1pbmltdW0taWRsZT0yDQpzcHJpbmcuZGF0YXNvdXJjZS5oaWthcmkuY29ubmVjdGlvbi10aW1lb3V0PTMwMDAwDQpzcHJpbmcuZGF0YXNvdXJjZS5oaWthcmkuaWRsZS10aW1lb3V0PTYwMDAwMA0Kc3ByaW5nLmRhdGFzb3VyY2UuaGlrYXJpLm1heC1saWZldGltZT0xODAwMDAwDQpgYGANCg0K0JTQu9GPIFNRTGl0ZSDQvdC1INGB0YLQsNCy0LjRgtGMINGB0LvQuNGI0LrQvtC8INCx0L7Qu9GM0YjQvtC5IHBvb2wg4oCUIFNRTGl0ZSDQv9C70L7RhdC+INGB0L/RgNCw0LLQu9GP0LXRgtGB0Y8g0YEg0L/QsNGA0LDQu9C70LXQu9GM0L3QvtC5INC30LDQv9C40YHRjNGOLg0KDQojIyDQnNC+0L3QuNGC0L7RgNC40L3QsyDQv9GA0L7QuNC30LLQvtC00LjRgtC10LvRjNC90L7RgdGC0LgNCg0KIyMjINCQ0L3QsNC70LjQtyDQt9Cw0L/RgNC+0YHQvtCyDQoNCmBgYHNxbA0KLS0g0J/QvtGB0LzQvtGC0YDQtdGC0Ywg0L/Qu9Cw0L0g0LfQsNC/0YDQvtGB0LANCkVYUExBSU4gUVVFUlkgUExBTiANClNFTEVDVCAqIEZST00gcmFkaW9fZW1pc3Npb25zIA0KV0hFUkUgZnJlcXVlbmN5X21oeiBCRVRXRUVOIDEwMCBBTkQgMjAwIA0KQU5EIGlzX2RlbGV0ZWQgPSAwOw0KYGBgDQoNCiMjIyDQodGC0LDRgtC40YHRgtC40LrQsA0KDQpgYGBqYXZhDQpAQ29tcG9uZW50DQpwdWJsaWMgY2xhc3MgUGVyZm9ybWFuY2VNb25pdG9yIHsNCiAgICANCiAgICBAU2NoZWR1bGVkKGZpeGVkUmF0ZSA9IDM2MDAwMDApICAvLyDQmtCw0LbQtNGL0Lkg0YfQsNGBDQogICAgcHVibGljIHZvaWQgbG9nU3RhdHMoKSB7DQogICAgICAgIHRyeSAoQ29ubmVjdGlvbiBjb25uID0gZGF0YVNvdXJjZS5nZXRDb25uZWN0aW9uKCk7DQogICAgICAgICAgICAgU3RhdGVtZW50IHN0bXQgPSBjb25uLmNyZWF0ZVN0YXRlbWVudCgpKSB7DQogICAgICAgICAgICANCiAgICAgICAgICAgIFJlc3VsdFNldCBycyA9IHN0bXQuZXhlY3V0ZVF1ZXJ5KCJQUkFHTUEgcGFnZV9jb3VudCIpOw0KICAgICAgICAgICAgbG9uZyBwYWdlQ291bnQgPSBycy5nZXRMb25nKDEpOw0KICAgICAgICAgICAgDQogICAgICAgICAgICBycyA9IHN0bXQuZXhlY3V0ZVF1ZXJ5KCJQUkFHTUEgcGFnZV9zaXplIik7DQogICAgICAgICAgICBsb25nIHBhZ2VTaXplID0gcnMuZ2V0TG9uZygxKTsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgbG9uZyBkYlNpemVNYiA9IChwYWdlQ291bnQgKiBwYWdlU2l6ZSkgLyAoMTAyNCAqIDEwMjQpOw0KICAgICAgICAgICAgbG9nLmluZm8oIlNRTGl0ZSBEQiBzaXplOiB7fSBNQiIsIGRiU2l6ZU1iKTsNCiAgICAgICAgICAgIA0KICAgICAgICB9IGNhdGNoIChTUUxFeGNlcHRpb24gZSkgew0KICAgICAgICAgICAgbG9nLmVycm9yKCJGYWlsZWQgdG8gZ2V0IHN0YXRzIiwgZSk7DQogICAgICAgIH0NCiAgICB9DQp9DQpgYGANCg0KIyMg0KfQtdC6LdC70LjRgdGCINC+0L/RgtC40LzQuNC30LDRhtC40LgNCi0gWyBdIFdBTCBtb2RlINCy0LrQu9GO0YfRkdC9Pw0KLSBbIF0g0JLRgdC1IEZLINC/0YDQvtC40L3QtNC10LrRgdC40YDQvtCy0LDQvdGLPw0KLSBbIF0g0JXRgdGC0Ywg0LrQvtC80L/QvtC30LjRgtC90YvQtSDQuNC90LTQtdC60YHRiyDQtNC70Y8g0YfQsNGB0YLRi9GFINC30LDQv9GA0L7RgdC+0LI/DQotIFsgXSBGVFM1INC90LDRgdGC0YDQvtC10L0g0LTQu9GPINGC0LXQutGB0YLQvtCy0L7Qs9C+INC/0L7QuNGB0LrQsD8NCi0gWyBdINCY0YHQv9C+0LvRjNC30YPQtdGC0YHRjyBwYWdpbmF0aW9uINC00LvRjyDQsdC+0LvRjNGI0LjRhSDQstGL0LHQvtGA0L7Quj8NCi0gWyBdINCY0LfQsdC10LPQsNC10LwgU0VMRUNUICo/DQotIFsgXSBIaWthcmlDUCDQvdCw0YHRgtGA0L7QtdC9ICjQvdC1INGB0LvQuNGI0LrQvtC8INCx0L7Qu9GM0YjQvtC5IHBvb2wpPw0KLSBbIF0g0JXRgdGC0Ywg0LzQvtC90LjRgtC+0YDQuNC90LMg0YDQsNC30LzQtdGA0LAg0JHQlD8NCi0gWyBdINCf0YDQvtCy0LXQtNGR0L0gRVhQTEFJTiBRVUVSWSBQTEFOINC00LvRjyDQutGA0LjRgtC40YfQvdGL0YUg0LfQsNC/0YDQvtGB0L7Qsj8NCg0KIyMg0KHQstGP0LfQsNC90L3Ri9C1IHNraWxscw0KLSBbMDEtZGF0YWJhc2UtZGVzaWduXSguLi8wMS1kYXRhYmFzZS1kZXNpZ24vU0tJTEwubWQpDQotIFswMy1hdWRpdC10cmFpbF0oLi4vMDMtYXVkaXQtdHJhaWwvU0tJTEwubWQp
+---
+name: sqlite-optimization
+description: Оптимизация SQLite для быстрого поиска и фильтрации
+version: 1.0
+tags: [sqlite, performance, optimization, fts5, pragma]
+triggers:
+  - медленно работает
+  - оптимизация БД
+  - быстрый поиск
+  - индекс
+  - pragma
+---
+
+# SQLite Optimization Skill
+
+## Назначение
+Настройка SQLite для максимальной производительности при поиске и фильтрации 
+параметров радиоизлучений (ключевое требование проекта).
+
+## Когда применять
+- Поиск/фильтрация работают медленно
+- Настройка новой БД
+- Оптимизация существующей БД
+- Внедрение полнотекстового поиска
+
+## Обязательные PRAGMA настройки
+
+```java
+@Component
+public class SQLiteOptimizer {
+    
+    @Autowired
+    private DataSource dataSource;
+    
+    @PostConstruct
+    public void optimize() {
+        try (Connection conn = dataSource.getConnection();
+             Statement stmt = conn.createStatement()) {
+            
+            // 1. WAL mode — параллельное чтение/запись (КРИТИЧНО для 3 пользователей)
+            stmt.execute("PRAGMA journal_mode=WAL");
+            
+            // 2. Увеличенный кэш страниц (по умолчанию 2000, ставим 10000)
+            stmt.execute("PRAGMA cache_size=10000");
+            
+            // 3. Баланс скорости и надёжности
+            stmt.execute("PRAGMA synchronous=NORMAL");
+            
+            // 4. Memory-mapped I/O для больших файлов
+            stmt.execute("PRAGMA mmap_size=268435456");  // 256 MB
+            
+            // 5. Временные данные в RAM
+            stmt.execute("PRAGMA temp_store=MEMORY");
+            
+            // 6. Обязательная проверка FK
+            stmt.execute("PRAGMA foreign_keys=ON");
+            
+            // 7. Оптимизация busy timeout (30 сек)
+            stmt.execute("PRAGMA busy_timeout=30000");
+            
+        } catch (SQLException e) {
+            log.error("SQLite optimization failed", e);
+        }
+    }
+}
+```
+
+## Индексы — стратегия
+
+### Правило 1: Индексировать всё, что в WHERE/JOIN/ORDER BY
+
+```sql
+-- Обязательные индексы
+CREATE INDEX idx_emissions_frequency ON radio_emissions(frequency_mhz);
+CREATE INDEX idx_emissions_satellite ON radio_emissions(satellite_system_id);
+CREATE INDEX idx_emissions_date ON radio_emissions(measurement_date);
+CREATE INDEX idx_emissions_classification ON radio_emissions(classification);
+CREATE INDEX idx_emissions_deleted ON radio_emissions(is_deleted);
+```
+
+### Правило 2: Композитные индексы для типичных запросов
+
+```sql
+-- Частый запрос: "покажи все излучения спутника X, отсортированные по частоте"
+CREATE INDEX idx_emissions_sat_freq ON radio_emissions(satellite_system_id, frequency_mhz);
+
+-- Частый запрос: "поиск по диапазону частот за период"
+CREATE INDEX idx_emissions_freq_date ON radio_emissions(frequency_mhz, measurement_date);
+```
+
+### Правило 3: Частичные индексы
+
+```sql
+-- Индекс только для активных записей (экономия места)
+CREATE INDEX idx_emissions_active ON radio_emissions(frequency_mhz) 
+WHERE is_deleted = 0;
+```
+
+## Full-Text Search (FTS5)
+
+### Создание виртуальной таблицы
+
+```sql
+CREATE VIRTUAL TABLE radio_emissions_fts USING fts5(
+    emission_name,
+    emission_code,
+    notes,
+    technical_parameters,
+    content='radio_emissions',
+    content_rowid='id',
+    tokenize='unicode61'  -- Поддержка Unicode
+);
+```
+
+### Триггеры синхронизации
+
+```sql
+-- INSERT
+CREATE TRIGGER emissions_fts_insert AFTER INSERT ON radio_emissions BEGIN
+    INSERT INTO radio_emissions_fts(rowid, emission_name, emission_code, notes, technical_parameters)
+    VALUES (new.id, new.emission_name, new.emission_code, new.notes, new.technical_parameters);
+END;
+
+-- DELETE
+CREATE TRIGGER emissions_fts_delete AFTER DELETE ON radio_emissions BEGIN
+    INSERT INTO radio_emissions_fts(radio_emissions_fts, rowid, emission_name, emission_code, notes, technical_parameters)
+    VALUES ('delete', old.id, old.emission_name, old.emission_code, old.notes, old.technical_parameters);
+END;
+
+-- UPDATE
+CREATE TRIGGER emissions_fts_update AFTER UPDATE ON radio_emissions BEGIN
+    INSERT INTO radio_emissions_fts(radio_emissions_fts, rowid, emission_name, emission_code, notes, technical_parameters)
+    VALUES ('delete', old.id, old.emission_name, old.emission_code, old.notes, old.technical_parameters);
+    INSERT INTO radio_emissions_fts(rowid, emission_name, emission_code, notes, technical_parameters)
+    VALUES (new.id, new.emission_name, new.emission_code, new.notes, new.technical_parameters);
+END;
+```
+
+### Использование в Java
+
+```java
+@Query(value = """
+    SELECT r.* FROM radio_emissions r
+    JOIN radio_emissions_fts fts ON r.id = fts.rowid
+    WHERE radio_emissions_fts MATCH :searchTerm
+    AND r.is_deleted = 0
+    ORDER BY rank
+    """, nativeQuery = true)
+List<RadioEmission> fullTextSearch(@Param("searchTerm") String searchTerm);
+```
+
+Примеры запросов:
+- `"частота 1000"` — поиск по всем полям
+- `"emission_name:GPS"` — поиск только в названии
+- `"код AND сигнал"` — булев поиск
+
+## Оптимизация запросов
+
+### Плохо: SELECT *
+
+```java
+// Загружает все поля, включая большие JSON
+@Query("SELECT r FROM RadioEmission r WHERE r.frequencyMhz BETWEEN :from AND :to")
+List<RadioEmission> findByFrequencyRange(BigDecimal from, BigDecimal to);
+```
+
+### Хорошо: только нужные поля
+
+```java
+@Query("SELECT r.id, r.emissionName, r.frequencyMhz, r.measurementDate " +
+       "FROM RadioEmission r " +
+       "WHERE r.frequencyMhz BETWEEN :from AND :to " +
+       "AND r.isDeleted = false " +
+       "ORDER BY r.frequencyMhz")
+List<Object[]> findBasicByFrequencyRange(BigDecimal from, BigDecimal to);
+```
+
+### Пагинация обязательна
+
+```java
+@Query("SELECT r FROM RadioEmission r WHERE r.isDeleted = false")
+Page<RadioEmission> findAllActive(Pageable pageable);
+
+// Использование:
+Page<RadioEmission> page = repository.findAllActive(PageRequest.of(0, 50));
+```
+
+## Connection Pool (HikariCP)
+
+```properties
+# application.properties
+spring.datasource.hikari.maximum-pool-size=5
+spring.datasource.hikari.minimum-idle=2
+spring.datasource.hikari.connection-timeout=30000
+spring.datasource.hikari.idle-timeout=600000
+spring.datasource.hikari.max-lifetime=1800000
+```
+
+Для SQLite не ставить слишком большой pool — SQLite плохо справляется с параллельной записью.
+
+## Мониторинг производительности
+
+### Анализ запросов
+
+```sql
+-- Посмотреть план запроса
+EXPLAIN QUERY PLAN 
+SELECT * FROM radio_emissions 
+WHERE frequency_mhz BETWEEN 100 AND 200 
+AND is_deleted = 0;
+```
+
+### Статистика
+
+```java
+@Component
+public class PerformanceMonitor {
+    
+    @Scheduled(fixedRate = 3600000)  // Каждый час
+    public void logStats() {
+        try (Connection conn = dataSource.getConnection();
+             Statement stmt = conn.createStatement()) {
+            
+            ResultSet rs = stmt.executeQuery("PRAGMA page_count");
+            long pageCount = rs.getLong(1);
+            
+            rs = stmt.executeQuery("PRAGMA page_size");
+            long pageSize = rs.getLong(1);
+            
+            long dbSizeMb = (pageCount * pageSize) / (1024 * 1024);
+            log.info("SQLite DB size: {} MB", dbSizeMb);
+            
+        } catch (SQLException e) {
+            log.error("Failed to get stats", e);
+        }
+    }
+}
+```
+
+## Чек-лист оптимизации
+- [ ] WAL mode включён?
+- [ ] Все FK проиндексированы?
+- [ ] Есть композитные индексы для частых запросов?
+- [ ] FTS5 настроен для текстового поиска?
+- [ ] Используется pagination для больших выборок?
+- [ ] Избегаем SELECT *?
+- [ ] HikariCP настроен (не слишком большой pool)?
+- [ ] Есть мониторинг размера БД?
+- [ ] Проведён EXPLAIN QUERY PLAN для критичных запросов?
+
+## Связанные skills
+- [01-database-design](../01-database-design/SKILL.md)
+- [03-audit-trail](../03-audit-trail/SKILL.md)

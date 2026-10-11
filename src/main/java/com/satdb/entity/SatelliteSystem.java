@@ -1,1 +1,189 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuQ2FzY2FkZVR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkNvbHVtbjsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRW50aXR5OwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnVtVHlwZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRW51bWVyYXRlZDsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuRmV0Y2hUeXBlOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5HZW5lcmF0ZWRWYWx1ZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuR2VuZXJhdGlvblR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLklkOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5JbmRleDsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuSm9pbkNvbHVtbjsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuTWFueVRvT25lOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5PbmVUb01hbnk7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLlRhYmxlOwoKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGU7CmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CgovKioKICog0KHQv9GD0YLQvdC40LrQvtCy0LDRjyDRgdC40YHRgtC10LzQsCAo0YLQsNCx0LvQuNGG0LAgc2F0ZWxsaXRlX3N5c3RlbXMg0LjQtyBza2lsbHMvMDEtZGF0YWJhc2UtZGVzaWduL1NLSUxMLm1kKS4KICogb3JiaXRhbF9wYXJhbWV0ZXJzIOKAlCBKU09OINCyIFRFWFQt0L/QvtC70LUgKNC/0YDQsNCy0LjQu9C+IDQ6INCz0LjQsdC60L7RgdGC0Ywg0YHRgtGA0YPQutGC0YPRgNGLKS4KICovCkBFbnRpdHkKQFRhYmxlKG5hbWUgPSAic2F0ZWxsaXRlX3N5c3RlbXMiLCBpbmRleGVzID0gewogICAgICAgIEBJbmRleChuYW1lID0gImlkeF9zYXRlbGxpdGVfbmFtZSIsIGNvbHVtbkxpc3QgPSAic3lzdGVtX25hbWUiKSwKICAgICAgICBASW5kZXgobmFtZSA9ICJpZHhfc2F0ZWxsaXRlX2NvZGUiLCBjb2x1bW5MaXN0ID0gInN5c3RlbV9jb2RlIiwgdW5pcXVlID0gdHJ1ZSksCiAgICAgICAgQEluZGV4KG5hbWUgPSAiaWR4X3NhdGVsbGl0ZV9zdGF0dXMiLCBjb2x1bW5MaXN0ID0gInN0YXR1cyIpLAogICAgICAgIEBJbmRleChuYW1lID0gImlkeF9zYXRlbGxpdGVfYmFuZCIsIGNvbHVtbkxpc3QgPSAiZnJlcXVlbmN5X2JhbmQiKSwKICAgICAgICBASW5kZXgobmFtZSA9ICJpZHhfc2F0ZWxsaXRlX2RlbGV0ZWQiLCBjb2x1bW5MaXN0ID0gImlzX2RlbGV0ZWQiKQp9KQpwdWJsaWMgY2xhc3MgU2F0ZWxsaXRlU3lzdGVtIGV4dGVuZHMgQXVkaXRhYmxlRW50aXR5IHsKCiAgICAvKiog0KHRgtCw0YLRg9GB0Ysg0YHQvtCz0LvQsNGB0L3QviBDSEVDSyAoc3RhdHVzIElOICgnQUNUSVZFJywnSU5BQ1RJVkUnLCdERUNPTU1JU1NJT05FRCcsJ1BMQU5ORUQnKSkuICovCiAgICBwdWJsaWMgZW51bSBTdGF0dXMgewogICAgICAgIEFDVElWRSwgSU5BQ1RJVkUsIERFQ09NTUlTU0lPTkVELCBQTEFOTkVECiAgICB9CgogICAgQElkCiAgICBAR2VuZXJhdGVkVmFsdWUoc3RyYXRlZ3kgPSBHZW5lcmF0aW9uVHlwZS5JREVOVElUWSkKICAgIHByaXZhdGUgTG9uZyBpZDsKCiAgICBAQ29sdW1uKG5hbWUgPSAic3lzdGVtX25hbWUiLCBudWxsYWJsZSA9IGZhbHNlLCBsZW5ndGggPSAyMDApCiAgICBwcml2YXRlIFN0cmluZyBzeXN0ZW1OYW1lOwoKICAgIEBDb2x1bW4obmFtZSA9ICJzeXN0ZW1fY29kZSIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDUwLCB1bmlxdWUgPSB0cnVlKQogICAgcHJpdmF0ZSBTdHJpbmcgc3lzdGVtQ29kZTsKCiAgICBAQ29sdW1uKG5hbWUgPSAiZGVzY3JpcHRpb24iLCBjb2x1bW5EZWZpbml0aW9uID0gIlRFWFQiKQogICAgcHJpdmF0ZSBTdHJpbmcgZGVzY3JpcHRpb247CgogICAgLyoqIEpTT046INC+0YDQsdC40YLQsNC70YzQvdGL0LUg0L/QsNGA0LDQvNC10YLRgNGLICjQvdC1INC40L3QtNC10LrRgdC40YDRg9C10YLRgdGPINC90LDQv9GA0Y/QvNGD0Y4pLiAqLwogICAgQENvbHVtbihuYW1lID0gIm9yYml0YWxfcGFyYW1ldGVycyIsIGNvbHVtbkRlZmluaXRpb24gPSAiVEVYVCIpCiAgICBwcml2YXRlIFN0cmluZyBvcmJpdGFsUGFyYW1ldGVyczsKCiAgICBAQ29sdW1uKG5hbWUgPSAiZnJlcXVlbmN5X2JhbmQiLCBsZW5ndGggPSA1MCkKICAgIHByaXZhdGUgU3RyaW5nIGZyZXF1ZW5jeUJhbmQ7CgogICAgQENvbHVtbihuYW1lID0gImxhdW5jaF9kYXRlIikKICAgIHByaXZhdGUgTG9jYWxEYXRlIGxhdW5jaERhdGU7CgogICAgQEVudW1lcmF0ZWQoRW51bVR5cGUuU1RSSU5HKQogICAgQENvbHVtbihuYW1lID0gInN0YXR1cyIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDMwKQogICAgcHJpdmF0ZSBTdGF0dXMgc3RhdHVzID0gU3RhdHVzLkFDVElWRTsKCiAgICBAQ29sdW1uKG5hbWUgPSAiY291bnRyeSIsIGxlbmd0aCA9IDEwMCkKICAgIHByaXZhdGUgU3RyaW5nIGNvdW50cnk7CgogICAgQENvbHVtbihuYW1lID0gIm9wZXJhdG9yIiwgbGVuZ3RoID0gMjAwKQogICAgcHJpdmF0ZSBTdHJpbmcgb3BlcmF0b3I7CgogICAgLyoqIGNyZWF0ZWRfYnkg4oCUINC+0LHRj9C30LDRgtC10LvRjNC90L7QtSBhdWRpdC3Qv9C+0LvQtSAo0L/RgNCw0LLQuNC70L4gMSkuICovCiAgICBATWFueVRvT25lKGZldGNoID0gRmV0Y2hUeXBlLkxBWlkpCiAgICBASm9pbkNvbHVtbihuYW1lID0gImNyZWF0ZWRfYnkiLCBmb3JlaWduS2V5ID0gQGpha2FydGEucGVyc2lzdGVuY2UuRm9yZWlnbktleShuYW1lID0gImZrX3NhdGVsbGl0ZV9jcmVhdGVkX2J5IikpCiAgICBwcml2YXRlIFVzZXIgY3JlYXRlZEJ5OwoKICAgIC8qKiAxOk4g0YHQv9GD0YLQvdC40LrQvtCy0LDRjyDRgdC40YHRgtC10LzQsCAtPiDRgNCw0LTQuNC+0LjQt9C70YPRh9C10L3QuNGPICjRgtCw0LHQu9C40YbQsCByYWRpb19lbWlzc2lvbnMpLiAqLwogICAgQE9uZVRvTWFueShtYXBwZWRCeSA9ICJzYXRlbGxpdGVTeXN0ZW0iLCBjYXNjYWRlID0gQ2FzY2FkZVR5cGUuQUxMLCBvcnBoYW5SZW1vdmFsID0gdHJ1ZSwgZmV0Y2ggPSBGZXRjaFR5cGUuTEFaWSkKICAgIHByaXZhdGUgTGlzdDxSYWRpb0VtaXNzaW9uPiBlbWlzc2lvbnMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCiAgICBwdWJsaWMgTG9uZyBnZXRJZCgpIHsKICAgICAgICByZXR1cm4gaWQ7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0SWQoTG9uZyBpZCkgewogICAgICAgIHRoaXMuaWQgPSBpZDsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldFN5c3RlbU5hbWUoKSB7CiAgICAgICAgcmV0dXJuIHN5c3RlbU5hbWU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0U3lzdGVtTmFtZShTdHJpbmcgc3lzdGVtTmFtZSkgewogICAgICAgIHRoaXMuc3lzdGVtTmFtZSA9IHN5c3RlbU5hbWU7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRTeXN0ZW1Db2RlKCkgewogICAgICAgIHJldHVybiBzeXN0ZW1Db2RlOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFN5c3RlbUNvZGUoU3RyaW5nIHN5c3RlbUNvZGUpIHsKICAgICAgICB0aGlzLnN5c3RlbUNvZGUgPSBzeXN0ZW1Db2RlOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0RGVzY3JpcHRpb24oKSB7CiAgICAgICAgcmV0dXJuIGRlc2NyaXB0aW9uOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldERlc2NyaXB0aW9uKFN0cmluZyBkZXNjcmlwdGlvbikgewogICAgICAgIHRoaXMuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbjsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldE9yYml0YWxQYXJhbWV0ZXJzKCkgewogICAgICAgIHJldHVybiBvcmJpdGFsUGFyYW1ldGVyczsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRPcmJpdGFsUGFyYW1ldGVycyhTdHJpbmcgb3JiaXRhbFBhcmFtZXRlcnMpIHsKICAgICAgICB0aGlzLm9yYml0YWxQYXJhbWV0ZXJzID0gb3JiaXRhbFBhcmFtZXRlcnM7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRGcmVxdWVuY3lCYW5kKCkgewogICAgICAgIHJldHVybiBmcmVxdWVuY3lCYW5kOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldEZyZXF1ZW5jeUJhbmQoU3RyaW5nIGZyZXF1ZW5jeUJhbmQpIHsKICAgICAgICB0aGlzLmZyZXF1ZW5jeUJhbmQgPSBmcmVxdWVuY3lCYW5kOwogICAgfQoKICAgIHB1YmxpYyBMb2NhbERhdGUgZ2V0TGF1bmNoRGF0ZSgpIHsKICAgICAgICByZXR1cm4gbGF1bmNoRGF0ZTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRMYXVuY2hEYXRlKExvY2FsRGF0ZSBsYXVuY2hEYXRlKSB7CiAgICAgICAgdGhpcy5sYXVuY2hEYXRlID0gbGF1bmNoRGF0ZTsKICAgIH0KCiAgICBwdWJsaWMgU3RhdHVzIGdldFN0YXR1cygpIHsKICAgICAgICByZXR1cm4gc3RhdHVzOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFN0YXR1cyhTdGF0dXMgc3RhdHVzKSB7CiAgICAgICAgdGhpcy5zdGF0dXMgPSBzdGF0dXM7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRDb3VudHJ5KCkgewogICAgICAgIHJldHVybiBjb3VudHJ5OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldENvdW50cnkoU3RyaW5nIGNvdW50cnkpIHsKICAgICAgICB0aGlzLmNvdW50cnkgPSBjb3VudHJ5OwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0T3BlcmF0b3IoKSB7CiAgICAgICAgcmV0dXJuIG9wZXJhdG9yOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldE9wZXJhdG9yKFN0cmluZyBvcGVyYXRvcikgewogICAgICAgIHRoaXMub3BlcmF0b3IgPSBvcGVyYXRvcjsKICAgIH0KCiAgICBwdWJsaWMgVXNlciBnZXRDcmVhdGVkQnkoKSB7CiAgICAgICAgcmV0dXJuIGNyZWF0ZWRCeTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDcmVhdGVkQnkoVXNlciBjcmVhdGVkQnkpIHsKICAgICAgICB0aGlzLmNyZWF0ZWRCeSA9IGNyZWF0ZWRCeTsKICAgIH0KCiAgICBwdWJsaWMgTGlzdDxSYWRpb0VtaXNzaW9uPiBnZXRFbWlzc2lvbnMoKSB7CiAgICAgICAgcmV0dXJuIGVtaXNzaW9uczsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRFbWlzc2lvbnMoTGlzdDxSYWRpb0VtaXNzaW9uPiBlbWlzc2lvbnMpIHsKICAgICAgICB0aGlzLmVtaXNzaW9ucyA9IGVtaXNzaW9uczsKICAgIH0KCiAgICAvKiog0JLRgdC/0L7QvNC+0LPQsNGC0LXQu9GM0L3Ri9C5INC80LXRgtC+0LQg0LTQu9GPINC/0L7QtNC00LXRgNC20LDQvdC40Y8g0LTQstGD0YHRgtC+0YDQvtC90L3QtdC5INGB0LLRj9C30LguICovCiAgICBwdWJsaWMgdm9pZCBhZGRFbWlzc2lvbihSYWRpb0VtaXNzaW9uIGVtaXNzaW9uKSB7CiAgICAgICAgZW1pc3Npb25zLmFkZChlbWlzc2lvbik7CiAgICAgICAgZW1pc3Npb24uc2V0U2F0ZWxsaXRlU3lzdGVtKHRoaXMpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlbW92ZUVtaXNzaW9uKFJhZGlvRW1pc3Npb24gZW1pc3Npb24pIHsKICAgICAgICBlbWlzc2lvbnMucmVtb3ZlKGVtaXNzaW9uKTsKICAgICAgICBlbWlzc2lvbi5zZXRTYXRlbGxpdGVTeXN0ZW0obnVsbCk7CiAgICB9Cn0K
+package com.satdb.entity;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Index;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Спутниковая система (таблица satellite_systems из skills/01-database-design/SKILL.md).
+ * orbital_parameters — JSON в TEXT-поле (правило 4: гибкость структуры).
+ */
+@Entity
+@Table(name = "satellite_systems", indexes = {
+        @Index(name = "idx_satellite_name", columnList = "system_name"),
+        @Index(name = "idx_satellite_code", columnList = "system_code", unique = true),
+        @Index(name = "idx_satellite_status", columnList = "status"),
+        @Index(name = "idx_satellite_band", columnList = "frequency_band"),
+        @Index(name = "idx_satellite_deleted", columnList = "is_deleted")
+})
+public class SatelliteSystem extends AuditableEntity {
+
+    /** Статусы согласно CHECK (status IN ('ACTIVE','INACTIVE','DECOMMISSIONED','PLANNED')). */
+    public enum Status {
+        ACTIVE, INACTIVE, DECOMMISSIONED, PLANNED
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "system_name", nullable = false, length = 200)
+    private String systemName;
+
+    @Column(name = "system_code", nullable = false, length = 50, unique = true)
+    private String systemCode;
+
+    @Column(name = "description", columnDefinition = "TEXT")
+    private String description;
+
+    /** JSON: орбитальные параметры (не индексируется напрямую). */
+    @Column(name = "orbital_parameters", columnDefinition = "TEXT")
+    private String orbitalParameters;
+
+    @Column(name = "frequency_band", length = 50)
+    private String frequencyBand;
+
+    @Column(name = "launch_date")
+    private LocalDate launchDate;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status", nullable = false, length = 30)
+    private Status status = Status.ACTIVE;
+
+    @Column(name = "country", length = 100)
+    private String country;
+
+    @Column(name = "operator", length = 200)
+    private String operator;
+
+    /** created_by — обязательное audit-поле (правило 1). */
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "created_by", foreignKey = @jakarta.persistence.ForeignKey(name = "fk_satellite_created_by"))
+    private User createdBy;
+
+    /** 1:N спутниковая система -> радиоизлучения (таблица radio_emissions). */
+    @OneToMany(mappedBy = "satelliteSystem", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<RadioEmission> emissions = new ArrayList<>();
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getSystemName() {
+        return systemName;
+    }
+
+    public void setSystemName(String systemName) {
+        this.systemName = systemName;
+    }
+
+    public String getSystemCode() {
+        return systemCode;
+    }
+
+    public void setSystemCode(String systemCode) {
+        this.systemCode = systemCode;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getOrbitalParameters() {
+        return orbitalParameters;
+    }
+
+    public void setOrbitalParameters(String orbitalParameters) {
+        this.orbitalParameters = orbitalParameters;
+    }
+
+    public String getFrequencyBand() {
+        return frequencyBand;
+    }
+
+    public void setFrequencyBand(String frequencyBand) {
+        this.frequencyBand = frequencyBand;
+    }
+
+    public LocalDate getLaunchDate() {
+        return launchDate;
+    }
+
+    public void setLaunchDate(LocalDate launchDate) {
+        this.launchDate = launchDate;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getOperator() {
+        return operator;
+    }
+
+    public void setOperator(String operator) {
+        this.operator = operator;
+    }
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public List<RadioEmission> getEmissions() {
+        return emissions;
+    }
+
+    public void setEmissions(List<RadioEmission> emissions) {
+        this.emissions = emissions;
+    }
+
+    /** Вспомогательный метод для поддержания двусторонней связи. */
+    public void addEmission(RadioEmission emission) {
+        emissions.add(emission);
+        emission.setSatelliteSystem(this);
+    }
+
+    public void removeEmission(RadioEmission emission) {
+        emissions.remove(emission);
+        emission.setSatelliteSystem(null);
+    }
+}

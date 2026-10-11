@@ -1,1 +1,225 @@
-LS0tDQpuYW1lOiBkb2N1bWVudGF0aW9uLWdlbmVyYXRpb24NCmRlc2NyaXB0aW9uOiDQkNCy0YLQvtCz0LXQvdC10YDQsNGG0LjRjyDQtNC+0LrRg9C80LXQvdGC0LDRhtC40LggQVBJINC4INGB0YXQtdC80Ysg0JHQlA0KdmVyc2lvbjogMS4wDQp0YWdzOiBbZG9jdW1lbnRhdGlvbiwgc3dhZ2dlciwgb3BlbmFwaSwgc2NoZW1hXQ0KdHJpZ2dlcnM6DQogIC0g0LTQvtC60YPQvNC10L3RgtCw0YbQuNGPDQogIC0gc3dhZ2dlcg0KICAtIG9wZW5hcGkNCiAgLSDQvtC/0LjRgdCw0L3QuNC1IEFQSQ0KLS0tDQoNCiMgRG9jdW1lbnRhdGlvbiBHZW5lcmF0aW9uIFNraWxsDQoNCiMjINCd0LDQt9C90LDRh9C10L3QuNC1DQrQkNCy0YLQvtC80LDRgtC40YfQtdGB0LrQsNGPINCz0LXQvdC10YDQsNGG0LjRjyDQtNC+0LrRg9C80LXQvdGC0LDRhtC40LggQVBJIChPcGVuQVBJL1N3YWdnZXIpINC4INGB0YXQtdC80Ysg0JHQlC4NCg0KIyMg0JrQvtCz0LTQsCDQv9GA0LjQvNC10L3Rj9GC0YwNCi0g0J3QsNGB0YLRgNC+0LnQutCwINC90L7QstC+0LPQviDQv9GA0L7QtdC60YLQsA0KLSDQlNC+0LHQsNCy0LvQtdC90LjQtSDQvdC+0LLRi9GFIGVuZHBvaW50J9C+0LINCi0g0JPQtdC90LXRgNCw0YbQuNGPINC00L7QutGD0LzQtdC90YLQsNGG0LjQuCDQtNC70Y8g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkNCi0g0KDQtdCy0YzRjiBBUEkNCg0KIyMgT3BlbkFQSS9Td2FnZ2VyINC00LvRjyBSRVNUIEFQSQ0KDQojIyMg0JfQsNCy0LjRgdC40LzQvtGB0YLRjA0KDQpgYGB4bWwNCjxkZXBlbmRlbmN5Pg0KICAgIDxncm91cElkPm9yZy5zcHJpbmdkb2M8L2dyb3VwSWQ+DQogICAgPGFydGlmYWN0SWQ+c3ByaW5nZG9jLW9wZW5hcGktc3RhcnRlci13ZWJtdmMtdWk8L2FydGlmYWN0SWQ+DQogICAgPHZlcnNpb24+Mi4yLjA8L3ZlcnNpb24+DQo8L2RlcGVuZGVuY3k+DQpgYGANCg0KIyMjINCa0L7QvdGE0LjQs9GD0YDQsNGG0LjRjw0KDQpgYGBqYXZhDQpAQ29uZmlndXJhdGlvbg0KcHVibGljIGNsYXNzIE9wZW5BcGlDb25maWcgew0KICAgIA0KICAgIEBCZWFuDQogICAgcHVibGljIE9wZW5BUEkgY3VzdG9tT3BlbkFQSSgpIHsNCiAgICAgICAgcmV0dXJuIG5ldyBPcGVuQVBJKCkNCiAgICAgICAgICAgIC5pbmZvKG5ldyBJbmZvKCkNCiAgICAgICAgICAgICAgICAudGl0bGUoIlNhdGVsbGl0ZSBSYWRpbyBFbWlzc2lvbiBEYXRhYmFzZSBBUEkiKQ0KICAgICAgICAgICAgICAgIC52ZXJzaW9uKCIxLjAuMCIpDQogICAgICAgICAgICAgICAgLmRlc2NyaXB0aW9uKCJBUEkg0LTQu9GPINGD0L/RgNCw0LLQu9C10L3QuNGPINCx0LDQt9C+0Lkg0LTQsNC90L3Ri9GFINGB0L/Rg9GC0L3QuNC60L7QstGL0YUg0YHQuNGB0YLQtdC8INC4INGA0LDQtNC40L7QuNC30LvRg9GH0LXQvdC40LkiKQ0KICAgICAgICAgICAgICAgIC5jb250YWN0KG5ldyBDb250YWN0KCkNCiAgICAgICAgICAgICAgICAgICAgLm5hbWUoIlNwYWNlIEluZHVzdHJ5IFRlYW0iKQ0KICAgICAgICAgICAgICAgICAgICAuZW1haWwoImRldkBzcGFjZS1pbmR1c3RyeS5sb2NhbCIpKSkNCiAgICAgICAgICAgIC5hZGRTZWN1cml0eUl0ZW0obmV3IFNlY3VyaXR5UmVxdWlyZW1lbnQoKS5hZGRMaXN0KCJCZWFyZXIiKSkNCiAgICAgICAgICAgIC5jb21wb25lbnRzKG5ldyBDb21wb25lbnRzKCkNCiAgICAgICAgICAgICAgICAuYWRkU2VjdXJpdHlTY2hlbWVzKCJCZWFyZXIiLA0KICAgICAgICAgICAgICAgICAgICBuZXcgU2VjdXJpdHlTY2hlbWUoKQ0KICAgICAgICAgICAgICAgICAgICAgICAgLnR5cGUoU2VjdXJpdHlTY2hlbWUuVHlwZS5IVFRQKQ0KICAgICAgICAgICAgICAgICAgICAgICAgLnNjaGVtZSgiYmVhcmVyIikNCiAgICAgICAgICAgICAgICAgICAgICAgIC5iZWFyZXJGb3JtYXQoIkpXVCIpKSk7DQogICAgfQ0KfQ0KYGBgDQoNCiMjIyDQkNC90L3QvtGC0LDRhtC40Lgg0LTQu9GPIENvbnRyb2xsZXJzDQoNCmBgYGphdmENCkBSZXN0Q29udHJvbGxlcg0KQFJlcXVlc3RNYXBwaW5nKCIvYXBpL3JhZGlvLWVtaXNzaW9ucyIpDQpAVGFnKG5hbWUgPSAiUmFkaW8gRW1pc3Npb25zIiwgZGVzY3JpcHRpb24gPSAi0KPQv9GA0LDQstC70LXQvdC40LUg0YDQsNC00LjQvtC40LfQu9GD0YfQtdC90LjRj9C80LgiKQ0KcHVibGljIGNsYXNzIFJhZGlvRW1pc3Npb25Db250cm9sbGVyIHsNCiAgICANCiAgICBAT3BlcmF0aW9uKA0KICAgICAgICBzdW1tYXJ5ID0gItCf0L7QuNGB0Log0YDQsNC00LjQvtC40LfQu9GD0YfQtdC90LjQuSIsDQogICAgICAgIGRlc2NyaXB0aW9uID0gItCf0L7QuNGB0Log0Lgg0YTQuNC70YzRgtGA0LDRhtC40Y8g0L/QviDRh9Cw0YHRgtC+0YLQtSwg0YHQv9GD0YLQvdC40LrQvtCy0L7QuSDRgdC40YHRgtC10LzQtSwg0LTQsNGC0LUiDQogICAgKQ0KICAgIEBBcGlSZXNwb25zZXMoew0KICAgICAgICBAQXBpUmVzcG9uc2UocmVzcG9uc2VDb2RlID0gIjIwMCIsIGRlc2NyaXB0aW9uID0gItCj0YHQv9C10YjQvdGL0Lkg0L/QvtC40YHQuiIpLA0KICAgICAgICBAQXBpUmVzcG9uc2UocmVzcG9uc2VDb2RlID0gIjQwMCIsIGRlc2NyaXB0aW9uID0gItCd0LXQstC10YDQvdGL0LUg0L/QsNGA0LDQvNC10YLRgNGLIiksDQogICAgICAgIEBBcGlSZXNwb25zZShyZXNwb25zZUNvZGUgPSAiNDAzIiwgZGVzY3JpcHRpb24gPSAi0JTQvtGB0YLRg9C/INC30LDQv9GA0LXRidGR0L0iKQ0KICAgIH0pDQogICAgQEdldE1hcHBpbmcoIi9zZWFyY2giKQ0KICAgIHB1YmxpYyBQYWdlPFJhZGlvRW1pc3Npb25EdG8+IHNlYXJjaCgNCiAgICAgICAgQFBhcmFtZXRlcihkZXNjcmlwdGlvbiA9ICLQp9Cw0YHRgtC+0YLQsCDQvtGCIChNSHopIikgDQogICAgICAgIEBSZXF1ZXN0UGFyYW0ocmVxdWlyZWQgPSBmYWxzZSkgQmlnRGVjaW1hbCBmcmVxdWVuY3lGcm9tLA0KICAgICAgICANCiAgICAgICAgQFBhcmFtZXRlcihkZXNjcmlwdGlvbiA9ICLQp9Cw0YHRgtC+0YLQsCDQtNC+IChNSHopIikNCiAgICAgICAgQFJlcXVlc3RQYXJhbShyZXF1aXJlZCA9IGZhbHNlKSBCaWdEZWNpbWFsIGZyZXF1ZW5jeVRvLA0KICAgICAgICANCiAgICAgICAgQFBhcmFtZXRlcihkZXNjcmlwdGlvbiA9ICJJRCDRgdC/0YPRgtC90LjQutC+0LLQvtC5INGB0LjRgdGC0LXQvNGLIikNCiAgICAgICAgQFJlcXVlc3RQYXJhbShyZXF1aXJlZCA9IGZhbHNlKSBMb25nIHNhdGVsbGl0ZVN5c3RlbUlkLA0KICAgICAgICANCiAgICAgICAgUGFnZWFibGUgcGFnZWFibGUNCiAgICApIHsgLi4uIH0NCiAgICANCiAgICBAT3BlcmF0aW9uKHN1bW1hcnkgPSAi0KHQvtC30LTQsNC90LjQtSDRgNCw0LTQuNC+0LjQt9C70YPRh9C10L3QuNGPIikNCiAgICBAUG9zdE1hcHBpbmcNCiAgICBAUmVzcG9uc2VTdGF0dXMoSHR0cFN0YXR1cy5DUkVBVEVEKQ0KICAgIHB1YmxpYyBSYWRpb0VtaXNzaW9uRHRvIGNyZWF0ZSgNCiAgICAgICAgQFJlcXVlc3RCb2R5IEBWYWxpZCBDcmVhdGVFbWlzc2lvbkR0byBkdG8NCiAgICApIHsgLi4uIH0NCn0NCmBgYA0KDQojIyMg0JDQvdC90L7RgtCw0YbQuNC4INC00LvRjyBEVE8NCg0KYGBgamF2YQ0KQFNjaGVtYShkZXNjcmlwdGlvbiA9ICJEVE8g0LTQu9GPINGB0L7Qt9C00LDQvdC40Y8g0YDQsNC00LjQvtC40LfQu9GD0YfQtdC90LjRjyIpDQpwdWJsaWMgY2xhc3MgQ3JlYXRlRW1pc3Npb25EdG8gew0KICAgIA0KICAgIEBTY2hlbWEoZGVzY3JpcHRpb24gPSAiSUQg0YHQv9GD0YLQvdC40LrQvtCy0L7QuSDRgdC40YHRgtC10LzRiyIsIGV4YW1wbGUgPSAiMSIsIHJlcXVpcmVkID0gdHJ1ZSkNCiAgICBATm90TnVsbA0KICAgIHByaXZhdGUgTG9uZyBzYXRlbGxpdGVTeXN0ZW1JZDsNCiAgICANCiAgICBAU2NoZW1hKGRlc2NyaXB0aW9uID0gItCd0LDQt9Cy0LDQvdC40LUg0LjQt9C70YPRh9C10L3QuNGPIiwgZXhhbXBsZSA9ICJHUFMgTDEgQy9BIikNCiAgICBATm90QmxhbmsNCiAgICBAU2l6ZShtYXggPSAyMDApDQogICAgcHJpdmF0ZSBTdHJpbmcgZW1pc3Npb25OYW1lOw0KICAgIA0KICAgIEBTY2hlbWEoZGVzY3JpcHRpb24gPSAi0KfQsNGB0YLQvtGC0LAg0LIgTUh6IiwgZXhhbXBsZSA9ICIxNTc1LjQyIikNCiAgICBATm90TnVsbA0KICAgIEBEZWNpbWFsTWluKCIwLjAiKQ0KICAgIHByaXZhdGUgQmlnRGVjaW1hbCBmcmVxdWVuY3lNaHo7DQogICAgDQogICAgQFNjaGVtYShkZXNjcmlwdGlvbiA9ICLQotC40L8g0LzQvtC00YPQu9GP0YbQuNC4IiwgZXhhbXBsZSA9ICJDRE1BIikNCiAgICBwcml2YXRlIFN0cmluZyBtb2R1bGF0aW9uVHlwZTsNCn0NCmBgYA0KDQojIyDQlNC+0LrRg9C80LXQvdGC0LDRhtC40Y8g0YHRhdC10LzRiyDQkdCUDQoNCiMjIyDQk9C10L3QtdGA0LDRgtC+0YAg0YHRhdC10LzRiw0KDQpgYGBqYXZhDQpAQ29tcG9uZW50DQpwdWJsaWMgY2xhc3MgU2NoZW1hRG9jdW1lbnRhdGlvbkdlbmVyYXRvciB7DQogICAgDQogICAgQEF1dG93aXJlZA0KICAgIHByaXZhdGUgRGF0YVNvdXJjZSBkYXRhU291cmNlOw0KICAgIA0KICAgIHB1YmxpYyB2b2lkIGdlbmVyYXRlKCkgdGhyb3dzIFNRTEV4Y2VwdGlvbiB7DQogICAgICAgIHRyeSAoQ29ubmVjdGlvbiBjb25uID0gZGF0YVNvdXJjZS5nZXRDb25uZWN0aW9uKCkpIHsNCiAgICAgICAgICAgIERhdGFiYXNlTWV0YURhdGEgbWV0YSA9IGNvbm4uZ2V0TWV0YURhdGEoKTsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgU3RyaW5nQnVpbGRlciBkb2MgPSBuZXcgU3RyaW5nQnVpbGRlcigpOw0KICAgICAgICAgICAgZG9jLmFwcGVuZCgiIyBEYXRhYmFzZSBTY2hlbWEgRG9jdW1lbnRhdGlvblxuXG4iKTsNCiAgICAgICAgICAgIGRvYy5hcHBlbmQoIkdlbmVyYXRlZDogIikuYXBwZW5kKExvY2FsRGF0ZVRpbWUubm93KCkpLmFwcGVuZCgiXG5cbiIpOw0KICAgICAgICAgICAgDQogICAgICAgICAgICBSZXN1bHRTZXQgdGFibGVzID0gbWV0YS5nZXRUYWJsZXMobnVsbCwgbnVsbCwgIiUiLCBuZXcgU3RyaW5nW117IlRBQkxFIn0pOw0KICAgICAgICAgICAgd2hpbGUgKHRhYmxlcy5uZXh0KCkpIHsNCiAgICAgICAgICAgICAgICBTdHJpbmcgdGFibGVOYW1lID0gdGFibGVzLmdldFN0cmluZygiVEFCTEVfTkFNRSIpOw0KICAgICAgICAgICAgICAgIGRvYy5hcHBlbmQoIiMjICIpLmFwcGVuZCh0YWJsZU5hbWUpLmFwcGVuZCgiXG5cbiIpOw0KICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIC8vIENvbHVtbnMNCiAgICAgICAgICAgICAgICBSZXN1bHRTZXQgY29sdW1ucyA9IG1ldGEuZ2V0Q29sdW1ucyhudWxsLCBudWxsLCB0YWJsZU5hbWUsICIlIik7DQogICAgICAgICAgICAgICAgZG9jLmFwcGVuZCgifCBDb2x1bW4gfCBUeXBlIHwgTnVsbGFibGUgfCBEZWZhdWx0IHwgRGVzY3JpcHRpb24gfFxuIik7DQogICAgICAgICAgICAgICAgZG9jLmFwcGVuZCgifC0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfFxuIik7DQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgd2hpbGUgKGNvbHVtbnMubmV4dCgpKSB7DQogICAgICAgICAgICAgICAgICAgIGRvYy5hcHBlbmQoU3RyaW5nLmZvcm1hdCgifCAlcyB8ICVzIHwgJXMgfCAlcyB8ICVzIHxcbiIsDQogICAgICAgICAgICAgICAgICAgICAgICBjb2x1bW5zLmdldFN0cmluZygiQ09MVU1OX05BTUUiKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbHVtbnMuZ2V0U3RyaW5nKCJUWVBFX05BTUUiKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbHVtbnMuZ2V0U3RyaW5nKCJJU19OVUxMQUJMRSIpLA0KICAgICAgICAgICAgICAgICAgICAgICAgY29sdW1ucy5nZXRTdHJpbmcoIkNPTFVNTl9ERUYiKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbHVtbnMuZ2V0U3RyaW5nKCJSRU1BUktTIikpKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgLy8gSW5kZXhlcw0KICAgICAgICAgICAgICAgIFJlc3VsdFNldCBpbmRleGVzID0gbWV0YS5nZXRJbmRleEluZm8obnVsbCwgbnVsbCwgdGFibGVOYW1lLCBmYWxzZSwgZmFsc2UpOw0KICAgICAgICAgICAgICAgIGRvYy5hcHBlbmQoIlxuIyMjIEluZGV4ZXNcblxuIik7DQogICAgICAgICAgICAgICAgZG9jLmFwcGVuZCgifCBJbmRleCBOYW1lIHwgQ29sdW1uIHwgVW5pcXVlIHxcbiIpOw0KICAgICAgICAgICAgICAgIGRvYy5hcHBlbmQoInwtLS0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18XG4iKTsNCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICB3aGlsZSAoaW5kZXhlcy5uZXh0KCkpIHsNCiAgICAgICAgICAgICAgICAgICAgZG9jLmFwcGVuZChTdHJpbmcuZm9ybWF0KCJ8ICVzIHwgJXMgfCAlcyB8XG4iLA0KICAgICAgICAgICAgICAgICAgICAgICAgaW5kZXhlcy5nZXRTdHJpbmcoIklOREVYX05BTUUiKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4ZXMuZ2V0U3RyaW5nKCJDT0xVTU5fTkFNRSIpLA0KICAgICAgICAgICAgICAgICAgICAgICAgIWluZGV4ZXMuZ2V0Qm9vbGVhbigiTk9OX1VOSVFVRSIpKSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIGRvYy5hcHBlbmQoIlxuLS0tXG5cbiIpOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBGaWxlcy53cml0ZVN0cmluZyhQYXRoLm9mKCJkb2NzL0RBVEFCQVNFX1NDSEVNQS5tZCIpLCBkb2MudG9TdHJpbmcoKSk7DQogICAgICAgIH0NCiAgICB9DQp9DQpgYGANCg0KIyMjINCX0LDQv9GD0YHQuiDQs9C10L3QtdGA0LDRhtC40LgNCg0KYGBgamF2YQ0KQENvbXBvbmVudA0KcHVibGljIGNsYXNzIERvY3VtZW50YXRpb25SdW5uZXIgaW1wbGVtZW50cyBBcHBsaWNhdGlvblJ1bm5lciB7DQogICAgDQogICAgQEF1dG93aXJlZA0KICAgIHByaXZhdGUgU2NoZW1hRG9jdW1lbnRhdGlvbkdlbmVyYXRvciBnZW5lcmF0b3I7DQogICAgDQogICAgQFZhbHVlKCIke2RvY3MuZ2VuZXJhdGUtb24tc3RhcnQ6ZmFsc2V9IikNCiAgICBwcml2YXRlIGJvb2xlYW4gZ2VuZXJhdGVPblN0YXJ0Ow0KICAgIA0KICAgIEBPdmVycmlkZQ0KICAgIHB1YmxpYyB2b2lkIHJ1bihBcHBsaWNhdGlvbkFyZ3VtZW50cyBhcmdzKSB0aHJvd3MgRXhjZXB0aW9uIHsNCiAgICAgICAgaWYgKGdlbmVyYXRlT25TdGFydCkgew0KICAgICAgICAgICAgZ2VuZXJhdG9yLmdlbmVyYXRlKCk7DQogICAgICAgIH0NCiAgICB9DQp9DQpgYGANCg0KIyMg0JTQvtGB0YLRg9C/INC6INC00L7QutGD0LzQtdC90YLQsNGG0LjQuA0KDQotICoqU3dhZ2dlciBVSSoqOiBgaHR0cDovL2xvY2FsaG9zdDo4MDgwL3N3YWdnZXItdWkuaHRtbGANCi0gKipPcGVuQVBJIEpTT04qKjogYGh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC92My9hcGktZG9jc2ANCi0gKirQodGF0LXQvNCwINCR0JQqKjogYGRvY3MvREFUQUJBU0VfU0NIRU1BLm1kYA0KDQojIyDQp9C10Lot0LvQuNGB0YINCi0gWyBdINCS0YHQtSBjb250cm9sbGVycyDQvtC/0LjRgdCw0L3RiyBAVGFnINC4IEBPcGVyYXRpb24/DQotIFsgXSDQktGB0LUgRFRPINC40LzQtdGO0YIgQFNjaGVtYT8NCi0gWyBdINCS0YHQtSDQv9Cw0YDQsNC80LXRgtGA0Ysg0LjQvNC10Y7RgiBAUGFyYW1ldGVyPw0KLSBbIF0g0JLRgdC1INC+0YLQstC10YLRiyDQvtC/0LjRgdCw0L3RiyDQsiBAQXBpUmVzcG9uc2VzPw0KLSBbIF0gU3dhZ2dlciBVSSDQtNC+0YHRgtGD0L/QtdC9INC70L7QutCw0LvRjNC90L4/DQotIFsgXSDQk9C10L3QtdGA0LDRgtC+0YAg0YHRhdC10LzRiyDQkdCUINGA0LDQsdC+0YLQsNC10YI/DQotIFsgXSDQlNC+0LrRg9C80LXQvdGC0LDRhtC40Y8g0L7QsdC90L7QstC70Y/QtdGC0YHRjyDQv9GA0Lgg0LjQt9C80LXQvdC10L3QuNGP0YU/DQoNCiMjINCh0LLRj9C30LDQvdC90YvQtSBza2lsbHMNCi0gWzA2LXNwcmluZy1ib290LWFyY2hpdGVjdHVyZV0oLi4vMDYtc3ByaW5nLWJvb3QtYXJjaGl0ZWN0dXJlL1NLSUxMLm1kKQ==
+---
+name: documentation-generation
+description: Автогенерация документации API и схемы БД
+version: 1.0
+tags: [documentation, swagger, openapi, schema]
+triggers:
+  - документация
+  - swagger
+  - openapi
+  - описание API
+---
+
+# Documentation Generation Skill
+
+## Назначение
+Автоматическая генерация документации API (OpenAPI/Swagger) и схемы БД.
+
+## Когда применять
+- Настройка нового проекта
+- Добавление новых endpoint'ов
+- Генерация документации для пользователей
+- Ревью API
+
+## OpenAPI/Swagger для REST API
+
+### Зависимость
+
+```xml
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.2.0</version>
+</dependency>
+```
+
+### Конфигурация
+
+```java
+@Configuration
+public class OpenApiConfig {
+    
+    @Bean
+    public OpenAPI customOpenAPI() {
+        return new OpenAPI()
+            .info(new Info()
+                .title("Satellite Radio Emission Database API")
+                .version("1.0.0")
+                .description("API для управления базой данных спутниковых систем и радиоизлучений")
+                .contact(new Contact()
+                    .name("Space Industry Team")
+                    .email("dev@space-industry.local")))
+            .addSecurityItem(new SecurityRequirement().addList("Bearer"))
+            .components(new Components()
+                .addSecuritySchemes("Bearer",
+                    new SecurityScheme()
+                        .type(SecurityScheme.Type.HTTP)
+                        .scheme("bearer")
+                        .bearerFormat("JWT")));
+    }
+}
+```
+
+### Аннотации для Controllers
+
+```java
+@RestController
+@RequestMapping("/api/radio-emissions")
+@Tag(name = "Radio Emissions", description = "Управление радиоизлучениями")
+public class RadioEmissionController {
+    
+    @Operation(
+        summary = "Поиск радиоизлучений",
+        description = "Поиск и фильтрация по частоте, спутниковой системе, дате"
+    )
+    @ApiResponses({
+        @ApiResponse(responseCode = "200", description = "Успешный поиск"),
+        @ApiResponse(responseCode = "400", description = "Неверные параметры"),
+        @ApiResponse(responseCode = "403", description = "Доступ запрещён")
+    })
+    @GetMapping("/search")
+    public Page<RadioEmissionDto> search(
+        @Parameter(description = "Частота от (MHz)") 
+        @RequestParam(required = false) BigDecimal frequencyFrom,
+        
+        @Parameter(description = "Частота до (MHz)")
+        @RequestParam(required = false) BigDecimal frequencyTo,
+        
+        @Parameter(description = "ID спутниковой системы")
+        @RequestParam(required = false) Long satelliteSystemId,
+        
+        Pageable pageable
+    ) { ... }
+    
+    @Operation(summary = "Создание радиоизлучения")
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public RadioEmissionDto create(
+        @RequestBody @Valid CreateEmissionDto dto
+    ) { ... }
+}
+```
+
+### Аннотации для DTO
+
+```java
+@Schema(description = "DTO для создания радиоизлучения")
+public class CreateEmissionDto {
+    
+    @Schema(description = "ID спутниковой системы", example = "1", required = true)
+    @NotNull
+    private Long satelliteSystemId;
+    
+    @Schema(description = "Название излучения", example = "GPS L1 C/A")
+    @NotBlank
+    @Size(max = 200)
+    private String emissionName;
+    
+    @Schema(description = "Частота в MHz", example = "1575.42")
+    @NotNull
+    @DecimalMin("0.0")
+    private BigDecimal frequencyMhz;
+    
+    @Schema(description = "Тип модуляции", example = "CDMA")
+    private String modulationType;
+}
+```
+
+## Документация схемы БД
+
+### Генератор схемы
+
+```java
+@Component
+public class SchemaDocumentationGenerator {
+    
+    @Autowired
+    private DataSource dataSource;
+    
+    public void generate() throws SQLException {
+        try (Connection conn = dataSource.getConnection()) {
+            DatabaseMetaData meta = conn.getMetaData();
+            
+            StringBuilder doc = new StringBuilder();
+            doc.append("# Database Schema Documentation\n\n");
+            doc.append("Generated: ").append(LocalDateTime.now()).append("\n\n");
+            
+            ResultSet tables = meta.getTables(null, null, "%", new String[]{"TABLE"});
+            while (tables.next()) {
+                String tableName = tables.getString("TABLE_NAME");
+                doc.append("## ").append(tableName).append("\n\n");
+                
+                // Columns
+                ResultSet columns = meta.getColumns(null, null, tableName, "%");
+                doc.append("| Column | Type | Nullable | Default | Description |\n");
+                doc.append("|--------|------|----------|---------|-------------|\n");
+                
+                while (columns.next()) {
+                    doc.append(String.format("| %s | %s | %s | %s | %s |\n",
+                        columns.getString("COLUMN_NAME"),
+                        columns.getString("TYPE_NAME"),
+                        columns.getString("IS_NULLABLE"),
+                        columns.getString("COLUMN_DEF"),
+                        columns.getString("REMARKS")));
+                }
+                
+                // Indexes
+                ResultSet indexes = meta.getIndexInfo(null, null, tableName, false, false);
+                doc.append("\n### Indexes\n\n");
+                doc.append("| Index Name | Column | Unique |\n");
+                doc.append("|------------|--------|--------|\n");
+                
+                while (indexes.next()) {
+                    doc.append(String.format("| %s | %s | %s |\n",
+                        indexes.getString("INDEX_NAME"),
+                        indexes.getString("COLUMN_NAME"),
+                        !indexes.getBoolean("NON_UNIQUE")));
+                }
+                
+                doc.append("\n---\n\n");
+            }
+            
+            Files.writeString(Path.of("docs/DATABASE_SCHEMA.md"), doc.toString());
+        }
+    }
+}
+```
+
+### Запуск генерации
+
+```java
+@Component
+public class DocumentationRunner implements ApplicationRunner {
+    
+    @Autowired
+    private SchemaDocumentationGenerator generator;
+    
+    @Value("${docs.generate-on-start:false}")
+    private boolean generateOnStart;
+    
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        if (generateOnStart) {
+            generator.generate();
+        }
+    }
+}
+```
+
+## Доступ к документации
+
+- **Swagger UI**: `http://localhost:8080/swagger-ui.html`
+- **OpenAPI JSON**: `http://localhost:8080/v3/api-docs`
+- **Схема БД**: `docs/DATABASE_SCHEMA.md`
+
+## Чек-лист
+- [ ] Все controllers описаны @Tag и @Operation?
+- [ ] Все DTO имеют @Schema?
+- [ ] Все параметры имеют @Parameter?
+- [ ] Все ответы описаны в @ApiResponses?
+- [ ] Swagger UI доступен локально?
+- [ ] Генератор схемы БД работает?
+- [ ] Документация обновляется при изменениях?
+
+## Связанные skills
+- [06-spring-boot-architecture](../06-spring-boot-architecture/SKILL.md)

@@ -1,1 +1,253 @@
-LS0tDQpuYW1lOiBhdWRpdC10cmFpbA0KZGVzY3JpcHRpb246INCg0LXQsNC70LjQt9Cw0YbQuNGPINC40YHRgtC+0YDQuNC4INC40LfQvNC10L3QtdC90LjQuSDQtNC70Y8g0LLRgdC10YUg0L7Qv9C10YDQsNGG0LjQuSDRgSDQtNCw0L3QvdGL0LzQuA0KdmVyc2lvbjogMS4wDQp0YWdzOiBbYXVkaXQsIGhpc3RvcnksIGxvZ2dpbmcsIGNvbXBsaWFuY2VdDQp0cmlnZ2VyczoNCiAgLSDQuNGB0YLQvtGA0LjRjyDQuNC30LzQtdC90LXQvdC40LkNCiAgLSDQsNGD0LTQuNGCDQogIC0g0LrRgtC+INC40LfQvNC10L3QuNC7DQogIC0g0LrQvtCz0LTQsCDQuNC30LzQtdC90LjQu9C4DQogIC0g0LvQvtCz0LjRgNC+0LLQsNC90LjQtQ0KLS0tDQoNCiMgQXVkaXQgVHJhaWwgU2tpbGwNCg0KIyMg0J3QsNC30L3QsNGH0LXQvdC40LUNCtCe0LHQtdGB0L/QtdGH0LjRgtGMINC/0L7Qu9C90YPRjiDQv9GA0L7RgdC70LXQttC40LLQsNC10LzQvtGB0YLRjCDQstGB0LXRhSDQuNC30LzQtdC90LXQvdC40Lkg0LIg0YHQuNGB0YLQtdC80LU6INC60YLQviwg0LrQvtCz0LTQsCwg0YfRgtC+IA0K0LjQt9C80LXQvdC40LssINC60LDQutC40LUg0LHRi9C70Lgg0YHRgtCw0YDRi9C1L9C90L7QstGL0LUg0LfQvdCw0YfQtdC90LjRjywg0L/QviDQutCw0LrQvtC5INC/0YDQuNGH0LjQvdC1Lg0KDQojIyDQmtC+0LPQtNCwINC/0YDQuNC80LXQvdGP0YLRjA0KLSDQlNC+0LHQsNCy0LvQtdC90LjQtSDQvdC+0LLQvtC5INGC0LDQsdC70LjRhtGLICjQvdGD0LbQvdC+INC/0L7QtNC60LvRjtGH0LjRgtGMINCw0YPQtNC40YIpDQotINCg0LXQsNC70LjQt9Cw0YbQuNGPINGC0YDQtdCx0L7QstCw0L3QuNGPICLQuNGB0YLQvtGA0LjRjyDQuNC30LzQtdC90LXQvdC40LkiDQotINCg0LDRgdGB0LvQtdC00L7QstCw0L3QuNC1INC40L3RhtC40LTQtdC90YLQvtCyICjQutGC0L4g0YPQtNCw0LvQuNC7INC30LDQv9C40YHRjD8pDQotIENvbXBsaWFuY2Ug0Lgg0L7RgtGH0ZHRgtC90L7RgdGC0YwNCg0KIyMg0JrQu9GO0YfQtdCy0YvQtSDRgtGA0LXQsdC+0LLQsNC90LjRjw0KMS4g0JvQvtCz0LjRgNC+0LLQsNGC0Ywg0JLQodCVINC40LfQvNC10L3QtdC90LjRjyAoSU5TRVJULCBVUERBVEUsIERFTEVURSwgUkVTVE9SRSkNCjIuINCh0L7RhdGA0LDQvdGP0YLRjCDRgdGC0LDRgNGL0LUg0Lgg0L3QvtCy0YvQtSDQt9C90LDRh9C10L3QuNGPDQozLiDQpNC40LrRgdC40YDQvtCy0LDRgtGMINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjywg0LLRgNC10LzRjywg0L/RgNC40YfQuNC90YMNCjQuINCX0LDRidC40YnQsNGC0YwgYXVkaXRfbG9nINC+0YIg0LjQt9C80LXQvdC10L3QuNC5ICjRgtC+0LvRjNC60L4gSU5TRVJUKQ0KNS4g0J3QtSDRg9C00LDQu9GP0YLRjCDQt9Cw0L/QuNGB0LggYXVkaXRfbG9nICjQtNCw0LbQtSDQv9GA0Lggc29mdCBkZWxldGUg0L7RgdC90L7QstC90L7QuSDQt9Cw0L/QuNGB0LgpDQoNCiMjINCh0YXQtdC80LAgYXVkaXRfbG9nDQoNCmBgYHNxbA0KQ1JFQVRFIFRBQkxFIGF1ZGl0X2xvZyAoDQogICAgaWQgSU5URUdFUiBQUklNQVJZIEtFWSBBVVRPSU5DUkVNRU5ULA0KICAgIA0KICAgIC0tINCn0YLQviDQuNC30LzQtdC90LXQvdC+DQogICAgdGFibGVfbmFtZSBWQVJDSEFSKDUwKSBOT1QgTlVMTCwNCiAgICByZWNvcmRfaWQgSU5URUdFUiBOT1QgTlVMTCwNCiAgICBhY3Rpb24gVkFSQ0hBUigxMCkgTk9UIE5VTEwgDQogICAgICAgIENIRUNLIChhY3Rpb24gSU4gKCdJTlNFUlQnLCAnVVBEQVRFJywgJ0RFTEVURScsICdSRVNUT1JFJykpLA0KICAgIA0KICAgIC0tINCU0LXRgtCw0LvQuCDQuNC30LzQtdC90LXQvdC40Y8NCiAgICBvbGRfdmFsdWVzIFRFWFQsICAgICAgICAgICAgICAtLSBKU09OINC/0YDQtdC00YvQtNGD0YnQtdCz0L4g0YHQvtGB0YLQvtGP0L3QuNGPDQogICAgbmV3X3ZhbHVlcyBURVhULCAgICAgICAgICAgICAgLS0gSlNPTiDQvdC+0LLQvtCz0L4g0YHQvtGB0YLQvtGP0L3QuNGPDQogICAgY2hhbmdlZF9maWVsZHMgVEVYVCwgICAgICAgICAgLS0g0KHQv9C40YHQvtC6INC40LfQvNC10L3RkdC90L3Ri9GFINC/0L7Qu9C10LkgKENTVikNCiAgICANCiAgICAtLSDQmtGC0L4g0LjQt9C80LXQvdC40LsNCiAgICB1c2VyX2lkIElOVEVHRVIgUkVGRVJFTkNFUyB1c2VycyhpZCksDQogICAgdXNlcl9uYW1lIFZBUkNIQVIoNTApLA0KICAgIHVzZXJfcm9sZSBWQVJDSEFSKDIwKSwNCiAgICANCiAgICAtLSDQmtC+0LPQtNCwDQogICAgY2hhbmdlZF9hdCBUSU1FU1RBTVAgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUCwNCiAgICANCiAgICAtLSDQmtC+0L3RgtC10LrRgdGCDQogICAgcmVhc29uIFRFWFQsICAgICAgICAgICAgICAgICAgLS0g0J/RgNC40YfQuNC90LAg0LjQt9C80LXQvdC10L3QuNGPDQogICAgc2Vzc2lvbl9pZCBWQVJDSEFSKDI1NSksDQogICAgYXBwcm92ZWRfYnkgSU5URUdFUiBSRUZFUkVOQ0VTIHVzZXJzKGlkKSAgLS0g0JXRgdC70Lgg0LjQt9C80LXQvdC10L3QuNC1INC+0LTQvtCx0YDQtdC90L4NCik7DQoNCi0tINCY0L3QtNC10LrRgdGLINC00LvRjyDQsdGL0YHRgtGA0L7Qs9C+INC/0L7QuNGB0LrQsA0KQ1JFQVRFIElOREVYIGlkeF9hdWRpdF90YWJsZV9yZWNvcmQgT04gYXVkaXRfbG9nKHRhYmxlX25hbWUsIHJlY29yZF9pZCk7DQpDUkVBVEUgSU5ERVggaWR4X2F1ZGl0X3VzZXIgT04gYXVkaXRfbG9nKHVzZXJfaWQpOw0KQ1JFQVRFIElOREVYIGlkeF9hdWRpdF9kYXRlIE9OIGF1ZGl0X2xvZyhjaGFuZ2VkX2F0KTsNCkNSRUFURSBJTkRFWCBpZHhfYXVkaXRfYWN0aW9uIE9OIGF1ZGl0X2xvZyhhY3Rpb24pOw0KYGBgDQoNCiMjINCg0LXQsNC70LjQt9Cw0YbQuNGPINGH0LXRgNC10LcgQU9QDQoNCiMjIyAxLiDQkNC90L3QvtGC0LDRhtC40Y8gQEF1ZGl0YWJsZQ0KDQpgYGBqYXZhDQpAVGFyZ2V0KEVsZW1lbnRUeXBlLk1FVEhPRCkNCkBSZXRlbnRpb24oUmV0ZW50aW9uUG9saWN5LlJVTlRJTUUpDQpwdWJsaWMgQGludGVyZmFjZSBBdWRpdGFibGUgew0KICAgIFN0cmluZyB0YWJsZU5hbWUoKTsNCiAgICBTdHJpbmcgYWN0aW9uKCk7ICAvLyBJTlNFUlQsIFVQREFURSwgREVMRVRFLCBSRVNUT1JFDQp9DQpgYGANCg0KIyMjIDIuIEFzcGVjdCDQtNC70Y8g0LDQstGC0L7QvNCw0YLQuNGH0LXRgdC60L7Qs9C+INC70L7Qs9C40YDQvtCy0LDQvdC40Y8NCg0KYGBgamF2YQ0KQEFzcGVjdA0KQENvbXBvbmVudA0KcHVibGljIGNsYXNzIEF1ZGl0QXNwZWN0IHsNCiAgICANCiAgICBAQXV0b3dpcmVkDQogICAgcHJpdmF0ZSBBdWRpdExvZ1JlcG9zaXRvcnkgYXVkaXRMb2dSZXBvc2l0b3J5Ow0KICAgIA0KICAgIEBBdXRvd2lyZWQNCiAgICBwcml2YXRlIFNlY3VyaXR5Q29udGV4dCBzZWN1cml0eUNvbnRleHQ7DQogICAgDQogICAgQEFmdGVyUmV0dXJuaW5nKHBvaW50Y3V0ID0gIkBhbm5vdGF0aW9uKGF1ZGl0YWJsZSkiLCByZXR1cm5pbmcgPSAicmVzdWx0IikNCiAgICBwdWJsaWMgdm9pZCBhdWRpdEFmdGVyUmV0dXJuKEpvaW5Qb2ludCBqb2luUG9pbnQsIEF1ZGl0YWJsZSBhdWRpdGFibGUsIE9iamVjdCByZXN1bHQpIHsNCiAgICAgICAgQXVkaXRMb2cgbG9nID0gbmV3IEF1ZGl0TG9nKCk7DQogICAgICAgIGxvZy5zZXRUYWJsZU5hbWUoYXVkaXRhYmxlLnRhYmxlTmFtZSgpKTsNCiAgICAgICAgbG9nLnNldEFjdGlvbihhdWRpdGFibGUuYWN0aW9uKCkpOw0KICAgICAgICBsb2cuc2V0UmVjb3JkSWQoZXh0cmFjdFJlY29yZElkKHJlc3VsdCkpOw0KICAgICAgICANCiAgICAgICAgLy8g0J/QvtC70YzQt9C+0LLQsNGC0LXQu9GMDQogICAgICAgIFVzZXIgY3VycmVudFVzZXIgPSBzZWN1cml0eUNvbnRleHQuZ2V0Q3VycmVudFVzZXIoKTsNCiAgICAgICAgbG9nLnNldFVzZXJJZChjdXJyZW50VXNlci5nZXRJZCgpKTsNCiAgICAgICAgbG9nLnNldFVzZXJOYW1lKGN1cnJlbnRVc2VyLmdldFVzZXJuYW1lKCkpOw0KICAgICAgICBsb2cuc2V0VXNlclJvbGUoY3VycmVudFVzZXIuZ2V0Um9sZSgpLm5hbWUoKSk7DQogICAgICAgIA0KICAgICAgICAvLyDQl9C90LDRh9C10L3QuNGPICjQtNC70Y8gVVBEQVRFIOKAlCDRgdGA0LDQstC90LjRgtGMIG9sZC9uZXcpDQogICAgICAgIGlmICgiVVBEQVRFIi5lcXVhbHMoYXVkaXRhYmxlLmFjdGlvbigpKSkgew0KICAgICAgICAgICAgT2JqZWN0W10gYXJncyA9IGpvaW5Qb2ludC5nZXRBcmdzKCk7DQogICAgICAgICAgICBsb2cuc2V0T2xkVmFsdWVzKHRvSnNvbihleHRyYWN0T2xkVmFsdWVzKGFyZ3MpKSk7DQogICAgICAgICAgICBsb2cuc2V0TmV3VmFsdWVzKHRvSnNvbihleHRyYWN0TmV3VmFsdWVzKHJlc3VsdCkpKTsNCiAgICAgICAgICAgIGxvZy5zZXRDaGFuZ2VkRmllbGRzKGRldGVjdENoYW5nZWRGaWVsZHMoYXJncykpOw0KICAgICAgICB9IGVsc2UgaWYgKCJJTlNFUlQiLmVxdWFscyhhdWRpdGFibGUuYWN0aW9uKCkpKSB7DQogICAgICAgICAgICBsb2cuc2V0TmV3VmFsdWVzKHRvSnNvbihyZXN1bHQpKTsNCiAgICAgICAgfSBlbHNlIGlmICgiREVMRVRFIi5lcXVhbHMoYXVkaXRhYmxlLmFjdGlvbigpKSkgew0KICAgICAgICAgICAgbG9nLnNldE9sZFZhbHVlcyh0b0pzb24oZXh0cmFjdE9sZFZhbHVlcyhqb2luUG9pbnQuZ2V0QXJncygpKSkpOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICBhdWRpdExvZ1JlcG9zaXRvcnkuc2F2ZShsb2cpOw0KICAgIH0NCn0NCmBgYA0KDQojIyMgMy4g0JjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40LUg0LIg0YHQtdGA0LLQuNGB0LDRhQ0KDQpgYGBqYXZhDQpAU2VydmljZQ0KcHVibGljIGNsYXNzIFJhZGlvRW1pc3Npb25TZXJ2aWNlIHsNCiAgICANCiAgICBAQXVkaXRhYmxlKHRhYmxlTmFtZSA9ICJyYWRpb19lbWlzc2lvbnMiLCBhY3Rpb24gPSAiSU5TRVJUIikNCiAgICBwdWJsaWMgUmFkaW9FbWlzc2lvbiBjcmVhdGUoQ3JlYXRlRHRvIGR0bywgTG9uZyB1c2VySWQpIHsNCiAgICAgICAgUmFkaW9FbWlzc2lvbiBlbnRpdHkgPSBtYXBwZXIudG9FbnRpdHkoZHRvKTsNCiAgICAgICAgZW50aXR5LnNldENyZWF0ZWRCeSh1c2VySWQpOw0KICAgICAgICBlbnRpdHkuc2V0Q3JlYXRlZEF0KExvY2FsRGF0ZVRpbWUubm93KCkpOw0KICAgICAgICByZXR1cm4gcmVwb3NpdG9yeS5zYXZlKGVudGl0eSk7DQogICAgfQ0KICAgIA0KICAgIEBBdWRpdGFibGUodGFibGVOYW1lID0gInJhZGlvX2VtaXNzaW9ucyIsIGFjdGlvbiA9ICJVUERBVEUiKQ0KICAgIHB1YmxpYyBSYWRpb0VtaXNzaW9uIHVwZGF0ZShMb25nIGlkLCBVcGRhdGVEdG8gZHRvLCBMb25nIHVzZXJJZCwgU3RyaW5nIHJlYXNvbikgew0KICAgICAgICBSYWRpb0VtaXNzaW9uIGV4aXN0aW5nID0gcmVwb3NpdG9yeS5maW5kQnlJZChpZCkub3JFbHNlVGhyb3coKTsNCiAgICAgICAgDQogICAgICAgIG1hcHBlci51cGRhdGVFbnRpdHkoZXhpc3RpbmcsIGR0byk7DQogICAgICAgIGV4aXN0aW5nLnNldFVwZGF0ZWRCeSh1c2VySWQpOw0KICAgICAgICBleGlzdGluZy5zZXRVcGRhdGVkQXQoTG9jYWxEYXRlVGltZS5ub3coKSk7DQogICAgICAgIA0KICAgICAgICByZXR1cm4gcmVwb3NpdG9yeS5zYXZlKGV4aXN0aW5nKTsNCiAgICB9DQogICAgDQogICAgQEF1ZGl0YWJsZSh0YWJsZU5hbWUgPSAicmFkaW9fZW1pc3Npb25zIiwgYWN0aW9uID0gIkRFTEVURSIpDQogICAgcHVibGljIHZvaWQgc29mdERlbGV0ZShMb25nIGlkLCBMb25nIHVzZXJJZCwgU3RyaW5nIHJlYXNvbikgew0KICAgICAgICBSYWRpb0VtaXNzaW9uIGVudGl0eSA9IHJlcG9zaXRvcnkuZmluZEJ5SWQoaWQpLm9yRWxzZVRocm93KCk7DQogICAgICAgIGVudGl0eS5zZXRJc0RlbGV0ZWQodHJ1ZSk7DQogICAgICAgIGVudGl0eS5zZXRVcGRhdGVkQnkodXNlcklkKTsNCiAgICAgICAgcmVwb3NpdG9yeS5zYXZlKGVudGl0eSk7DQogICAgfQ0KICAgIA0KICAgIEBBdWRpdGFibGUodGFibGVOYW1lID0gInJhZGlvX2VtaXNzaW9ucyIsIGFjdGlvbiA9ICJSRVNUT1JFIikNCiAgICBwdWJsaWMgdm9pZCByZXN0b3JlKExvbmcgaWQsIExvbmcgdXNlcklkLCBTdHJpbmcgcmVhc29uKSB7DQogICAgICAgIFJhZGlvRW1pc3Npb24gZW50aXR5ID0gcmVwb3NpdG9yeS5maW5kQnlJZChpZCkub3JFbHNlVGhyb3coKTsNCiAgICAgICAgZW50aXR5LnNldElzRGVsZXRlZChmYWxzZSk7DQogICAgICAgIHJlcG9zaXRvcnkuc2F2ZShlbnRpdHkpOw0KICAgIH0NCn0NCmBgYA0KDQojIyDQl9Cw0L/RgNC+0YHRiyDQuiBhdWRpdF9sb2cNCg0KIyMjINCY0YHRgtC+0YDQuNGPINC60L7QvdC60YDQtdGC0L3QvtC5INC30LDQv9C40YHQuA0KDQpgYGBzcWwNClNFTEVDVCAqIEZST00gYXVkaXRfbG9nIA0KV0hFUkUgdGFibGVfbmFtZSA9ICdyYWRpb19lbWlzc2lvbnMnIEFORCByZWNvcmRfaWQgPSA/DQpPUkRFUiBCWSBjaGFuZ2VkX2F0IERFU0M7DQpgYGANCg0KIyMjINCa0YLQviDRg9C00LDQu9GP0Lsg0LfQsNC/0LjRgdC4INC30LAg0L/QtdGA0LjQvtC0DQoNCmBgYHNxbA0KU0VMRUNUIHVzZXJfbmFtZSwgY2hhbmdlZF9hdCwgcmVjb3JkX2lkLCBvbGRfdmFsdWVzDQpGUk9NIGF1ZGl0X2xvZw0KV0hFUkUgYWN0aW9uID0gJ0RFTEVURScgDQogIEFORCBjaGFuZ2VkX2F0IEJFVFdFRU4gPyBBTkQgPw0KT1JERVIgQlkgY2hhbmdlZF9hdCBERVNDOw0KYGBgDQoNCiMjIyDQktGB0LUg0LjQt9C80LXQvdC10L3QuNGPINC60L7QvdC60YDQtdGC0L3QvtCz0L4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPDQoNCmBgYHNxbA0KU0VMRUNUICogRlJPTSBhdWRpdF9sb2cNCldIRVJFIHVzZXJfaWQgPSA/DQpPUkRFUiBCWSBjaGFuZ2VkX2F0IERFU0MNCkxJTUlUIDEwMDsNCmBgYA0KDQojIyMg0KHRgtCw0YLQuNGB0YLQuNC60LAg0LjQt9C80LXQvdC10L3QuNC5DQoNCmBgYHNxbA0KU0VMRUNUIGFjdGlvbiwgQ09VTlQoKikgYXMgY291bnQNCkZST00gYXVkaXRfbG9nDQpXSEVSRSBjaGFuZ2VkX2F0ID49IERBVEUoJ25vdycsICctNyBkYXlzJykNCkdST1VQIEJZIGFjdGlvbjsNCmBgYA0KDQojIyMg0JjQt9C80LXQvdC10L3QuNGPINC30LAg0LTQtdC90Ywg0L/QviDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y/QvA0KDQpgYGBzcWwNClNFTEVDVCB1c2VyX25hbWUsIHVzZXJfcm9sZSwgQ09VTlQoKikgYXMgY2hhbmdlc19jb3VudA0KRlJPTSBhdWRpdF9sb2cNCldIRVJFIERBVEUoY2hhbmdlZF9hdCkgPSBEQVRFKCdub3cnKQ0KR1JPVVAgQlkgdXNlcl9pZCwgdXNlcl9uYW1lLCB1c2VyX3JvbGUNCk9SREVSIEJZIGNoYW5nZXNfY291bnQgREVTQzsNCmBgYA0KDQojIyDQpNC+0YDQvNCw0YIg0YXRgNCw0L3QtdC90LjRjyBvbGRfdmFsdWVzIC8gbmV3X3ZhbHVlcw0KDQrQodGC0LDRgNGL0LUg0Lgg0L3QvtCy0YvQtSDQt9C90LDRh9C10L3QuNGPINGF0YDQsNC90Y/RgtGB0Y8g0LIgSlNPTjoNCg0KYGBganNvbg0Kew0KICAiZnJlcXVlbmN5X21oeiI6IDE1NzUuNDIsDQogICJtb2R1bGF0aW9uX3R5cGUiOiAiQ0RNQSIsDQogICJwb3dlcl9kYm0iOiAtMTIwLjUNCn0NCmBgYA0KDQpjaGFuZ2VkX2ZpZWxkcyDRhdGA0LDQvdC40YIg0YHQv9C40YHQvtC6INC40LfQvNC10L3RkdC90L3Ri9GFINC/0L7Qu9C10Lk6DQoNCmBgYA0KZnJlcXVlbmN5X21oeixtb2R1bGF0aW9uX3R5cGUNCmBgYA0KDQojIyDQp9C10Lot0LvQuNGB0YINCi0gWyBdINCS0YHQtSBDUlVELdC+0L/QtdGA0LDRhtC40Lgg0L/QvtC60YDRi9GC0YsgQEF1ZGl0YWJsZT8NCi0gWyBdIGF1ZGl0X2xvZyDQtNC+0YHRgtGD0L/QtdC9INGC0L7Qu9GM0LrQviDQtNC70Y8gSU5TRVJUICjQvdC10YIgVVBEQVRFL0RFTEVURSk/DQotIFsgXSDQodC+0YXRgNCw0L3Rj9GO0YLRgdGPINC70Lggb2xkX3ZhbHVlcy9uZXdfdmFsdWVzINCyIEpTT04/DQotIFsgXSDQpNC40LrRgdC40YDRg9C10YLRgdGPINC70Lgg0L/RgNC40YfQuNC90LAg0LjQt9C80LXQvdC10L3QuNGPIChyZWFzb24pPw0KLSBbIF0g0JXRgdGC0Ywg0LvQuCBVSSDQtNC70Y8g0L/RgNC+0YHQvNC+0YLRgNCwINC40YHRgtC+0YDQuNC4INC30LDQv9C40YHQuD8NCi0gWyBdINCV0YHRgtGMINC70LggVUkg0LTQu9GPINC/0YDQvtGB0LzQvtGC0YDQsCBhdWRpdF9sb2cgKNC00LvRjyBBZG1pbi9TdXBlcnZpc29yKT8NCi0gWyBdINCd0LDQv9C40YHQsNC90Ysg0YLQtdGB0YLRiyDQvdCwINC70L7Qs9C40YDQvtCy0LDQvdC40LU/DQoNCiMjINCf0YDQvtC40LfQstC+0LTQuNGC0LXQu9GM0L3QvtGB0YLRjA0KLSBhdWRpdF9sb2cg0YDQsNGB0YLRkdGCINCx0YvRgdGC0YDQviDigJQg0L/RgNC10LTRg9GB0LzQvtGC0YDQtdGC0Ywg0LDRgNGF0LjQstCw0YbQuNGODQotINCY0L3QtNC10LrRgdGLINC90LAgKHRhYmxlX25hbWUsIHJlY29yZF9pZCkg0LggKGNoYW5nZWRfYXQpINC+0LHRj9C30LDRgtC10LvRjNC90YsNCi0g0J3QtSDQtNC10LvQsNGC0YwgSk9JTiBhdWRpdF9sb2cg0YEg0L7RgdC90L7QstC90YvQvNC4INGC0LDQsdC70LjRhtCw0LzQuCDQsiDRh9Cw0YHRgtGL0YUg0LfQsNC/0YDQvtGB0LDRhQ0KLSDQlNC70Y8g0LHQvtC70YzRiNC40YUg0L7QsdGK0ZHQvNC+0LIg4oCUINC/0LDRgNGC0LjRhtC40L7QvdC40YDQvtCy0LDQvdC40LUg0L/QviDQtNCw0YLQtQ0KDQojIyDQodCy0Y/Qt9Cw0L3QvdGL0LUgc2tpbGxzDQotIFswMi1yYmFjLWltcGxlbWVudGF0aW9uXSguLi8wMi1yYmFjLWltcGxlbWVudGF0aW9uL1NLSUxMLm1kKQ0KLSBbMDQtYXBwcm92YWwtd29ya2Zsb3ddKC4uLzA0LWFwcHJvdmFsLXdvcmtmbG93L1NLSUxMLm1kKQ0KLSBbMDUtc3FsaXRlLW9wdGltaXphdGlvbl0oLi4vMDUtc3FsaXRlLW9wdGltaXphdGlvbi9TS0lMTC5tZCk=
+---
+name: audit-trail
+description: Реализация истории изменений для всех операций с данными
+version: 1.0
+tags: [audit, history, logging, compliance]
+triggers:
+  - история изменений
+  - аудит
+  - кто изменил
+  - когда изменили
+  - логирование
+---
+
+# Audit Trail Skill
+
+## Назначение
+Обеспечить полную прослеживаемость всех изменений в системе: кто, когда, что 
+изменил, какие были старые/новые значения, по какой причине.
+
+## Когда применять
+- Добавление новой таблицы (нужно подключить аудит)
+- Реализация требования "история изменений"
+- Расследование инцидентов (кто удалил запись?)
+- Compliance и отчётность
+
+## Ключевые требования
+1. Логировать ВСЕ изменения (INSERT, UPDATE, DELETE, RESTORE)
+2. Сохранять старые и новые значения
+3. Фиксировать пользователя, время, причину
+4. Защищать audit_log от изменений (только INSERT)
+5. Не удалять записи audit_log (даже при soft delete основной записи)
+
+## Схема audit_log
+
+```sql
+CREATE TABLE audit_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    
+    -- Что изменено
+    table_name VARCHAR(50) NOT NULL,
+    record_id INTEGER NOT NULL,
+    action VARCHAR(10) NOT NULL 
+        CHECK (action IN ('INSERT', 'UPDATE', 'DELETE', 'RESTORE')),
+    
+    -- Детали изменения
+    old_values TEXT,              -- JSON предыдущего состояния
+    new_values TEXT,              -- JSON нового состояния
+    changed_fields TEXT,          -- Список изменённых полей (CSV)
+    
+    -- Кто изменил
+    user_id INTEGER REFERENCES users(id),
+    user_name VARCHAR(50),
+    user_role VARCHAR(20),
+    
+    -- Когда
+    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    
+    -- Контекст
+    reason TEXT,                  -- Причина изменения
+    session_id VARCHAR(255),
+    approved_by INTEGER REFERENCES users(id)  -- Если изменение одобрено
+);
+
+-- Индексы для быстрого поиска
+CREATE INDEX idx_audit_table_record ON audit_log(table_name, record_id);
+CREATE INDEX idx_audit_user ON audit_log(user_id);
+CREATE INDEX idx_audit_date ON audit_log(changed_at);
+CREATE INDEX idx_audit_action ON audit_log(action);
+```
+
+## Реализация через AOP
+
+### 1. Аннотация @Auditable
+
+```java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Auditable {
+    String tableName();
+    String action();  // INSERT, UPDATE, DELETE, RESTORE
+}
+```
+
+### 2. Aspect для автоматического логирования
+
+```java
+@Aspect
+@Component
+public class AuditAspect {
+    
+    @Autowired
+    private AuditLogRepository auditLogRepository;
+    
+    @Autowired
+    private SecurityContext securityContext;
+    
+    @AfterReturning(pointcut = "@annotation(auditable)", returning = "result")
+    public void auditAfterReturn(JoinPoint joinPoint, Auditable auditable, Object result) {
+        AuditLog log = new AuditLog();
+        log.setTableName(auditable.tableName());
+        log.setAction(auditable.action());
+        log.setRecordId(extractRecordId(result));
+        
+        // Пользователь
+        User currentUser = securityContext.getCurrentUser();
+        log.setUserId(currentUser.getId());
+        log.setUserName(currentUser.getUsername());
+        log.setUserRole(currentUser.getRole().name());
+        
+        // Значения (для UPDATE — сравнить old/new)
+        if ("UPDATE".equals(auditable.action())) {
+            Object[] args = joinPoint.getArgs();
+            log.setOldValues(toJson(extractOldValues(args)));
+            log.setNewValues(toJson(extractNewValues(result)));
+            log.setChangedFields(detectChangedFields(args));
+        } else if ("INSERT".equals(auditable.action())) {
+            log.setNewValues(toJson(result));
+        } else if ("DELETE".equals(auditable.action())) {
+            log.setOldValues(toJson(extractOldValues(joinPoint.getArgs())));
+        }
+        
+        auditLogRepository.save(log);
+    }
+}
+```
+
+### 3. Использование в сервисах
+
+```java
+@Service
+public class RadioEmissionService {
+    
+    @Auditable(tableName = "radio_emissions", action = "INSERT")
+    public RadioEmission create(CreateDto dto, Long userId) {
+        RadioEmission entity = mapper.toEntity(dto);
+        entity.setCreatedBy(userId);
+        entity.setCreatedAt(LocalDateTime.now());
+        return repository.save(entity);
+    }
+    
+    @Auditable(tableName = "radio_emissions", action = "UPDATE")
+    public RadioEmission update(Long id, UpdateDto dto, Long userId, String reason) {
+        RadioEmission existing = repository.findById(id).orElseThrow();
+        
+        mapper.updateEntity(existing, dto);
+        existing.setUpdatedBy(userId);
+        existing.setUpdatedAt(LocalDateTime.now());
+        
+        return repository.save(existing);
+    }
+    
+    @Auditable(tableName = "radio_emissions", action = "DELETE")
+    public void softDelete(Long id, Long userId, String reason) {
+        RadioEmission entity = repository.findById(id).orElseThrow();
+        entity.setIsDeleted(true);
+        entity.setUpdatedBy(userId);
+        repository.save(entity);
+    }
+    
+    @Auditable(tableName = "radio_emissions", action = "RESTORE")
+    public void restore(Long id, Long userId, String reason) {
+        RadioEmission entity = repository.findById(id).orElseThrow();
+        entity.setIsDeleted(false);
+        repository.save(entity);
+    }
+}
+```
+
+## Запросы к audit_log
+
+### История конкретной записи
+
+```sql
+SELECT * FROM audit_log 
+WHERE table_name = 'radio_emissions' AND record_id = ?
+ORDER BY changed_at DESC;
+```
+
+### Кто удалял записи за период
+
+```sql
+SELECT user_name, changed_at, record_id, old_values
+FROM audit_log
+WHERE action = 'DELETE' 
+  AND changed_at BETWEEN ? AND ?
+ORDER BY changed_at DESC;
+```
+
+### Все изменения конкретного пользователя
+
+```sql
+SELECT * FROM audit_log
+WHERE user_id = ?
+ORDER BY changed_at DESC
+LIMIT 100;
+```
+
+### Статистика изменений
+
+```sql
+SELECT action, COUNT(*) as count
+FROM audit_log
+WHERE changed_at >= DATE('now', '-7 days')
+GROUP BY action;
+```
+
+### Изменения за день по пользователям
+
+```sql
+SELECT user_name, user_role, COUNT(*) as changes_count
+FROM audit_log
+WHERE DATE(changed_at) = DATE('now')
+GROUP BY user_id, user_name, user_role
+ORDER BY changes_count DESC;
+```
+
+## Формат хранения old_values / new_values
+
+Старые и новые значения хранятся в JSON:
+
+```json
+{
+  "frequency_mhz": 1575.42,
+  "modulation_type": "CDMA",
+  "power_dbm": -120.5
+}
+```
+
+changed_fields хранит список изменённых полей:
+
+```
+frequency_mhz,modulation_type
+```
+
+## Чек-лист
+- [ ] Все CRUD-операции покрыты @Auditable?
+- [ ] audit_log доступен только для INSERT (нет UPDATE/DELETE)?
+- [ ] Сохраняются ли old_values/new_values в JSON?
+- [ ] Фиксируется ли причина изменения (reason)?
+- [ ] Есть ли UI для просмотра истории записи?
+- [ ] Есть ли UI для просмотра audit_log (для Admin/Supervisor)?
+- [ ] Написаны тесты на логирование?
+
+## Производительность
+- audit_log растёт быстро — предусмотреть архивацию
+- Индексы на (table_name, record_id) и (changed_at) обязательны
+- Не делать JOIN audit_log с основными таблицами в частых запросах
+- Для больших объёмов — партиционирование по дате
+
+## Связанные skills
+- [02-rbac-implementation](../02-rbac-implementation/SKILL.md)
+- [04-approval-workflow](../04-approval-workflow/SKILL.md)
+- [05-sqlite-optimization](../05-sqlite-optimization/SKILL.md)

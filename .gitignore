@@ -1,1 +1,7 @@
-dGFyZ2V0LwoqLmNsYXNzCioubG9nCi5pZGVhLwoqLmltbAoudnNjb2RlLwoqLmRiCg==
+target/
+*.class
+*.log
+.idea/
+*.iml
+.vscode/
+*.db

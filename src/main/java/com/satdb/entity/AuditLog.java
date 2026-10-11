@@ -1,1 +1,211 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuQ29sdW1uOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnRpdHk7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkVudW1UeXBlOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnVtZXJhdGVkOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5GZXRjaFR5cGU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkZvcmVpZ25LZXk7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkdlbmVyYXRlZFZhbHVlOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5HZW5lcmF0aW9uVHlwZTsKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuSWQ7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLkluZGV4OwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5Kb2luQ29sdW1uOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5NYW55VG9PbmU7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLlRhYmxlOwoKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lOwoKLyoqCiAqINCW0YPRgNC90LDQuyDQsNGD0LTQuNGC0LAgKNGC0LDQsdC70LjRhtCwIGF1ZGl0X2xvZyDQuNC3IHNraWxscy8wMy1hdWRpdC10cmFpbC9TS0lMTC5tZCkuCiAqINCS0JDQltCd0J46INC/0L4g0YLRgNC10LHQvtCy0LDQvdC40Y/QvCBhdWRpdF9sb2cg0LfQsNGJ0LjRidGR0L0g0L7RgiDQuNC30LzQtdC90LXQvdC40LkgKNGC0L7Qu9GM0LrQviBJTlNFUlQpLAogKiDQt9Cw0L/QuNGB0Lgg0L3QtSDRg9C00LDQu9GP0Y7RgtGB0Y8g4oCUINC/0L7RjdGC0L7QvNGDINC30LTQtdGB0Ywg0J3QldCiIGlzX2RlbGV0ZWQg0LggdXBkYXRlZF9hdCwKICog0YLQvtC70YzQutC+IGNoYW5nZWRfYXQgKD0gY3JlYXRlZF9hdCkg0LggY3JlYXRlZF9ieSAodXNlcl9pZCkuCiAqLwpARW50aXR5CkBUYWJsZShuYW1lID0gImF1ZGl0X2xvZyIsIGluZGV4ZXMgPSB7CiAgICAgICAgQEluZGV4KG5hbWUgPSAiaWR4X2F1ZGl0X3RhYmxlX3JlY29yZCIsIGNvbHVtbkxpc3QgPSAidGFibGVfbmFtZSxyZWNvcmRfaWQiKSwKICAgICAgICBASW5kZXgobmFtZSA9ICJpZHhfYXVkaXRfdXNlciIsIGNvbHVtbkxpc3QgPSAidXNlcl9pZCIpLAogICAgICAgIEBJbmRleChuYW1lID0gImlkeF9hdWRpdF9kYXRlIiwgY29sdW1uTGlzdCA9ICJjaGFuZ2VkX2F0IiksCiAgICAgICAgQEluZGV4KG5hbWUgPSAiaWR4X2F1ZGl0X2FjdGlvbiIsIGNvbHVtbkxpc3QgPSAiYWN0aW9uIikKfSkKcHVibGljIGNsYXNzIEF1ZGl0TG9nIHsKCiAgICAvKiog0JTQtdC50YHRgtCy0LjQtSDRgdC+0LPQu9Cw0YHQvdC+IENIRUNLIChhY3Rpb24gSU4gKCdJTlNFUlQnLCdVUERBVEUnLCdERUxFVEUnLCdSRVNUT1JFJykpLiAqLwogICAgcHVibGljIGVudW0gQXVkaXRBY3Rpb24gewogICAgICAgIElOU0VSVCwgVVBEQVRFLCBERUxFVEUsIFJFU1RPUkUKICAgIH0KCiAgICBASWQKICAgIEBHZW5lcmF0ZWRWYWx1ZShzdHJhdGVneSA9IEdlbmVyYXRpb25UeXBlLklERU5USVRZKQogICAgcHJpdmF0ZSBMb25nIGlkOwoKICAgIEBDb2x1bW4obmFtZSA9ICJ0YWJsZV9uYW1lIiwgbnVsbGFibGUgPSBmYWxzZSwgbGVuZ3RoID0gNTApCiAgICBwcml2YXRlIFN0cmluZyB0YWJsZU5hbWU7CgogICAgQENvbHVtbihuYW1lID0gInJlY29yZF9pZCIsIG51bGxhYmxlID0gZmFsc2UpCiAgICBwcml2YXRlIExvbmcgcmVjb3JkSWQ7CgogICAgQEVudW1lcmF0ZWQoRW51bVR5cGUuU1RSSU5HKQogICAgQENvbHVtbihuYW1lID0gImFjdGlvbiIsIG51bGxhYmxlID0gZmFsc2UsIGxlbmd0aCA9IDEwKQogICAgcHJpdmF0ZSBBdWRpdEFjdGlvbiBhY3Rpb247CgogICAgLyoqIEpTT04g0L/RgNC10LTRi9C00YPRidC10LPQviDRgdC+0YHRgtC+0Y/QvdC40Y8uICovCiAgICBAQ29sdW1uKG5hbWUgPSAib2xkX3ZhbHVlcyIsIGNvbHVtbkRlZmluaXRpb24gPSAiVEVYVCIpCiAgICBwcml2YXRlIFN0cmluZyBvbGRWYWx1ZXM7CgogICAgLyoqIEpTT04g0L3QvtCy0L7Qs9C+INGB0L7RgdGC0L7Rj9C90LjRjy4gKi8KICAgIEBDb2x1bW4obmFtZSA9ICJuZXdfdmFsdWVzIiwgY29sdW1uRGVmaW5pdGlvbiA9ICJURVhUIikKICAgIHByaXZhdGUgU3RyaW5nIG5ld1ZhbHVlczsKCiAgICAvKiog0KHQv9C40YHQvtC6INC40LfQvNC10L3RkdC90L3Ri9GFINC/0L7Qu9C10LkgKENTVikuICovCiAgICBAQ29sdW1uKG5hbWUgPSAiY2hhbmdlZF9maWVsZHMiLCBjb2x1bW5EZWZpbml0aW9uID0gIlRFWFQiKQogICAgcHJpdmF0ZSBTdHJpbmcgY2hhbmdlZEZpZWxkczsKCiAgICBATWFueVRvT25lKGZldGNoID0gRmV0Y2hUeXBlLkxBWlkpCiAgICBASm9pbkNvbHVtbihuYW1lID0gInVzZXJfaWQiLCBmb3JlaWduS2V5ID0gQEZvcmVpZ25LZXkobmFtZSA9ICJma19hdWRpdF91c2VyIikpCiAgICBwcml2YXRlIFVzZXIgdXNlcjsKCiAgICAvKiog0JTQtdC90L7RgNC80LDQu9C40LfQvtCy0LDQvdC90YvQuSDRgdC90LjQvNC+0Log0LjQvNC10L3QuCDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8gKNC30LDQv9C40YHRjCDQvtGB0YLQsNGR0YLRgdGPINC00LDQttC1INC/0YDQuCDRg9C00LDQu9C10L3QuNC4IHVzZXIpLiAqLwogICAgQENvbHVtbihuYW1lID0gInVzZXJfbmFtZSIsIGxlbmd0aCA9IDUwKQogICAgcHJpdmF0ZSBTdHJpbmcgdXNlck5hbWU7CgogICAgLyoqIERlbm9ybWFsaXplZCDRgdC90LjQvNC+0Log0YDQvtC70Lgg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINC90LAg0LzQvtC80LXQvdGCINC40LfQvNC10L3QtdC90LjRjy4gKi8KICAgIEBDb2x1bW4obmFtZSA9ICJ1c2VyX3JvbGUiLCBsZW5ndGggPSAyMCkKICAgIHByaXZhdGUgU3RyaW5nIHVzZXJSb2xlOwoKICAgIEBDb2x1bW4obmFtZSA9ICJjaGFuZ2VkX2F0IiwgbnVsbGFibGUgPSBmYWxzZSwgdXBkYXRhYmxlID0gZmFsc2UpCiAgICBwcml2YXRlIExvY2FsRGF0ZVRpbWUgY2hhbmdlZEF0OwoKICAgIC8qKiDQn9GA0LjRh9C40L3QsCDQuNC30LzQtdC90LXQvdC40Y8uICovCiAgICBAQ29sdW1uKG5hbWUgPSAicmVhc29uIiwgY29sdW1uRGVmaW5pdGlvbiA9ICJURVhUIikKICAgIHByaXZhdGUgU3RyaW5nIHJlYXNvbjsKCiAgICBAQ29sdW1uKG5hbWUgPSAic2Vzc2lvbl9pZCIsIGxlbmd0aCA9IDI1NSkKICAgIHByaXZhdGUgU3RyaW5nIHNlc3Npb25JZDsKCiAgICAvKiog0JXRgdC70Lgg0LjQt9C80LXQvdC10L3QuNC1INC+0LTQvtCx0YDQtdC90L4g0LTRgNGD0LPQuNC8INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC8LiAqLwogICAgQE1hbnlUb09uZShmZXRjaCA9IEZldGNoVHlwZS5MQVpZKQogICAgQEpvaW5Db2x1bW4obmFtZSA9ICJhcHByb3ZlZF9ieSIsIGZvcmVpZ25LZXkgPSBARm9yZWlnbktleShuYW1lID0gImZrX2F1ZGl0X2FwcHJvdmVkX2J5IikpCiAgICBwcml2YXRlIFVzZXIgYXBwcm92ZWRCeTsKCiAgICAvLyBjaGFuZ2VkX2F0INC30LDQv9C+0LvQvdGP0LXRgtGB0Y8g0L/RgNC4INGB0L7Qt9C00LDQvdC40LgsINC10YHQu9C4INC90LUg0LfQsNC00LDQvSDRj9Cy0L3QvgogICAgQGpha2FydGEucGVyc2lzdGVuY2UuUHJlUGVyc2lzdAogICAgdm9pZCBvbkNyZWF0ZSgpIHsKICAgICAgICBpZiAoY2hhbmdlZEF0ID09IG51bGwpIHsKICAgICAgICAgICAgY2hhbmdlZEF0ID0gTG9jYWxEYXRlVGltZS5ub3coKTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIExvbmcgZ2V0SWQoKSB7CiAgICAgICAgcmV0dXJuIGlkOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldElkKExvbmcgaWQpIHsKICAgICAgICB0aGlzLmlkID0gaWQ7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRUYWJsZU5hbWUoKSB7CiAgICAgICAgcmV0dXJuIHRhYmxlTmFtZTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRUYWJsZU5hbWUoU3RyaW5nIHRhYmxlTmFtZSkgewogICAgICAgIHRoaXMudGFibGVOYW1lID0gdGFibGVOYW1lOwogICAgfQoKICAgIHB1YmxpYyBMb25nIGdldFJlY29yZElkKCkgewogICAgICAgIHJldHVybiByZWNvcmRJZDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRSZWNvcmRJZChMb25nIHJlY29yZElkKSB7CiAgICAgICAgdGhpcy5yZWNvcmRJZCA9IHJlY29yZElkOwogICAgfQoKICAgIHB1YmxpYyBBdWRpdEFjdGlvbiBnZXRBY3Rpb24oKSB7CiAgICAgICAgcmV0dXJuIGFjdGlvbjsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRBY3Rpb24oQXVkaXRBY3Rpb24gYWN0aW9uKSB7CiAgICAgICAgdGhpcy5hY3Rpb24gPSBhY3Rpb247CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRPbGRWYWx1ZXMoKSB7CiAgICAgICAgcmV0dXJuIG9sZFZhbHVlczsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRPbGRWYWx1ZXMoU3RyaW5nIG9sZFZhbHVlcykgewogICAgICAgIHRoaXMub2xkVmFsdWVzID0gb2xkVmFsdWVzOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0TmV3VmFsdWVzKCkgewogICAgICAgIHJldHVybiBuZXdWYWx1ZXM7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0TmV3VmFsdWVzKFN0cmluZyBuZXdWYWx1ZXMpIHsKICAgICAgICB0aGlzLm5ld1ZhbHVlcyA9IG5ld1ZhbHVlczsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldENoYW5nZWRGaWVsZHMoKSB7CiAgICAgICAgcmV0dXJuIGNoYW5nZWRGaWVsZHM7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0Q2hhbmdlZEZpZWxkcyhTdHJpbmcgY2hhbmdlZEZpZWxkcykgewogICAgICAgIHRoaXMuY2hhbmdlZEZpZWxkcyA9IGNoYW5nZWRGaWVsZHM7CiAgICB9CgogICAgcHVibGljIFVzZXIgZ2V0VXNlcigpIHsKICAgICAgICByZXR1cm4gdXNlcjsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRVc2VyKFVzZXIgdXNlcikgewogICAgICAgIHRoaXMudXNlciA9IHVzZXI7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRVc2VyTmFtZSgpIHsKICAgICAgICByZXR1cm4gdXNlck5hbWU7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0VXNlck5hbWUoU3RyaW5nIHVzZXJOYW1lKSB7CiAgICAgICAgdGhpcy51c2VyTmFtZSA9IHVzZXJOYW1lOwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0VXNlclJvbGUoKSB7CiAgICAgICAgcmV0dXJuIHVzZXJSb2xlOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFVzZXJSb2xlKFN0cmluZyB1c2VyUm9sZSkgewogICAgICAgIHRoaXMudXNlclJvbGUgPSB1c2VyUm9sZTsKICAgIH0KCiAgICBwdWJsaWMgTG9jYWxEYXRlVGltZSBnZXRDaGFuZ2VkQXQoKSB7CiAgICAgICAgcmV0dXJuIGNoYW5nZWRBdDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDaGFuZ2VkQXQoTG9jYWxEYXRlVGltZSBjaGFuZ2VkQXQpIHsKICAgICAgICB0aGlzLmNoYW5nZWRBdCA9IGNoYW5nZWRBdDsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldFJlYXNvbigpIHsKICAgICAgICByZXR1cm4gcmVhc29uOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFJlYXNvbihTdHJpbmcgcmVhc29uKSB7CiAgICAgICAgdGhpcy5yZWFzb24gPSByZWFzb247CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRTZXNzaW9uSWQoKSB7CiAgICAgICAgcmV0dXJuIHNlc3Npb25JZDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRTZXNzaW9uSWQoU3RyaW5nIHNlc3Npb25JZCkgewogICAgICAgIHRoaXMuc2Vzc2lvbklkID0gc2Vzc2lvbklkOwogICAgfQoKICAgIHB1YmxpYyBVc2VyIGdldEFwcHJvdmVkQnkoKSB7CiAgICAgICAgcmV0dXJuIGFwcHJvdmVkQnk7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QXBwcm92ZWRCeShVc2VyIGFwcHJvdmVkQnkpIHsKICAgICAgICB0aGlzLmFwcHJvdmVkQnkgPSBhcHByb3ZlZEJ5OwogICAgfQp9Cg==
+package com.satdb.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.ForeignKey;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Index;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+
+import java.time.LocalDateTime;
+
+/**
+ * Журнал аудита (таблица audit_log из skills/03-audit-trail/SKILL.md).
+ * ВАЖНО: по требованиям audit_log защищён от изменений (только INSERT),
+ * записи не удаляются — поэтому здесь НЕТ is_deleted и updated_at,
+ * только changed_at (= created_at) и created_by (user_id).
+ */
+@Entity
+@Table(name = "audit_log", indexes = {
+        @Index(name = "idx_audit_table_record", columnList = "table_name,record_id"),
+        @Index(name = "idx_audit_user", columnList = "user_id"),
+        @Index(name = "idx_audit_date", columnList = "changed_at"),
+        @Index(name = "idx_audit_action", columnList = "action")
+})
+public class AuditLog {
+
+    /** Действие согласно CHECK (action IN ('INSERT','UPDATE','DELETE','RESTORE')). */
+    public enum AuditAction {
+        INSERT, UPDATE, DELETE, RESTORE
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "table_name", nullable = false, length = 50)
+    private String tableName;
+
+    @Column(name = "record_id", nullable = false)
+    private Long recordId;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "action", nullable = false, length = 10)
+    private AuditAction action;
+
+    /** JSON предыдущего состояния. */
+    @Column(name = "old_values", columnDefinition = "TEXT")
+    private String oldValues;
+
+    /** JSON нового состояния. */
+    @Column(name = "new_values", columnDefinition = "TEXT")
+    private String newValues;
+
+    /** Список изменённых полей (CSV). */
+    @Column(name = "changed_fields", columnDefinition = "TEXT")
+    private String changedFields;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "fk_audit_user"))
+    private User user;
+
+    /** Денормализованный снимок имени пользователя (запись остаётся даже при удалении user). */
+    @Column(name = "user_name", length = 50)
+    private String userName;
+
+    /** Denormalized снимок роли пользователя на момент изменения. */
+    @Column(name = "user_role", length = 20)
+    private String userRole;
+
+    @Column(name = "changed_at", nullable = false, updatable = false)
+    private LocalDateTime changedAt;
+
+    /** Причина изменения. */
+    @Column(name = "reason", columnDefinition = "TEXT")
+    private String reason;
+
+    @Column(name = "session_id", length = 255)
+    private String sessionId;
+
+    /** Если изменение одобрено другим пользователем. */
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "approved_by", foreignKey = @ForeignKey(name = "fk_audit_approved_by"))
+    private User approvedBy;
+
+    // changed_at заполняется при создании, если не задан явно
+    @jakarta.persistence.PrePersist
+    void onCreate() {
+        if (changedAt == null) {
+            changedAt = LocalDateTime.now();
+        }
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTableName() {
+        return tableName;
+    }
+
+    public void setTableName(String tableName) {
+        this.tableName = tableName;
+    }
+
+    public Long getRecordId() {
+        return recordId;
+    }
+
+    public void setRecordId(Long recordId) {
+        this.recordId = recordId;
+    }
+
+    public AuditAction getAction() {
+        return action;
+    }
+
+    public void setAction(AuditAction action) {
+        this.action = action;
+    }
+
+    public String getOldValues() {
+        return oldValues;
+    }
+
+    public void setOldValues(String oldValues) {
+        this.oldValues = oldValues;
+    }
+
+    public String getNewValues() {
+        return newValues;
+    }
+
+    public void setNewValues(String newValues) {
+        this.newValues = newValues;
+    }
+
+    public String getChangedFields() {
+        return changedFields;
+    }
+
+    public void setChangedFields(String changedFields) {
+        this.changedFields = changedFields;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(String userRole) {
+        this.userRole = userRole;
+    }
+
+    public LocalDateTime getChangedAt() {
+        return changedAt;
+    }
+
+    public void setChangedAt(LocalDateTime changedAt) {
+        this.changedAt = changedAt;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+
+    public String getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId(String sessionId) {
+        this.sessionId = sessionId;
+    }
+
+    public User getApprovedBy() {
+        return approvedBy;
+    }
+
+    public void setApprovedBy(User approvedBy) {
+        this.approvedBy = approvedBy;
+    }
+}
