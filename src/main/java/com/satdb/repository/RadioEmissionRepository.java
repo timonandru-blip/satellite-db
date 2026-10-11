@@ -24,6 +24,15 @@ public interface RadioEmissionRepository extends JpaRepository<RadioEmission, Lo
 
     Optional<RadioEmission> findByIdAndIsDeletedFalse(Long id);
 
+    /** Все активные (не удалённые) излучения с пагинацией. */
+    @Query("""
+            SELECT e FROM RadioEmission e
+            WHERE e.isDeleted = false
+            ORDER BY e.satelliteSystem.id ASC, e.frequencyMhz ASC
+            """,
+           countQuery = "SELECT COUNT(e) FROM RadioEmission e WHERE e.isDeleted = false")
+    Page<RadioEmission> findAllActive(Pageable pageable);
+
     List<RadioEmission> findBySatelliteSystemIdAndIsDeletedFalseOrderByFrequencyMhzAsc(Long satelliteSystemId);
 
     /** Фильтр по спутниковой системе с пагинацией. */

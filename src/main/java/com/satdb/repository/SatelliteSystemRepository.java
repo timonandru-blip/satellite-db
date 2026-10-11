@@ -20,6 +20,9 @@ public interface SatelliteSystemRepository extends JpaRepository<SatelliteSystem
 
     Optional<SatelliteSystem> findBySystemCodeAndIsDeletedFalse(String systemCode);
 
+    /** Активная (не удалённая) система по id. */
+    Optional<SatelliteSystem> findByIdAndIsDeletedFalse(Long id);
+
     List<SatelliteSystem> findByStatusAndIsDeletedFalseOrderByIdAsc(SatelliteSystem.Status status);
 
     Page<SatelliteSystem> findByFrequencyBandAndIsDeletedFalse(String frequencyBand, Pageable pageable);
