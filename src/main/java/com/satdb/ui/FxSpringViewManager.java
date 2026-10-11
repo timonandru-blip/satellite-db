@@ -1,1 +1,176 @@
-cGFja2FnZSBjb20uc2F0ZGIudWk7CgppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbjsKaW1wb3J0IGphdmEudXRpbC5PcHRpb25hbDsKCmltcG9ydCBqYXZhZnguYXBwbGljYXRpb24uUGxhdGZvcm07CmltcG9ydCBqYXZhZnguZnhtbC5GWE1MTG9hZGVyOwppbXBvcnQgamF2YWZ4LnNjZW5lLlBhcmVudDsKaW1wb3J0IGphdmFmeC5zY2VuZS5TY2VuZTsKaW1wb3J0IGphdmFmeC5zdGFnZS5TdGFnZTsKCmltcG9ydCBvcmcuc2xmNGouTG9nZ2VyOwppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlckZhY3Rvcnk7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNvbnRleHQuQXBwbGljYXRpb25Db250ZXh0OwoKLyoqCiAqINCV0LTQuNC90LDRjyDRgtC+0YfQutCwINC30LDQs9GA0YPQt9C60LggRlhNTC3Qv9GA0LXQtNGB0YLQsNCy0LvQtdC90LjQuSDQv9C+0LLQtdGA0YUgU3ByaW5nLdC60L7QvdGC0LXQutGB0YLQsC4KICoKICog0JrQsNC20LTRi9C5IEZYTUxMb2FkZXIg0L/QvtC70YPRh9Cw0LXRgiB7QGxpbmsgRnhTcHJpbmdDb250cm9sbGVyRmFjdG9yeX0g4oCUINCx0LvQsNCz0L7QtNCw0YDRjwogKiDRjdGC0L7QvNGDINC60L7QvdGB0YLRgNGD0LrRgtC+0YDRiyDQutC+0L3RgtGA0L7Qu9C70LXRgNC+0LIg0LjQvdGK0LXRhtC40YDRg9GO0YLRgdGPIFNwcmluZy3QsdC40L3QsNC80LggKNGB0LXRgNCy0LjRgdGLLAogKiDRgNC10L/QvtC30LjRgtC+0YDQuNC4LCBTZWN1cml0eVV0aWxzLdGF0LXQu9C/0LXRgNGLKSDQsdC10Lcg0YDRg9GH0L3QvtCz0L4gc2V0Q29udHJvbGxlcigpLgogKgogKiDQrdC60YDQsNC90Ysg0YXRgNCw0L3Rj9GCINGB0YHRi9C70LrRgyDQvdCwINC80LXQvdC10LTQttC10YAsINGH0YLQvtCx0Ysg0YPQv9GA0LDQstC70Y/RgtGMINC/0LXRgNC10YXQvtC00LDQvNC4CiAqIChsb2dpbiDihpIgZGFzaGJvYXJkLCDQtNC40LDQu9C+0LPQuCDRgdC+0LPQu9Cw0YHQvtCy0LDQvdC40LkpLgogKi8KcHVibGljIGNsYXNzIEZ4U3ByaW5nVmlld01hbmFnZXIgewoKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBsb2cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihGeFNwcmluZ1ZpZXdNYW5hZ2VyLmNsYXNzKTsKCiAgICAvKiog0JjQt9Cy0LXRgdGC0L3Ri9C1INGN0LrRgNCw0L3Rizog0LjQvNGPIOKGkiDQv9GD0YLRjCDRgNC10YHRg9GA0YHQsCArINGC0LjQvyDQutC+0L3RgtGA0L7Qu9C70LXRgNCwLiAqLwogICAgcHVibGljIGVudW0gVmlldyB7CiAgICAgICAgTE9HSU4oIi9meG1sL2xvZ2luLmZ4bWwiKSwKICAgICAgICBEQVNIQk9BUkQoIi9meG1sL2Rhc2hib2FyZC5meG1sIiksCiAgICAgICAgTUFJTigiL2Z4bWwvbWFpbi5meG1sIiksCiAgICAgICAgRU1JU1NJT05TKCIvZnhtbC9lbWlzc2lvbnMuZnhtbCIpLAogICAgICAgIEFQUFJPVkFMUygiL2Z4bWwvYXBwcm92YWxzLmZ4bWwiKTsKCiAgICAgICAgcHJpdmF0ZSBmaW5hbCBTdHJpbmcgcmVzb3VyY2U7CgogICAgICAgIFZpZXcoU3RyaW5nIHJlc291cmNlKSB7CiAgICAgICAgICAgIHRoaXMucmVzb3VyY2UgPSByZXNvdXJjZTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBTdHJpbmcgcmVzb3VyY2UoKSB7CiAgICAgICAgICAgIHJldHVybiByZXNvdXJjZTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmaW5hbCBBcHBsaWNhdGlvbkNvbnRleHQgY29udGV4dDsKICAgIHByaXZhdGUgU3RhZ2UgcHJpbWFyeVN0YWdlOwoKICAgIHB1YmxpYyBGeFNwcmluZ1ZpZXdNYW5hZ2VyKEFwcGxpY2F0aW9uQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgdGhpcy5jb250ZXh0ID0gY29udGV4dDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCByZWdpc3RlclByaW1hcnlTdGFnZShTdGFnZSBzdGFnZSkgewogICAgICAgIHRoaXMucHJpbWFyeVN0YWdlID0gc3RhZ2U7CiAgICAgICAgLy8g0JfQsNC60YDRi9GC0LjQtSDQvtGB0L3QvtCy0L3QvtCz0L4g0L7QutC90LAgPSDQstGL0YXQvtC0INC40Lcg0L/RgNC40LvQvtC20LXQvdC40Y8uCiAgICAgICAgc3RhZ2Uuc2V0T25DbG9zZVJlcXVlc3QoZSAtPiBQbGF0Zm9ybS5leGl0KCkpOwogICAgfQoKICAgIC8qKiDQn9C+0LrQsNC30YvQstCw0LXRgiDRgdGC0LDRgNGC0L7QstC+0LUg0L7QutC90L4g0LvQvtCz0LjQvdCwLiAqLwogICAgcHVibGljIHZvaWQgc2hvd0xvZ2luKCkgewogICAgICAgIHNob3coVmlldy5MT0dJTiwgIlNhdGVsbGl0ZSBEYXRhYmFzZSDigJQg0LLRhdC+0LQiLCA5ODAsIDY0MCk7CiAgICB9CgogICAgLyoqINCf0LXRgNC10YXQvtC0INC90LAg0LTQsNGI0LHQvtGA0LQg0L/QvtGB0LvQtSDRg9GB0L/QtdGI0L3QvtC5INCw0YPRgtC10L3RgtC40YTQuNC60LDRhtC40LggKNCy0YvQt9GL0LLQsNC10YIgTG9naW5Db250cm9sbGVyKS4gKi8KICAgIHB1YmxpYyB2b2lkIHNob3dEYXNoYm9hcmQoKSB7CiAgICAgICAgc2hvdyhWaWV3LkRBU0hCT0FSRCwgIlNhdGVsbGl0ZSBEYXRhYmFzZSIsIDEyODAsIDgwMCk7CiAgICB9CgogICAgLyoqINCT0LvQsNCy0L3QvtC1INC+0LrQvdC+INGBINCw0LTQsNC/0YLQuNCy0L3Ri9C8INC80LXQvdGOIChNYWluVmlld0NvbnRyb2xsZXIsIFNLSUxMLm1kIDEwKS4gKi8KICAgIHB1YmxpYyB2b2lkIHNob3dNYWluKCkgewogICAgICAgIHNob3coVmlldy5NQUlOLCAiU2F0ZWxsaXRlIERhdGFiYXNlIOKAlCDQs9C70LDQstC90L7QtSDQvtC60L3QviIsIDEyODAsIDgwMCk7CiAgICB9CgogICAgLyoqCiAgICAgKiDQo9C90LjQstC10YDRgdCw0LvRjNC90YvQuSDQv9C10YDQtdGF0L7QtDog0LfQsNCz0YDRg9C30LjRgtGMIEZYTUwg0YEg0LjQvdGK0LXQutGG0LjQtdC5INCx0LjQvdC+0LIg0Lgg0L/QvtC00LzQtdC90LjRgtGMINGB0YbQtdC90YMuCiAgICAgKiDQktGL0LfRi9Cy0LDQtdGC0YHRjyDRgtC+0LvRjNC60L4g0YEgRlgt0L3QuNGC0LrQuCAo0LLRgdC1IFVJLdC+0LHRgNCw0LHQvtGC0YfQuNC60Lgg0Lgg0YLQsNC6INC90LAg0L3QtdC5KS4KICAgICAqLwogICAgQFN1cHByZXNzV2FybmluZ3MoInVuY2hlY2tlZCIpCiAgICBwdWJsaWMgPFQ+IE9wdGlvbmFsPFQ+IHNob3coVmlldyB2aWV3LCBTdHJpbmcgdGl0bGUsIGRvdWJsZSB3aWR0aCwgZG91YmxlIGhlaWdodCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIExvYWRlZDxUPiBsb2FkZWQgPSAoTG9hZGVkPFQ+KSBsb2FkKHZpZXcpOwogICAgICAgICAgICBTY2VuZSBzY2VuZSA9IG5ldyBTY2VuZShsb2FkZWQucm9vdCgpLCB3aWR0aCwgaGVpZ2h0KTsKICAgICAgICAgICAgcHJpbWFyeVN0YWdlLnNldFRpdGxlKHRpdGxlKTsKICAgICAgICAgICAgcHJpbWFyeVN0YWdlLnNldFNjZW5lKHNjZW5lKTsKICAgICAgICAgICAgcHJpbWFyeVN0YWdlLmNlbnRlck9uU2NyZWVuKCk7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKGxvYWRlZC5jb250cm9sbGVyKCkpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGxvZy5lcnJvcigi0J3QtSDRg9C00LDQu9C+0YHRjCDQvtGC0LrRgNGL0YLRjCDRjdC60YDQsNC9IHt9OiB7fSIsIHZpZXcsIGUuZ2V0TWVzc2FnZSgpLCBlKTsKICAgICAgICAgICAgc2hvd0Vycm9yKCLQntGI0LjQsdC60LAg0L7RgtC60YDRi9GC0LjRjyDRjdC60YDQsNC90LAgJyIgKyB2aWV3ICsgIic6ICIgKyBlLmdldE1lc3NhZ2UoKSk7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5lbXB0eSgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKiog0JfQsNCz0YDRg9C30LrQsCBGWE1MICsg0LrQvtC90YLRgNC+0LvQu9C10YAg0YEgU3ByaW5nLdC40L3RitC10LrRhtC40LXQuSAo0LHQtdC3INGB0LzQtdC90Ysg0YHRhtC10L3RiyDigJQg0LTQu9GPINC00LjQsNC70L7Qs9C+0LIpLiAqLwogICAgcHVibGljIDxUPiBMb2FkZWQ8VD4gbG9hZChWaWV3IHZpZXcpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgRlhNTExvYWRlciBsb2FkZXIgPSBuZXcgRlhNTExvYWRlcihGeFNwcmluZ1ZpZXdNYW5hZ2VyLmNsYXNzLmdldFJlc291cmNlKHZpZXcucmVzb3VyY2UoKSkpOwogICAgICAgIGlmIChsb2FkZXIuZ2V0TG9jYXRpb24oKSA9PSBudWxsKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJT0V4Y2VwdGlvbigiRlhNTC3RgNC10YHRg9GA0YEg0L3QtSDQvdCw0LnQtNC10L06ICIgKyB2aWV3LnJlc291cmNlKCkpOwogICAgICAgIH0KICAgICAgICAvLyDQmtC70Y7Rh9C10LLQvtC5INGI0LDQsyDRiNCw0LHQu9C+0L3QsDogU3ByaW5nLdCx0LjQvdGLINCyIEZYTUwt0LrQvtC90YLRgNC+0LvQu9C10YDRiy4KICAgICAgICBsb2FkZXIuc2V0Q29udHJvbGxlckZhY3RvcnkobmV3IEZ4U3ByaW5nQ29udHJvbGxlckZhY3RvcnkoY29udGV4dCkpOwogICAgICAgIFBhcmVudCByb290ID0gbG9hZGVyLmxvYWQoKTsKICAgICAgICBAU3VwcHJlc3NXYXJuaW5ncygidW5jaGVja2VkIikKICAgICAgICBUIGNvbnRyb2xsZXIgPSAoVCkgbG9hZGVyLmdldENvbnRyb2xsZXIoKTsKICAgICAgICByZXR1cm4gbmV3IExvYWRlZDw+KHJvb3QsIGNvbnRyb2xsZXIpOwogICAgfQoKICAgIC8qKiDQntGC0LrRgNGL0YLRjCDQvNC+0LTQsNC70YzQvdGL0Lkg0LTQuNCw0LvQvtCzINC/0L7QstC10YDRhSBwcmltYXJ5IHN0YWdlLiAqLwogICAgcHVibGljIDxUPiBPcHRpb25hbDxUPiBzaG93RGlhbG9nKFZpZXcgdmlldywgU3RyaW5nIHRpdGxlLCBkb3VibGUgd2lkdGgsIGRvdWJsZSBoZWlnaHQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2FkZWQ8VD4gbG9hZGVkID0gbG9hZCh2aWV3KTsKICAgICAgICAgICAgU3RhZ2UgZGlhbG9nID0gbmV3IFN0YWdlKCk7CiAgICAgICAgICAgIGRpYWxvZy5pbml0T3duZXIocHJpbWFyeVN0YWdlKTsKICAgICAgICAgICAgZGlhbG9nLnNldFRpdGxlKHRpdGxlKTsKICAgICAgICAgICAgZGlhbG9nLnNldFNjZW5lKG5ldyBTY2VuZShsb2FkZWQucm9vdCgpLCB3aWR0aCwgaGVpZ2h0KSk7CiAgICAgICAgICAgIGRpYWxvZy5zaG93QW5kV2FpdCgpOwogICAgICAgICAgICByZXR1cm4gT3B0aW9uYWwub2ZOdWxsYWJsZShsb2FkZWQuY29udHJvbGxlcigpKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBsb2cuZXJyb3IoItCU0LjQsNC70L7QsyB7fSDQvdC1INC+0YLQutGA0YvRgjoge30iLCB2aWV3LCBlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5lbXB0eSgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKiog0JzQuNC90LjQvNCw0LvRjNC90YvQuSBmYWxsYmFjay3QtNC40LDQu9C+0LMg0L7RiNC40LHQutC4IChBbGVydCDQvdC1INGC0YDQtdCx0YPQtdGCIEZYTUwpLiAqLwogICAgcHVibGljIHZvaWQgc2hvd0Vycm9yKFN0cmluZyBtZXNzYWdlKSB7CiAgICAgICAgUGxhdGZvcm0ucnVuTGF0ZXIoKCkgLT4gewogICAgICAgICAgICBqYXZhZnguc2NlbmUuY29udHJvbC5BbGVydCBhbGVydCA9IG5ldyBqYXZhZnguc2NlbmUuY29udHJvbC5BbGVydCgKICAgICAgICAgICAgICAgICAgICBqYXZhZnguc2NlbmUuY29udHJvbC5BbGVydC5BbGVydFR5cGUuRVJST1IsIG1lc3NhZ2UpOwogICAgICAgICAgICBhbGVydC5zZXRIZWFkZXJUZXh0KG51bGwpOwogICAgICAgICAgICBhbGVydC5zZXRUaXRsZSgi0J7RiNC40LHQutCwIik7CiAgICAgICAgICAgIGFsZXJ0LnNob3dBbmRXYWl0KCk7CiAgICAgICAgfSk7CiAgICB9CgogICAgcHVibGljIFN0YWdlIGdldFByaW1hcnlTdGFnZSgpIHsKICAgICAgICByZXR1cm4gcHJpbWFyeVN0YWdlOwogICAgfQoKICAgIHB1YmxpYyBBcHBsaWNhdGlvbkNvbnRleHQgZ2V0Q29udGV4dCgpIHsKICAgICAgICByZXR1cm4gY29udGV4dDsKICAgIH0KCiAgICAvKiog0J/QsNGA0LAg0LrQvtGA0LXQvdGMINGB0YbQtdC90YsgKyDQutC+0L3RgtGA0L7Qu9C70LXRgC4gKi8KICAgIHB1YmxpYyByZWNvcmQgTG9hZGVkPFQ+KFBhcmVudCByb290LCBUIGNvbnRyb2xsZXIpIHt9Cn0K
+package com.satdb.ui;
+
+import java.io.IOException;
+import java.util.Optional;
+
+import javafx.application.Platform;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+
+/**
+ * Единая точка загрузки FXML-представлений поверх Spring-контекста.
+ *
+ * Каждый FXMLLoader получает {@link FxSpringControllerFactory} — благодаря
+ * этому конструкторы контроллеров инъецируются Spring-бинами (сервисы,
+ * репозитории, SecurityUtils-хелперы) без ручного setController().
+ *
+ * Экраны хранят ссылку на менеджер, чтобы управлять переходами
+ * (login → dashboard, диалоги согласований).
+ */
+public class FxSpringViewManager {
+
+    private static final Logger log = LoggerFactory.getLogger(FxSpringViewManager.class);
+
+    /** Известные экраны: имя → путь ресурса + тип контроллера. */
+    public enum View {
+        LOGIN("/fxml/login.fxml"),
+        DASHBOARD("/fxml/dashboard.fxml"),
+        MAIN("/fxml/main.fxml"),
+        // Секции главного окна (результат разделения MainViewController, SRP):
+        // emission-list.fxml — экран ТЗ «Список радиоизлучений с фильтрацией по частоте»
+        // (EmissionListController + RadioEmissionViewModel); старый emissions.fxml оставлен как резервная секция.
+        EMISSION_LIST("/fxml/emission-list.fxml"),
+        EMISSIONS("/fxml/emissions.fxml"),
+        SYSTEMS("/fxml/systems.fxml"),
+        APPROVALS("/fxml/approvals.fxml"),
+        USERS("/fxml/users.fxml");
+
+        private final String resource;
+
+        View(String resource) {
+            this.resource = resource;
+        }
+
+        public String resource() {
+            return resource;
+        }
+    }
+
+    private final ApplicationContext context;
+    private Stage primaryStage;
+
+    public FxSpringViewManager(ApplicationContext context) {
+        this.context = context;
+    }
+
+    public void registerPrimaryStage(Stage stage) {
+        this.primaryStage = stage;
+        // Закрытие основного окна = выход из приложения.
+        stage.setOnCloseRequest(e -> Platform.exit());
+    }
+
+    /** Показывает стартовое окно логина. */
+    public void showLogin() {
+        show(View.LOGIN, "Satellite Database — вход", 980, 640);
+    }
+
+    /** Переход на дашборд после успешной аутентификации (вызывает LoginController). */
+    public void showDashboard() {
+        show(View.DASHBOARD, "Satellite Database", 1280, 800);
+    }
+
+    /** Главное окно с адаптивным меню (MainViewController, SKILL.md 10). */
+    public void showMain() {
+        show(View.MAIN, "Satellite Database — главное окно", 1280, 800);
+    }
+
+    /**
+     * Навигация внутри главного окна: загрузить FXML секции и вставить её корень
+     * в центр BorderPane через ShellService.setCenter(). Меню/статус/панель
+     * действий оболочки остаются на месте — меняется только содержимое центра.
+     * Возвращает контроллер секции, чтобы вызывающий мог дёргать show()/передавать контекст.
+     */
+    public <T> java.util.Optional<T> openSection(View section) {
+        try {
+            Loaded<T> loaded = load(section);
+            shellService().setCenter(loaded.root());
+            return java.util.Optional.ofNullable(loaded.controller());
+        } catch (Exception e) {
+            log.error("Секция {} не открыта: {}", section, e.getMessage(), e);
+            showError("Ошибка открытия секции '" + section + "': " + e.getMessage());
+            return java.util.Optional.empty();
+        }
+    }
+
+    private com.satdb.ui.controller.ShellService shellService() {
+        return context.getBean(com.satdb.ui.controller.ShellService.class);
+    }
+
+    /**
+     * Универсальный переход: загрузить FXML с инъекцией бинов и подменить сцену.
+     * Вызывается только с FX-нитки (все UI-обработчики и так на ней).
+     */
+    @SuppressWarnings("unchecked")
+    public <T> Optional<T> show(View view, String title, double width, double height) {
+        try {
+            Loaded<T> loaded = (Loaded<T>) load(view);
+            Scene scene = new Scene(loaded.root(), width, height);
+            primaryStage.setTitle(title);
+            primaryStage.setScene(scene);
+            primaryStage.centerOnScreen();
+            return Optional.ofNullable(loaded.controller());
+        } catch (Exception e) {
+            log.error("Не удалось открыть экран {}: {}", view, e.getMessage(), e);
+            showError("Ошибка открытия экрана '" + view + "': " + e.getMessage());
+            return Optional.empty();
+        }
+    }
+
+    /** Загрузка FXML + контроллер с Spring-инъекцией (без смены сцены — для диалогов). */
+    public <T> Loaded<T> load(View view) throws IOException {
+        FXMLLoader loader = new FXMLLoader(FxSpringViewManager.class.getResource(view.resource()));
+        if (loader.getLocation() == null) {
+            throw new IOException("FXML-ресурс не найден: " + view.resource());
+        }
+        // Ключевой шаг шаблона: Spring-бины в FXML-контроллеры.
+        loader.setControllerFactory(new FxSpringControllerFactory(context));
+        Parent root = loader.load();
+        @SuppressWarnings("unchecked")
+        T controller = (T) loader.getController();
+        return new Loaded<>(root, controller);
+    }
+
+    /** Открыть модальный диалог поверх primary stage. */
+    public <T> Optional<T> showDialog(View view, String title, double width, double height) {
+        try {
+            Loaded<T> loaded = load(view);
+            Stage dialog = new Stage();
+            dialog.initOwner(primaryStage);
+            dialog.setTitle(title);
+            dialog.setScene(new Scene(loaded.root(), width, height));
+            dialog.showAndWait();
+            return Optional.ofNullable(loaded.controller());
+        } catch (Exception e) {
+            log.error("Диалог {} не открыт: {}", view, e.getMessage(), e);
+            return Optional.empty();
+        }
+    }
+
+    /** Минимальный fallback-диалог ошибки (Alert не требует FXML). */
+    public void showError(String message) {
+        Platform.runLater(() -> {
+            javafx.scene.control.Alert alert = new javafx.scene.control.Alert(
+                    javafx.scene.control.Alert.AlertType.ERROR, message);
+            alert.setHeaderText(null);
+            alert.setTitle("Ошибка");
+            alert.showAndWait();
+        });
+    }
+
+    public Stage getPrimaryStage() {
+        return primaryStage;
+    }
+
+    public ApplicationContext getContext() {
+        return context;
+    }
+
+    /** Пара корень сцены + контроллер. */
+    public record Loaded<T>(Parent root, T controller) {}
+}

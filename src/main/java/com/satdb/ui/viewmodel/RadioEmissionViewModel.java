@@ -240,8 +240,10 @@ public final class RadioEmissionViewModel {
     public void setSatelliteSystemId(Long value) { satelliteSystemId.set(value); }
 
     public StringProperty satelliteSystemNameProperty() { return satelliteSystemName; }
+    public String getSatelliteSystemName() { return satelliteSystemName.get(); }
 
     public StringProperty satelliteSystemCodeProperty() { return satelliteSystemCode; }
+    public String getSatelliteSystemCode() { return satelliteSystemCode.get(); }
 
     public StringProperty emissionNameProperty() { return emissionName; }
     public void setEmissionName(String value) { emissionName.set(value); }
