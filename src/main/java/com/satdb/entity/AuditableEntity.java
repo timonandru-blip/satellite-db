@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uc2F0ZGIuZW50aXR5OwoKaW1wb3J0IGpha2FydGEucGVyc2lzdGVuY2UuQ29sdW1uOwppbXBvcnQgamFrYXJ0YS5wZXJzaXN0ZW5jZS5FbnRpdHlMaXN0ZW5lcnM7CmltcG9ydCBqYWthcnRhLnBlcnNpc3RlbmNlLk1hcHBlZFN1cGVyY2xhc3M7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmRhdGEuYW5ub3RhdGlvbi5DcmVhdGVkRGF0ZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5hbm5vdGF0aW9uLkxhc3RNb2RpZmllZERhdGU7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmRhdGEuanBhLmRvbWFpbi5zdXBwb3J0LkF1ZGl0aW5nRW50aXR5TGlzdGVuZXI7CgppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWU7CgovKioKICog0JHQsNC30L7QstGL0Lkg0LrQu9Cw0YHRgSDQtNC70Y8g0LLRgdC10YUg0YHRg9GJ0L3QvtGB0YLQtdC5INGB0L7Qs9C70LDRgdC90L4g0L/RgNCw0LLQuNC70YMgMSDQuNC3CiAqIHNraWxscy8wMS1kYXRhYmFzZS1kZXNpZ24vU0tJTEwubWQ6INC60LDQttC00LDRjyDRgtCw0LHQu9C40YbQsCDQvtCx0Y/Qt9Cw0L3QsCDRgdC+0LTQtdGA0LbQsNGC0YwKICogY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCwgaXNfZGVsZXRlZCwgY3JlYXRlZF9ieS4KICovCkBNYXBwZWRTdXBlcmNsYXNzCkBFbnRpdHlMaXN0ZW5lcnMoQXVkaXRpbmdFbnRpdHlMaXN0ZW5lci5jbGFzcykKcHVibGljIGFic3RyYWN0IGNsYXNzIEF1ZGl0YWJsZUVudGl0eSB7CgogICAgQENyZWF0ZWREYXRlCiAgICBAQ29sdW1uKG5hbWUgPSAiY3JlYXRlZF9hdCIsIG51bGxhYmxlID0gZmFsc2UsIHVwZGF0YWJsZSA9IGZhbHNlKQogICAgcHJpdmF0ZSBMb2NhbERhdGVUaW1lIGNyZWF0ZWRBdDsKCiAgICBATGFzdE1vZGlmaWVkRGF0ZQogICAgQENvbHVtbihuYW1lID0gInVwZGF0ZWRfYXQiLCBudWxsYWJsZSA9IGZhbHNlKQogICAgcHJpdmF0ZSBMb2NhbERhdGVUaW1lIHVwZGF0ZWRBdDsKCiAgICAvKiogU29mdCBkZWxldGUgKNC/0YDQsNCy0LjQu9CwINGB0YXQtdC80YsgU1FMaXRlKS4gKi8KICAgIEBDb2x1bW4obmFtZSA9ICJpc19kZWxldGVkIiwgbnVsbGFibGUgPSBmYWxzZSkKICAgIHByaXZhdGUgYm9vbGVhbiBkZWxldGVkID0gZmFsc2U7CgogICAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0Q3JlYXRlZEF0KCkgewogICAgICAgIHJldHVybiBjcmVhdGVkQXQ7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0Q3JlYXRlZEF0KExvY2FsRGF0ZVRpbWUgY3JlYXRlZEF0KSB7CiAgICAgICAgdGhpcy5jcmVhdGVkQXQgPSBjcmVhdGVkQXQ7CiAgICB9CgogICAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0VXBkYXRlZEF0KCkgewogICAgICAgIHJldHVybiB1cGRhdGVkQXQ7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0VXBkYXRlZEF0KExvY2FsRGF0ZVRpbWUgdXBkYXRlZEF0KSB7CiAgICAgICAgdGhpcy51cGRhdGVkQXQgPSB1cGRhdGVkQXQ7CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gaXNEZWxldGVkKCkgewogICAgICAgIHJldHVybiBkZWxldGVkOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldERlbGV0ZWQoYm9vbGVhbiBkZWxldGVkKSB7CiAgICAgICAgdGhpcy5kZWxldGVkID0gZGVsZXRlZDsKICAgIH0KfQo=
+package com.satdb.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.EntityListeners;
+import jakarta.persistence.MappedSuperclass;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+import java.time.LocalDateTime;
+
+/**
+ * Базовый класс для всех сущностей согласно правилу 1 из
+ * skills/01-database-design/SKILL.md: каждая таблица обязана содержать
+ * created_at, updated_at, is_deleted, created_by.
+ */
+@MappedSuperclass
+@EntityListeners(AuditingEntityListener.class)
+public abstract class AuditableEntity {
+
+    @CreatedDate
+    @Column(name = "created_at", nullable = false, updatable = false)
+    private LocalDateTime createdAt;
+
+    @LastModifiedDate
+    @Column(name = "updated_at", nullable = false)
+    private LocalDateTime updatedAt;
+
+    /** Soft delete (правила схемы SQLite). Имя поля isDeleted — по конвенции Spring Data. */
+    @Column(name = "is_deleted", nullable = false)
+    private boolean isDeleted = false;
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public boolean isIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(boolean isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+}
