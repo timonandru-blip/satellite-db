@@ -2,17 +2,21 @@ package com.satdb.ui.viewmodel;
 
 import com.satdb.dto.RadioEmissionDto;
 import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.ReadOnlyStringProperty;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -65,12 +69,14 @@ public final class RadioEmissionViewModel {
     private final StringProperty emissionCode = new SimpleStringProperty(this, "emissionCode", "");
 
     /**
-     * Центральная частота, МГц. BigDecimal вместо DoubleProperty осознанно:
-     * частоты хранятся в SQLite как DECIMAL(15,6) и требуют точности до 6 знаков —
-     * double дал бы артефакты округления при обратном маппинге.
+     * Центральная частота, МГц — DoubleProperty по требованию контракта ViewModel.
+     * Значение конвертируется из BigDecimal DTO (doubleValue), при обратном
+     * маппинге восстанавливается через BigDecimal.valueOf (точный round-trip
+     * для значений с плавающей точкой Java). Для расчётов точности внутри UI
+     * доступен оригинал: см. {@link #frequencyMhzDecimal()}.
      */
-    private final ObjectProperty<BigDecimal> frequencyMhz =
-            new SimpleObjectProperty<>(this, "frequencyMhz", BigDecimal.ZERO);
+    private final DoubleProperty frequencyMhz =
+            new SimpleDoubleProperty(this, "frequencyMhz", 0.0);
 
     /** Ширина канала, кГц (DECIMAL(10,3)). */
     private final ObjectProperty<BigDecimal> bandwidthKhz =
@@ -90,9 +96,18 @@ public final class RadioEmissionViewModel {
     /** Классификация: PUBLIC / INTERNAL / RESTRICTED (enum-as-string из DTO). */
     private final StringProperty classification = new SimpleStringProperty(this, "classification", "");
 
-    /** Дата измерения. ObjectProperty<LocalDateTime> — нативный тип времени без строковых парсеров. */
-    private final ObjectProperty<LocalDateTime> measurementDate =
+    /**
+     * Дата измерения (календарная дата) — ObjectProperty&lt;LocalDate&gt; по контракту
+     * ViewModel: привязывается к DatePicker. DTO хранит полный timestamp
+     * LocalDateTime, поэтому при импорте берётся date-часть (см. конструктор),
+     * а toDto() восстанавливает время 00:00, если исходный timestamp отсутствовал.
+     */
+    private final ObjectProperty<LocalDate> measurementDate =
             new SimpleObjectProperty<>(this, "measurementDate");
+
+    /** Точный оригинал частоты из DTO (BigDecimal) — только для чтения/расчётов. */
+    private final ObjectProperty<BigDecimal> frequencyMhzDecimal =
+            new SimpleObjectProperty<>(this, "frequencyMhzDecimal", BigDecimal.ZERO);
 
     private final StringProperty measurementLocation =
             new SimpleStringProperty(this, "measurementLocation", "");
@@ -133,7 +148,8 @@ public final class RadioEmissionViewModel {
         satelliteSystemCode.set(nvl(dto.satelliteSystemCode()));
         emissionName.set(nvl(dto.emissionName()));
         emissionCode.set(nvl(dto.emissionCode()));
-        frequencyMhz.set(nvlZero(dto.frequencyMhz()));
+        frequencyMhzDecimal.set(nvlZero(dto.frequencyMhz()));
+        frequencyMhz.set(dto.frequencyMhz() == null ? 0.0 : dto.frequencyMhz().doubleValue());
         bandwidthKhz.set(nvlZero(dto.bandwidthKhz()));
         powerDbm.set(nvlZero(dto.powerDbm()));
         modulationType.set(nvl(dto.modulationType()));
@@ -141,7 +157,8 @@ public final class RadioEmissionViewModel {
         signalType.set(nvl(dto.signalType()));
         priority.set(dto.priority() == null ? 3 : dto.priority());
         classification.set(nvl(dto.classification()));
-        measurementDate.set(dto.measurementDate());
+        // DTO хранит LocalDateTime → ViewModelcontract'у отдаём календарную дату
+        measurementDate.set(dto.measurementDate() == null ? null : dto.measurementDate().toLocalDate());
         measurementLocation.set(nvl(dto.measurementLocation()));
         notes.set(nvl(dto.notes()));
         createdByUsername.set(nvl(dto.createdByUsername()));
@@ -161,6 +178,10 @@ public final class RadioEmissionViewModel {
      * Используется контроллером перед вызовом сервиса (PUT / requestChange).
      * Аудиторные поля и привязка к системе переносятся без изменений — их
      * право менять принадлежит серверу (Spring Security + @PreAuthorize).
+     *
+     * <p>Частота: если DoubleProperty редактировался пользователем, его значение
+     * становится источником истины (BigDecimal.valueOf(double) даёт каноничное
+     * десятичное представление); иначе сохраняется точный BigDecimal-оригинал.</p>
      */
     public RadioEmissionDto toDto() {
         return new RadioEmissionDto(
@@ -170,7 +191,7 @@ public final class RadioEmissionViewModel {
                 blankToNull(satelliteSystemCode.get()),
                 trim(emissionName.get()),
                 trim(emissionCode.get()),
-                frequencyMhz.get(),
+                currentFrequency(),
                 bandwidthKhz.get(),
                 blankToNull(modulationType.get()),
                 powerDbm.get(),
@@ -178,7 +199,7 @@ public final class RadioEmissionViewModel {
                 blankToNull(signalType.get()),
                 priority.get(),
                 blankToNull(classification.get()),
-                measurementDate.get(),
+                measurementDateTime(),
                 blankToNull(measurementLocation.get()),
                 blankToNull(notes.get()),
                 blankToNull(createdByUsername.get()),
@@ -195,7 +216,7 @@ public final class RadioEmissionViewModel {
                 satelliteSystemId.get(),
                 trim(emissionName.get()),
                 trim(emissionCode.get()),
-                frequencyMhz.get(),
+                currentFrequency(),
                 bandwidthKhz.get(),
                 blankToNull(modulationType.get()),
                 powerDbm.get(),
@@ -203,10 +224,36 @@ public final class RadioEmissionViewModel {
                 blankToNull(signalType.get()),
                 priority.get(),
                 blankToNull(classification.get()),
-                measurementDate.get(),
+                measurementDateTime(),
                 blankToNull(measurementLocation.get()),
                 blankToNull(notes.get()),
                 null /* technicalParameters заполняет сервис */);
+    }
+
+    // ==================== конвертеры контракта ViewModel <-> DTO ====================
+
+    /**
+     * Приоритет источника частоты: отредактированная пользователем DoubleProperty
+     * важнее импортированного BigDecimal-оригинала; при отсутствии редактирования
+     * возвращаем оригинал без потерь точности DECIMAL(15,6).
+     */
+    private BigDecimal currentFrequency() {
+        double d = frequencyMhz.get();
+        if (Double.isNaN(d) || Double.isInfinite(d)) {
+            return frequencyMhzDecimal.get();
+        }
+        BigDecimal fromDouble = BigDecimal.valueOf(d).setScale(6, RoundingMode.HALF_UP);
+        return fromDouble.compareTo(frequencyMhzDecimal.get()) == 0
+                ? frequencyMhzDecimal.get()   // не менялась — сохраняем оригинальный scale
+                : fromDouble.stripTrailingZeros().scale() < 0
+                        ? fromDouble          // держим читаемый scale
+                        : fromDouble.stripTrailingZeros();
+    }
+
+    /** LocalDate контракта → LocalDateTime DTO (полнота timestamp: время 00:00). */
+    private LocalDateTime measurementDateTime() {
+        LocalDate date = measurementDate.get();
+        return date == null ? null : date.atStartOfDay();
     }
 
     // ==================== производственные (derived) свойства ====================
@@ -218,7 +265,7 @@ public final class RadioEmissionViewModel {
      */
     public ReadOnlyStringProperty channelLabelProperty() {
         ReadOnlyStringWrapper label = new ReadOnlyStringWrapper();
-        label.bind(frequencyMhz.map(f -> f == null ? "" : f.stripTrailingZeros().toPlainString() + " МГц")
+        label.bind(frequencyMhz.asString("%.3f МГц")
                 .concat(bandwidthKhz.map(b -> b == null || b.signum() == 0
                         ? "" : " ±" + b.stripTrailingZeros().toPlainString() + " кГц")));
         return label.getReadOnlyProperty();
@@ -253,9 +300,14 @@ public final class RadioEmissionViewModel {
     public void setEmissionCode(String value) { emissionCode.set(value); }
     public String getEmissionCode() { return emissionCode.get(); }
 
-    public ObjectProperty<BigDecimal> frequencyMhzProperty() { return frequencyMhz; }
-    public void setFrequencyMhz(BigDecimal value) { frequencyMhz.set(nvlZero(value)); }
-    public BigDecimal getFrequencyMhz() { return frequencyMhz.get(); }
+    /** Частота как DoubleProperty (контракт ViewModel) — для TextField/Spinner форм. */
+    public DoubleProperty frequencyMhzProperty() { return frequencyMhz; }
+    public void setFrequencyMhz(double value) { frequencyMhz.set(value); }
+    public double getFrequencyMhz() { return frequencyMhz.get(); }
+
+    /** Точный BigDecimal-оригинал частоты из DTO — только чтение (расчёты, тултипы). */
+    public ObjectProperty<BigDecimal> frequencyMhzDecimalProperty() { return frequencyMhzDecimal; }
+    public BigDecimal getFrequencyMhzDecimal() { return frequencyMhzDecimal.get(); }
 
     public ObjectProperty<BigDecimal> bandwidthKhzProperty() { return bandwidthKhz; }
     public void setBandwidthKhz(BigDecimal value) { bandwidthKhz.set(nvlZero(value)); }
@@ -282,8 +334,10 @@ public final class RadioEmissionViewModel {
     public StringProperty classificationProperty() { return classification; }
     public void setClassification(String value) { classification.set(value); }
 
-    public ObjectProperty<LocalDateTime> measurementDateProperty() { return measurementDate; }
-    public void setMeasurementDate(LocalDateTime value) { measurementDate.set(value); }
+    /** Дата измерения как ObjectProperty&lt;LocalDate&gt; — привязка к DatePicker. */
+    public ObjectProperty<LocalDate> measurementDateProperty() { return measurementDate; }
+    public void setMeasurementDate(LocalDate value) { measurementDate.set(value); }
+    public LocalDate getMeasurementDate() { return measurementDate.get(); }
 
     public StringProperty measurementLocationProperty() { return measurementLocation; }
     public void setMeasurementLocation(String value) { measurementLocation.set(value); }

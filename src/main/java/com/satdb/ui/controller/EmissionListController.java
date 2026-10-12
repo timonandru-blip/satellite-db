@@ -144,7 +144,7 @@ public class EmissionListController {
 
         // Числовые колонки — BigDecimal как есть (точность DECIMAL(15,6), правило 5 SKILL 01).
         colFreq.setCellValueFactory(d ->
-                new ReadOnlyObjectWrapper<>(d.getValue().getFrequencyMhz()));
+                new ReadOnlyObjectWrapper<>(d.getValue().getFrequencyMhzDecimal()));
         colFreq.setCellFactory(c -> decimalCell(v -> v.stripTrailingZeros().toPlainString()));
 
         colBw.setCellValueFactory(d ->
