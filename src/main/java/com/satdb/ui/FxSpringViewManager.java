@@ -38,6 +38,9 @@ public class FxSpringViewManager {
         EMISSION_LIST("/fxml/emission-list.fxml"),
         EMISSIONS("/fxml/emissions.fxml"),
         SYSTEMS("/fxml/systems.fxml"),
+        // Экран ТЗ «Согласования»: approval-view.fxml + ApprovalController (onApprove/onReject,
+        // UiExceptionHandler). Старый approvals.fxml/ApprovalUiController оставлен как резервная секция.
+        APPROVAL_VIEW("/fxml/approval-view.fxml"),
         APPROVALS("/fxml/approvals.fxml"),
         USERS("/fxml/users.fxml");
 

@@ -173,6 +173,10 @@ public class MainViewController {
 
         // ---- Согласования: зависит от роли ----
         Menu approvalMenu = new Menu("Согласования");
+        // Полноценный экран очереди (approval-view.fxml + ApprovalController): таблица
+        // PendingChangeDto с кнопками Одобрить/Отклонить через BorderPane.setCenter().
+        approvalMenu.getItems().add(item("☰ Экран согласований", this::showApprovalScreen));
+        approvalMenu.getItems().add(new SeparatorMenuItem());
         if (role.canApproveChanges()) {                       // ADMIN, SHIFT_SUPERVISOR
             approvalMenu.getItems().add(item("⚠ Ожидают рассмотрения", this::showPendingQueue));
             approvalMenu.getItems().add(item("Рассмотренные мной", this::showReviewedByMe));
@@ -441,6 +445,13 @@ public class MainViewController {
     }
 
     // ==================== Согласования ====================
+
+    /** Открыть специализированный экран approval-view.fxml (BorderPane.setCenter). */
+    private void showApprovalScreen() {
+        setStatus("Экран согласований…");
+        viewManager.<ApprovalController>openSection(FxSpringViewManager.View.APPROVAL_VIEW)
+                .ifPresent(ApprovalController::show);
+    }
 
     private void showPendingQueue() {
         setStatus("Очередь согласований…");

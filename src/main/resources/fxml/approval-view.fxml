@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Экран «Согласования» (ТЗ: approval-view.fxml + ApprovalController).
+  Контроллер: com.satdb.ui.controller.ApprovalController — TableView списка PendingChangeDto,
+  кнопки onApprove()/onReject() вызывают ApprovalService.reviewChange(...) через DI,
+  после операции таблица перезагружается; все исключения — UiExceptionHandler.handle(e, "Ошибка согласования").
+
+  Тёмная inline-тема согласована с main.fxml / login.fxml / emission-list.fxml.
+-->
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.satdb.ui.controller.ApprovalController"
+            fx:id="sectionRoot"
+            style="-fx-background-color: #1e2430;">
+
+    <!-- ===== Верхняя панель: режимы просмотра + действия review ===== -->
+    <top>
+        <VBox spacing="8" style="-fx-background-color: #232a3b; -fx-padding: 10 12 8 12;">
+            <HBox spacing="8" alignment="CENTER_LEFT">
+                <Label text="СОГЛАСОВАНИЯ"
+                       style="-fx-text-fill: #dfe7f3; -fx-font-size: 15px; -fx-font-weight: bold;"/>
+                <Separator orientation="VERTICAL"/>
+                <Button text="⚙ Очередь PENDING" onAction="#onQueue"
+                        style="-fx-background-color: #2f3950; -fx-text-fill: #dfe7f3;"/>
+                <Button text="Мои запросы" onAction="#onMyRequests"
+                        style="-fx-background-color: #2f3950; -fx-text-fill: #dfe7f3;"/>
+                <Button text="Рассмотренные мной" onAction="#onReviewed"
+                        style="-fx-background-color: #2f3950; -fx-text-fill: #dfe7f3;"/>
+                <Separator orientation="VERTICAL"/>
+                <!-- approve/reject доступны только ADMIN/SHIFT_SUPERVISOR (скрытие в контроллере,
+                     главный контур — серверная проверка ApprovalService) -->
+                <Button fx:id="approveButton" text="✔ Одобрить" onAction="#onApprove"
+                        style="-fx-background-color: #2e7d32; -fx-text-fill: white; -fx-font-weight: bold;">
+                    <tooltip>
+                        <Tooltip text="Одобрить выбранную заявку: изменение будет применено к записи и попадёт в audit_log"/>
+                    </tooltip>
+                </Button>
+                <Button fx:id="rejectButton" text="✖ Отклонить" onAction="#onReject"
+                        style="-fx-background-color: #b3402f; -fx-text-fill: white; -fx-font-weight: bold;">
+                    <tooltip>
+                        <Tooltip text="Отклонить заявку (комментарий-причина обязателен)"/>
+                    </tooltip>
+                </Button>
+                <Button fx:id="cancelButton" text="↺ Отозвать" onAction="#onCancelOwn"
+                        style="-fx-background-color: #566073; -fx-text-fill: #dfe7f3;">
+                    <tooltip>
+                        <Tooltip text="Отозвать собственную PENDING-заявку (кнопка видна только автору заявки)"/>
+                    </tooltip>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+                <Button text="⟳ Обновить" onAction="#onRefresh"
+                        style="-fx-background-color: #2f3950; -fx-text-fill: #dfe7f3;"/>
+            </HBox>
+
+            <!-- Строка состояния / ошибок -->
+            <HBox spacing="12" alignment="CENTER_LEFT">
+                <Label fx:id="infoLabel" text="—"
+                       style="-fx-text-fill: #7f8fa6; -fx-font-size: 12px;"/>
+                <Label fx:id="errorLabel" text="" visible="false" managed="false"
+                       style="-fx-text-fill: #ff8a80; -fx-font-size: 12px;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- ===== Таблица очереди согласований (PendingChangeDto) ===== -->
+    <center>
+        <TableView fx:id="changesTable"
+                   style="-fx-background-color: transparent; -fx-font-size: 13px;"
+                   tableMenuButtonVisible="true">
+            <padding><Insets top="4" right="12" bottom="10" left="12"/></padding>
+            <columns>
+                <TableColumn fx:id="colId"          text="ID"        prefWidth="60"  sortable="false"/>
+                <TableColumn fx:id="colAction"      text="Действие"  prefWidth="90"/>
+                <TableColumn fx:id="colTarget"      text="Запись"    prefWidth="190"/>
+                <TableColumn fx:id="colStatus"      text="Статус"    prefWidth="110"/>
+                <TableColumn fx:id="colRequestedBy" text="Автор"     prefWidth="130"/>
+                <TableColumn fx:id="colRequestedAt" text="Создана"   prefWidth="150"/>
+                <TableColumn fx:id="colReason"      text="Обоснование" prefWidth="300"/>
+                <TableColumn fx:id="colDiff"        text="Δ значений" prefWidth="260"/>
+                <TableColumn fx:id="colReviewer"    text="Ревьюер"   prefWidth="130"/>
+                <TableColumn fx:id="colComment"     text="Комментарий" prefWidth="220"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY_FLEX_LAST_COLUMN"/>
+            </columnResizePolicy>
+            <placeholder>
+                <Label text="Нет заявок в выбранном режиме"/>
+            </placeholder>
+        </TableView>
+    </center>
+
+    <!-- ===== Подвал: подсказка по workflow ===== -->
+    <bottom>
+        <HBox style="-fx-background-color: #232a3b; -fx-padding: 6 12 6 12;">
+            <Label text="Workflow: оператор создаёт заявку → supervisor/admin рассматривает → при одобрении изменение применяется и пишется в audit_log. Самостоятельное согласование собственной заявки запрещено."
+                   wrapText="true"
+                   style="-fx-text-fill: #6c7a93; -fx-font-size: 11px;"/>
+        </HBox>
+    </bottom>
+</BorderPane>
